@@ -1,0 +1,9 @@
+200 
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Server: Server
+Date: Thu, 08 Aug 2024 09:11:08 GMT
+Content-Type: application/json
+Content-Length: 41
+Retry-Count: 0
+X-Amz-Rid: JDX2CM3WRGZAEQDB4AAG
+Vary: Content-Type,Accept-Encoding,User-Agent

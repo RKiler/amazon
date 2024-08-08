@@ -1,0 +1,12 @@
+200 OK
+Cache-Control: max-age=3600
+Last-Modified: Mon, 05 Aug 2024 07:22:56 GMT
+Etag: "708ce43cb4c7fa4a02b978cbbfecf502"
+Vary: Content-Type,Accept-Encoding,User-Agent
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Retry-Count: 0
+Server: Server
+Content-Type: text/html
+X-Amz-Rid: 9NA6MQ4PFZ3HGYT2PHRW
+X-Amz-Request-Id: GRH2CV14MY72ZRQH
+Date: Thu, 08 Aug 2024 09:12:46 GMT

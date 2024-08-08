@@ -1,0 +1,21 @@
+200 OK
+Server: Server
+X-Amz-Rid: PWJFRCV1MGP01VKCXXNC
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+Etag: "pfxgakktps3afg"
+Content-Type: text/html; charset=utf-8
+Referrer-Policy: no-referrer
+X-Xss-Protection: 1; mode=block
+Date: Thu, 08 Aug 2024 09:13:33 GMT
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Content-Type-Options: nosniff
+Vary: Accept-Encoding,Content-Type,Accept-Encoding,User-Agent
+Origin-Agent-Cluster: ?1
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+Cache-Control: max-age=600, public, s-maxage=3000
+X-Powered-By: Next.js
+Retry-Count: 0

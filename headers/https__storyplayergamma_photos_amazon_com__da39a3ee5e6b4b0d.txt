@@ -1,0 +1,15 @@
+200 OK
+Etag: W/"e8636356145e94ec4789b6d157810783"
+Vary: Accept-Encoding
+X-Amz-Cf-Id: vK9IfUaA_uN0zvoB2NIArmDRXrrsL0LjDSA0H6cxsS7N91vgTmh2EA==
+Content-Type: text/html; charset=utf-8
+X-Amz-Server-Side-Encryption: AES256
+Via: 1.1 e7b9009e52a576fa5517765b87250a32.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: SFO53-P5
+Retry-Count: 0
+X-Cache: Hit from cloudfront
+Age: 8226
+Date: Thu, 08 Aug 2024 06:54:32 GMT
+Last-Modified: Thu, 08 Aug 2024 06:49:41 GMT
+X-Amz-Version-Id: YkEwCzCjGsmPulOU0WUpkFu3.HhMvArD
+Server: AmazonS3

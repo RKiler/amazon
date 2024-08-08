@@ -1,0 +1,14 @@
+200 OK
+Date: Thu, 08 Aug 2024 05:18:57 GMT
+Last-Modified: Sat, 11 Dec 2021 05:43:49 GMT
+Etag: "cfc623cb60570621b24ed3612fc0b7cf"
+Accept-Ranges: bytes
+Server: AmazonS3
+Retry-Count: 0
+X-Amz-Cf-Id: U3QKZLGu9tIF5jn8SoBPV4k9Oh-eKsyXSFhGTmTIzBEVTykCIts_lw==
+Age: 13928
+Content-Type: text/html; charset=utf-8
+Content-Length: 963
+X-Cache: Hit from cloudfront
+Via: 1.1 fa640a50340d741c579292b495a2218e.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: SFO5-P1

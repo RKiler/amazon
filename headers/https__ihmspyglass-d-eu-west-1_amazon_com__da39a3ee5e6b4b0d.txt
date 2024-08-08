@@ -1,0 +1,6 @@
+200 OK
+Server: Server
+Date: Thu, 08 Aug 2024 09:10:31 GMT
+Content-Type: text/plain
+Retry-Count: 0
+X-Amzn-Requestid: ec4eaa8f-ca48-4908-b64e-37c6d71e3973

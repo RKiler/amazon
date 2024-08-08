@@ -1,0 +1,13 @@
+200 OK
+Date: Thu, 08 Aug 2024 09:11:02 GMT
+Retry-Count: 0
+X-Amz-Rid: Y187J1SMY49QP4QG21MW
+Content-Type: text/html;charset=UTF-8
+Set-Cookie: session-id=259-5069270-2434305; Domain=.amazon.co.uk; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/; Secure session-id-time=2082787201l; Domain=.amazon.co.uk; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/; Secure
+Vary: accept-encoding,Content-Type,Accept-Encoding,User-Agent
+X-Amz-Page-Type: RepairVendorsWebsite
+X-Amz-Page-Browser-Cache: always-reload
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Server: Server
+X-Amz-Page-Subtype: d_LoginPage
+Content-Language: en-US

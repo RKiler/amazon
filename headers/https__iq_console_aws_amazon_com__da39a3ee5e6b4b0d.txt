@@ -1,0 +1,10 @@
+403 Forbidden
+Content-Length: 919
+X-Cache: Error from cloudfront
+X-Amz-Cf-Id: TdVrf9uuFuAV1GVA0dUqfXA9TQZ4YpntQxoHbE2CKo8FoGtPK3iZmQ==
+Content-Type: text/html
+Date: Thu, 08 Aug 2024 09:12:15 GMT
+Via: 1.1 55bc97432f52f2c0b668b3f5b955e0ac.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: SFO53-P5
+Retry-Count: 0
+Server: CloudFront

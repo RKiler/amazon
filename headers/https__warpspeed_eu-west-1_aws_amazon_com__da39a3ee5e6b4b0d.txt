@@ -1,0 +1,10 @@
+200 OK
+Retry-Count: 0
+X-Ua-Compatible: IE=edge
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Content-Length: 2856
+Date: Thu, 08 Aug 2024 09:12:21 GMT
+Server: Server
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: JSESSIONID=ACF0E33A90A21706CB3724CA05A94F2D; Path=/; Secure; HttpOnly
+Content-Type: text/html;charset=ISO-8859-1

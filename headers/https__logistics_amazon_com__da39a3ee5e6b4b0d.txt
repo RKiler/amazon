@@ -1,0 +1,19 @@
+200 OK
+Retry-Count: 0
+Server: Server
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Xss-Protection: 1; mode=block 1; mode=block
+Date: Thu, 08 Aug 2024 09:10:39 GMT
+Set-Cookie: session-id=147-3040651-8531002; Domain=.amazon.com; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/; Secure session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/; Secure session-token=AmZAGgJIHriQXFIkTq1EzzLYi4G7pm0EMURt2IALlCpiWK8+O0CaYQjbfnSzs2Ypv/3ev3HTd5jknOTVTQf1gxHftoCNm38O3wAcqFMQ+mTl0DiOrOGxQICqOZKIhXiLOgLGjYqdzcJr0LsUoPMEmC1a5C+l+Jb3ApDot1DvB3Ww+N4VVXfwgGN9T/JJqnFfENF2k+HGP3nFQ5lVxZ4H2+H2UqGBk41SVQnXDNPJvIaMp9FTJWRD0xrNjt3j0hQiExAzsaqx0yybHbqec5dK372YpdmIFJ4UH31/bBaGlOrrlFQWl61ACVHzqJdev+lWvVxB6gxzeCltOIea1DaatK1fgvEjoH/M; Domain=.amazon.com; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/; Secure; HttpOnly session-id=147-3040651-8531002; Domain=.amazon.com; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/; Secure; HttpOnly session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/; Secure; HttpOnly session-token=AmZAGgJIHriQXFIkTq1EzzLYi4G7pm0EMURt2IALlCpiWK8+O0CaYQjbfnSzs2Ypv/3ev3HTd5jknOTVTQf1gxHftoCNm38O3wAcqFMQ+mTl0DiOrOGxQICqOZKIhXiLOgLGjYqdzcJr0LsUoPMEmC1a5C+l+Jb3ApDot1DvB3Ww+N4VVXfwgGN9T/JJqnFfENF2k+HGP3nFQ5lVxZ4H2+H2UqGBk41SVQnXDNPJvIaMp9FTJWRD0xrNjt3j0hQiExAzsaqx0yybHbqec5dK372YpdmIFJ4UH31/bBaGlOrrlFQWl61ACVHzqJdev+lWvVxB6gxzeCltOIea1DaatK1fgvEjoH/M; Domain=.amazon.com; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/; Secure; HttpOnly
+X-Frame-Options: SAMEORIGIN SAMEORIGIN
+Vary: accept-encoding,Accept-Encoding
+Age: 128
+Content-Language: en-US
+Cache-Control: public,s-maxage=3600
+X-Amz-Cf-Id: fu2dpi7cZJnxPihlIEEBGv-RFlj5GyVwNTk1xv5asEUlbkmALOws8w==
+Content-Type: text/html;charset=UTF-8
+X-Amz-Rid: GEGBK5H8Z1N7AT0XVBE2
+X-Content-Type-Options: nosniff nosniff
+Via: 1.1 1a89524650229737fbb42049a0f558cc.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: SFO53-P1
+X-Cache: Hit from cloudfront

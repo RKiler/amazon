@@ -1,0 +1,24 @@
+200 OK
+X-Amz-Cf-Pop: SFO5-P1
+Age: 55870
+X-Xss-Protection: 1; mode=block
+Last-Modified: Mon, 22 Jul 2024 20:41:33 GMT
+Server: AmazonS3
+X-Cache: Hit from cloudfront
+Via: 1.1 e59248dced0c86acee162cdb37ef8ba6.cloudfront.net (CloudFront)
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Content-Length: 505
+X-Amz-Id-2: 0iyHkuX0YDyM0Kmk3Bzmg8H6t7EI7sOlvMXITIAvavp5Jwsy3vVW6IX2pfWUbTFEe6VYAvPsWaA=
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Version-Id: _8ajitUvjiEpt6j6c1NyuRqDsvar3nrF
+Content-Security-Policy: default-src 'none'; font-src data:; img-src 'self' https://console.aws.amazon.com; script-src 'self'; style-src 'self'; object-src 'none'; frame-ancestors 'none'; form-action *; upgrade-insecure-requests;
+X-Content-Type-Options: nosniff
+Retry-Count: 0
+Date: Wed, 07 Aug 2024 17:39:51 GMT
+Accept-Ranges: bytes
+X-Amz-Cf-Id: 6RgjdMpKQIReiajqHMierErtPvx6U2DZRACm-CjpRGgzVq_MfQSYIQ==
+X-Frame-Options: DENY
+Content-Type: text/html
+X-Amz-Request-Id: Q11WEH1CBMK474FJ
+Etag: "47f1ca963800903a3da34b50de6faaa4"
+Referrer-Policy: same-origin

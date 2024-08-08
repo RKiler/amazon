@@ -1,0 +1,15 @@
+200 OK
+Content-Type: text/html
+Date: Thu, 08 Aug 2024 09:10:28 GMT
+X-Amz-Cf-Pop: SFO5-P1
+Server: Server
+Vary: Content-Type,Accept-Encoding,User-Agent
+Last-Modified: Wed, 31 Jul 2024 00:33:26 GMT
+Accept-Ranges: bytes
+Via: 1.1 5c9c18dc3f70d2dc4a380b2b87c39e4a.cloudfront.net (CloudFront)
+Retry-Count: 0
+X-Amz-Cf-Id: NJIYY7qe7o2JPw8Lz4MW-nR294L5JFVwAW82WTBgYfsMqU5YXy7_cQ==
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+X-Amz-Rid: NBQ93XRJ4YDFQFJPB4KB
+Etag: "f2-61e803e0dc180-gzip"
+X-Cache: Miss from cloudfront

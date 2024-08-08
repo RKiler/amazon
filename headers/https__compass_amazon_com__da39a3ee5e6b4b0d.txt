@@ -1,0 +1,15 @@
+200 OK
+X-Cache: RefreshHit from cloudfront
+Via: 1.1 22dc875d744f932282ce89367c98a9de.cloudfront.net (CloudFront)
+Cache-Control: max-age=3600
+X-Amz-Rid: KAN98N5KV9MMAX08X13X
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Date: Thu, 08 Aug 2024 09:12:37 GMT
+Vary: Accept-Encoding
+X-Amz-Cf-Id: 7alLVW7lLk698T4ngwZNh9Q8gbH3RfRJAFg8WVNFx4_hKnZZs3Xusg==
+Retry-Count: 0
+X-Amz-Cf-Pop: SFO53-C1
+Server: Server
+Last-Modified: Mon, 05 Aug 2024 07:22:56 GMT
+Etag: "708ce43cb4c7fa4a02b978cbbfecf502"
+Content-Type: text/html

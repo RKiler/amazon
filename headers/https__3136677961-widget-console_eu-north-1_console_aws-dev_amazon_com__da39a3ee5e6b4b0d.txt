@@ -1,0 +1,12 @@
+404 Not Found
+X-Content-Type-Options: nosniff
+X-Amzn-Requestid: tb-b34c5b24-7e05-45b0-8386-723fd2422d6a
+Pragma: no-cache
+Content-Length: 21
+X-Frame-Options: DENY
+Cache-Control: no-cache,no-store
+Strict-Transport-Security: max-age=47304000; includeSubDomains
+Retry-Count: 0
+Server: awselb/2.0
+Date: Thu, 08 Aug 2024 09:10:28 GMT
+Content-Type: application/json

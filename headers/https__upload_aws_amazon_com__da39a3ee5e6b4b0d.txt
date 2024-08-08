@@ -1,0 +1,19 @@
+200 OK
+Last-Modified: Mon, 22 Jul 2024 14:30:13 GMT
+Cache-Control: max-age=1
+Via: 1.1 87e907bf938f21f1b962d1401b077d14.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: SFO5-P2
+Content-Type: text/html
+X-Amz-Server-Side-Encryption: AES256
+Accept-Ranges: bytes
+Server: AmazonS3
+Date: Thu, 08 Aug 2024 09:11:34 GMT
+Vary: Accept-Encoding
+Retry-Count: 0
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+Content-Security-Policy: default-src 'self' *.response.secure-upload.commerce.aws.dev; img-src 'self'; script-src 'self'; style-src 'self'; font-src 'self' data:; object-src 'none'
+Etag: "7ce8e498c6b7708375ffebc836f79d6b"
+Content-Length: 314
+X-Amz-Version-Id: mMXC8P.VewFItxub7USlD_WgLHtYax4p
+X-Cache: RefreshHit from cloudfront
+X-Amz-Cf-Id: 755IBDvkCpvxuqe6YjfWmUkfcsQ_44CZGv24l1oDam-qaT7P68vQ7Q==

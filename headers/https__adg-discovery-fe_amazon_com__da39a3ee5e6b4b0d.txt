@@ -1,0 +1,11 @@
+200 OK
+Vary: Content-Type,Accept-Encoding,User-Agent
+Accept-Ranges: bytes
+Server: Server
+Date: Thu, 08 Aug 2024 09:12:07 GMT
+X-Amz-Rid: NE3R3SEWXJT96QX1AG32
+Last-Modified: Mon, 05 Aug 2024 16:38:58 GMT
+Etag: "f2-61ef25046cc80-gzip"
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Content-Type: text/html
+Retry-Count: 0

@@ -1,0 +1,14 @@
+200 OK
+X-Amz-Rid: 3856NGCTGE7G3NDGYE6W
+Server: Server
+Date: Thu, 08 Aug 2024 09:10:31 GMT
+Vary: accept-encoding,Content-Type,Accept-Encoding,User-Agent
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Retry-Count: 0
+X-Xss-Protection: 1; mode=block
+Content-Language: en-US
+Set-Cookie: session-id=140-9093208-5222033; Domain=.amazon.com; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/ session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy-Report-Only: default-src https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com; script-src https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com 'unsafe-inline' 'unsafe-eval'; style-src https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com 'unsafe-inline'; report-uri /1/batch/2/OE/mid=ATVPDKIKX0DER:sid=140-9093208-5222033:rid=3856NGCTGE7G3NDGYE6W:sn=carriercentral.amazon.com
+Content-Type: text/html;charset=UTF-8

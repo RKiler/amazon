@@ -1,0 +1,17 @@
+200 OK
+Content-Type: text/html
+Etag: "a1dfb0b61ec9ddfd1e2e106f88833a63"
+X-Amz-Version-Id: cLlOkiMjd8TUM5Aw13ymuW8e5.beymRP
+Server: AmazonS3
+X-Amz-Cf-Pop: SFO5-C1
+X-Amz-Cf-Id: waBnx5a3NGz_9gcqOxD3AGuoCgDgURBiV410pkTOx5bBAZyCkkBS8A==
+Last-Modified: Fri, 02 Aug 2024 15:46:17 GMT
+X-Amz-Server-Side-Encryption: AES256
+Date: Thu, 08 Aug 2024 09:11:16 GMT
+Via: 1.1 fa899decf29a8515a5481334de6baf5c.cloudfront.net (CloudFront)
+X-Cache: RefreshHit from cloudfront
+Retry-Count: 0
+Content-Length: 935
+Accept-Ranges: bytes
+Cache-Control: no-cache
+Vary: Accept-Encoding

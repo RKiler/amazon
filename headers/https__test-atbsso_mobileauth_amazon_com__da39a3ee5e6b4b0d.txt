@@ -1,0 +1,12 @@
+200 OK
+Content-Type: text/html;charset=UTF-8
+Retry-Count: 0
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: JSESSIONID=4B3CBE6C654107365E5D73F31CEEBB5E; Path=/; Secure; HttpOnly
+Vary: accept-encoding
+Server: Server
+Date: Thu, 08 Aug 2024 09:11:27 GMT
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Amazon-Internal-Page-Type: PlaceHolderPageType
+Content-Language: en-US

@@ -1,0 +1,7 @@
+200 OK
+X-Amz-Date: Thu, 08 Aug 2024 09:09:58 GMT
+Content-Type: text/plain
+Content-Length: 7
+Date: Thu, 08 Aug 2024 09:09:58 GMT
+Retry-Count: 0
+X-Amzn-Requestid: 854e7cd0-74ef-42fc-a977-7458f1e23dcc

@@ -1,0 +1,17 @@
+200 OK
+Set-Cookie: session-id-jp=356-6586853-2807455; Max-Age=31536000; Expires=Fri, 08 Aug 2025 09:11:27 GMT; Path=/; Domain=.amazon.com; Secure
+X-Amzn-Cdn-Id: ak-411bfe7f
+Pragma: no-cache
+X-Frame-Options: SAMEORIGIN
+Cache-Control: no-cache, no-store, must-revalidate
+X-Content-Type-Options: nosniff nosniff
+Retry-Count: 0
+Content-Type: text/html; charset=UTF-8
+X-Amz-Rid: RA4DRS0N7C28ZR4N1WPH
+Strict-Transport-Security: max-age=47474747;
+X-Cache: NotCacheable from child
+Server: Server
+Content-Language: en-US
+Date: Thu, 08 Aug 2024 09:11:27 GMT
+Expires: 0
+Vary: Content-Type,Accept-Encoding,User-Agent

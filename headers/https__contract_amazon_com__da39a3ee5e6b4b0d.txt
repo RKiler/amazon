@@ -1,0 +1,20 @@
+200 OK
+Etag: W/"3884888950a7b70de3d8d017492fb810"
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Cf-Pop: SFO5-C1
+X-Content-Type-Options: nosniff
+Pragma: no-cache
+Via: 1.1 57bad7de768de965f7b4e76ba1ed4d64.cloudfront.net (CloudFront)
+Strict-Transport-Security: max-age=47304000; includeSubDomains; preload
+Date: Thu, 08 Aug 2024 09:11:21 GMT
+Server: AmazonS3
+Retry-Count: 0
+X-Amz-Cf-Id: HAM74VOiOAtZrLk4ly-E4_CD-Sa-6YwKmAYmnDrYRzE3tt33qZCQeQ==
+X-Frame-Options: DENY
+Cache-Control: no-store, no-cache
+Last-Modified: Wed, 06 Sep 2023 23:10:36 GMT
+Vary: Accept-Encoding
+X-Cache: Miss from cloudfront
+X-Xss-Protection: 1; mode=block
+Content-Security-Policy: default-src 'self'; script-src-elem 'self' https://d1uznvntk80v7s.cloudfront.net; script-src 'self' 'unsafe-eval' https://d1uznvntk80v7s.cloudfront.net 'report-sample'; style-src 'self' 'unsafe-inline' https://d1uznvntk80v7s.cloudfront.net; object-src 'none'; base-uri 'self'; connect-src 'self' https://api.contracts.legal.amazon.dev https://api.contracts.amazon.com https://juvjvqc2v2.execute-api.us-west-2.amazonaws.com https://cognito-identity.us-west-2.amazonaws.com https://prod-contract-documents.s3.us-west-2.amazonaws.com https://unagi-na.amazon.com; font-src 'self' https://m.media-amazon.com data: https://d1uznvntk80v7s.cloudfront.net; frame-src 'self'; img-src 'self' https://prod-contract-documents.s3.us-west-2.amazonaws.com; manifest-src 'self'; media-src 'self'; report-uri https://6408c697622ceaeaddd3fa37.endpoint.csper.io; worker-src 'none';
+Content-Type: text/html; charset=utf-8

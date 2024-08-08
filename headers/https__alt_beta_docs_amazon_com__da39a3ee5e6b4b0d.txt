@@ -1,0 +1,17 @@
+200 OK
+X-Cache: RefreshHit from cloudfront
+X-Amz-Cf-Id: otsYG_GgqmtDed0xoXz04V0vWcSJGzznsMcWcwHr-diabi6xycooVA==
+X-Amz-Version-Id: XYZy5l5j9mmWFOv14SJQOYENEoL.3Ydd
+Server: AmazonS3
+Date: Thu, 08 Aug 2024 08:42:37 GMT
+Via: 1.1 694410c900be78078eeebf840a01e4c8.cloudfront.net (CloudFront)
+Set-Cookie: 
+Content-Type: text/html; charset=utf-8
+Retry-Count: 0
+X-Amz-Server-Side-Encryption: AES256
+Vary: Accept-Encoding
+Age: 1659
+Last-Modified: Tue, 23 Jul 2024 17:16:54 GMT
+Cache-Control: public, max-age=300, s-maxage=600, stale-while-revalidate=3600
+Etag: W/"1dfbe16dee79ed67d5fbeeb1866dd2b8"
+X-Amz-Cf-Pop: SFO53-C1

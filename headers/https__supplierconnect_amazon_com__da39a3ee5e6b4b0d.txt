@@ -1,0 +1,14 @@
+200 OK
+X-Powered-By: Next.js
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Server: Server
+Content-Type: text/html; charset=utf-8
+Retry-Count: 0
+Date: Thu, 08 Aug 2024 09:13:18 GMT
+X-Amz-Rid: 3S7RFX4J7SN2EN3CZ8H8
+Access-Control-Allow-Origin: https://supply.amazon.com
+Cache-Control: private, no-cache, no-store, max-age=0, must-revalidate
+Etag: "ro725w67492mh"
+Vary: Accept-Encoding,Content-Type,Accept-Encoding,User-Agent

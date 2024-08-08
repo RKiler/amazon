@@ -1,0 +1,10 @@
+200 OK
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Date: Thu, 08 Aug 2024 09:11:34 GMT
+Content-Type: text/html;charset=UTF-8
+Set-Cookie: session-id=139-8590693-3343852; Domain=.amazon.com; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/; Secure session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/; Secure as_prefer_lang=en_US; Path=/; Secure
+Retry-Count: 0
+Content-Language: en-US
+Vary: origin,access-control-request-method,access-control-request-headers,accept-encoding,Content-Type,Accept-Encoding,User-Agent
+Server: Server
+X-Amz-Rid: RA66E53Z9D1BVPH7KY1X

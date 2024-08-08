@@ -1,0 +1,11 @@
+200 OK
+Accept-Ranges: bytes
+Strict-Transport-Security: max-age=300; includeSubDomains; preload
+Server: Server
+X-Amz-Rid: TAZ6TN6C8ZFXYK03N7SP
+Vary: Content-Type,Accept-Encoding,User-Agent
+Etag: "f2-61e803e0dc180-gzip"
+Date: Thu, 08 Aug 2024 09:13:22 GMT
+Content-Type: text/html
+Retry-Count: 0
+Last-Modified: Wed, 31 Jul 2024 00:33:26 GMT

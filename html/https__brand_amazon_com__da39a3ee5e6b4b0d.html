@@ -1,0 +1,984 @@
+<html>
+
+<head>
+    <style>
+        @font-face {
+            font-family: 'Amazon Ember';
+            src: url('assets/fonts/AmazonEmber_Rg.ttf') format("truetype");
+            font-weight: 500;
+        }
+
+        @font-face {
+            font-family: 'Amazon Ember';
+            src: url('assets/fonts/Amazon-Ember-Medium.ttf') format("truetype");
+            font-weight: 600;
+        }
+
+        @font-face {
+            font-family: 'Amazon Ember';
+            src: url('assets/fonts/AmazonEmber_Bd.ttf') format("truetype");
+            font-weight: 700;
+        }
+
+        body {
+            font-family: 'Amazon Ember';
+            font-size: 14px;
+            widtH: 100%;
+            height: 100%;
+            color: #232F3E;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Redirecting to Design Portal...</h1>
+    </main>
+    <script>
+
+        const exportMappings = [
+            {
+                "exportId": "edacb88f590352d4f3639177bdcd38275133022a5e6342dcdb1a78b8101ca30e",
+                "title": "Amazon Retail Brand"
+            },
+            {
+                "exportId": "86945eacf729abd68ff6db3bead0dc084bd0331843f127daca83062707ac50bc",
+                "title": "Amazon Fire TV"
+            },
+            {
+                "exportId": "a51e20c345465ff29f29e3e6f64180914aa8a1064969f98f2fa3684e3dd58e01",
+                "title": "Amazon Fire"
+            },
+            {
+                "exportId": "931e9b3773457b0fe97c3dbc917e178216063dc8445f18eeae4d1f9e4d69065c",
+                "title": "Prime Video"
+            },
+            {
+                "exportId": "642b103a8bf682f0aab7595789ee0b50871e799aae90ffd5d694071502a9cac6",
+                "title": "Amazon Prime Brand"
+            },
+            {
+                "exportId": "1a0f8d1500e09ef1df9c275b28de11ca2f09c9c9536aacfd7831a30465797867",
+                "title": "Color"
+            },
+            {
+                "exportId": "aeee258de176e9d0a75bd11f04805216ecdbd9d5749c054e325b265deba0751d",
+                "title": "Prime Day 2020 - External (test)"
+            },
+            {
+                "exportId": "da771a8bd8ef2e07e3f5d83ce722b689a42c0d3c017bb969b8595b387f9cb9f2",
+                "title": "Prime Student"
+            },
+            {
+                "exportId": "d81ad9937fb7933fec03aacd0a9d7a9e7af018a84478a480050c80b23b00a25f",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "b75292519bc7d651c3d6cc47de7eb11d43a921afe57d08761f099af9a51da890",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "696901dcf56274d9e396e9fb2932376472c218cf15b9b81f40921ec59ef2abc0",
+                "title": "Retail External 2022"
+            },
+            {
+                "exportId": "6d7667bad46571285b2674c71642121e53610a53f5ac0ce9b941f9d785b9237d",
+                "title": "Logos"
+            },
+            {
+                "exportId": "9e42bd90909bbcc80279de450657a68eb22bb1d3b0a654107a4958a06076ad15",
+                "title": "Amazon Kids"
+            },
+            {
+                "exportId": "baf9fc0959375882dc8367e4843d137193eb85e96deb35670d30bcdd38c763a5",
+                "title": "Prime Video"
+            },
+            {
+                "exportId": "69c5fabb8387e5c09e64f7625f311172799e6b2503b63bbe27fc5cd219a03c44",
+                "title": "Amazon Fire TV"
+            },
+            {
+                "exportId": "417de69ce66fc14bad6c117182afd7eb49782f36b33eb11a494b4b1c8d35cda6",
+                "title": "Amazon Brand Portal"
+            },
+            {
+                "exportId": "f3c91075490df1f739d687274e1806effae52e6ac672efdff797bd25f5dedec2",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "1284f99e3529a651214663798b33feb8ba5d73c0add719e5eaca1404268eed75",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "58b194a512e85add5696a2e3db7a71e504fe784ee91911d11e9e9c214e176efe",
+                "title": "Amazon Parent Brand"
+            },
+            {
+                "exportId": "71ba0def189aadf2802872176048c149e2af4d3c7ad4fe56ebeffb48a51d4c87",
+                "title": "AWS"
+            },
+            {
+                "exportId": "3c1bf4d27b4601131443ada0ebfc767ec492356f5ef9740c3bd08ba500560937",
+                "title": "Amazon Fire TV"
+            },
+            {
+                "exportId": "51659c8fde39953085f25b2aee483521b70b081812d77166b1a12d20eddd6f22",
+                "title": "Employer Brand"
+            },
+            {
+                "exportId": "dd763cbf75e7247f544dff99da98fd89e4dbcb127e085e53f6f6c5339886a422",
+                "title": "Employer Brand"
+            },
+            {
+                "exportId": "18a09d0c7ca77bb8cb92b70c23ab5278ba2cd149e5b088d95fd96eb58f3dcea0",
+                "title": "Amazon Logo"
+            },
+            {
+                "exportId": "6d39b5bf691dfab762bf49453d6f698daf9c78315c98f978d1956e9d5d7e89df",
+                "title": "Amazon Music"
+            },
+            {
+                "exportId": "d6254e121d0ca53fee3c2ce8afbee1c6fd32f690da3a50e59f1008d3459b7848",
+                "title": "Retail Icon & Illustration Guidelines"
+            },
+            {
+                "exportId": "ca1449fc6cbddd27edab7215086103273da01abc3980df5a004e40cecdc3d1e8",
+                "title": "Available at Amazon Lockup"
+            },
+            {
+                "exportId": "ad9a100bd6bbc7d31255a6c346b1df621abaa92dbd49d7c8db2de39af3f0441d",
+                "title": "Amazon Parent Brand"
+            },
+            {
+                "exportId": "92f0b42b11e6f25e05b9fb27961026bdb7ba79dff5d68cb3bda5b262aa3f638b",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "b0a188c11c584097ee0cb603500c8e7475fbcd0efd647054246f9585fb16afcf",
+                "title": "Amazon Halo"
+            },
+            {
+                "exportId": "653c6631052feb6201904c14787f71b6e47d09686a5acd88af288a601911a40d",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "47269fa54327c35854cda0e55f4c6fce444725a03581b81c5b999d0ce1392bca",
+                "title": "Amazon Retail Brand"
+            },
+            {
+                "exportId": "daf637586470b822d31dcf8218351c6fdee6dea84cc28dd0bd9919d766916101",
+                "title": "CCT Test"
+            },
+            {
+                "exportId": "36ca12dfa69353347c9c5999019967a8f27606627eaecc69f373e057e2f7b985",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "2e0b4effeee1b2da84a0ea7344158c8289b0df61fca4c20aeceae37cbf3356f9",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "5472cec053046f4de5f2cdf6d26a628ae27332f3984c9dc1d2b1efdf9c6c02d9",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "e6cd0b592f9fe91085acc62ecaa64451c8cf14682294f8fc5f8383b3befd8856",
+                "title": "Prime External 2022"
+            },
+            {
+                "exportId": "08b8481f6d95841d5a08d06f70340fadd66a18d1f970822edfadcc72a2ddc141",
+                "title": "Prime Video"
+            },
+            {
+                "exportId": "5fe1ebc4c28dd8cd70543458e2d51924866320a81062da06d4bd07d1c97bc601",
+                "title": "Prime Day 2021 - 3P Guidance"
+            },
+            {
+                "exportId": "5887e3d22707e1b5c9fec43689f4b4c012005d5918f1c211bad8f1a8ed678062",
+                "title": "AWS"
+            },
+            {
+                "exportId": "f201b068efc1b65377a8c8f2880328b9db487cba87ce67d87f274aa2248a37a3",
+                "title": "Amazon Parent Brand"
+            },
+            {
+                "exportId": "dee0256345c46313b8fb9e4c1995cc6c40b1389806ca254eeef1318669f7fd4b",
+                "title": "Amazon Care"
+            },
+            {
+                "exportId": "e46302668938c47c318f738f73deeabbca05ee536f34bb802356b6ed80dda1cb",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "746fdf924dc6b38ac731cb7a062f7e87e38f7f3f81b51f15f8d8c221c52e385c",
+                "title": "Visual Guidelines"
+            },
+            {
+                "exportId": "19bf01bd5d30f7419bc131f1823d07f5dc9edf37571aa6f0756060d4b2efd779",
+                "title": "Amazon Halo"
+            },
+            {
+                "exportId": "452686add35f7862d11602bdacd08cbfc836c2e4be7c18d01c0dc7bc515d0581",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "a13681effcfa1092ea957f7c634ac533424c38363a767eea301ef08192f71fb4",
+                "title": "Motion Guidelines"
+            },
+            {
+                "exportId": "136bed6941e941f4b191d3906b27b46329c878274926a0eb6cd77396741011ef",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "75fba972792c728885205e29e829a2e40564cf3f009fa8c94e76a0f3aab59c34",
+                "title": "Amazon Freight"
+            },
+            {
+                "exportId": "3dd389690136f7aba4d026161f8d08ea8ce6c2b906dce3b95a93f01eda3ad69a",
+                "title": "Amazon Fire TV"
+            },
+            {
+                "exportId": "b2348e7d9b0efe2ee7d2e7f96c6da0afb42abc7dced4e90337fb60deccb95a85",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "2657df5b8cca98458cfc2559dd48081522c6dfc4fe3480a1f9be5a6ea62d4c83",
+                "title": "Sub-brands"
+            },
+            {
+                "exportId": "30e0670ca70b29aba003b61c93f864d8af43a95fedbe4ac59209c929e2891679",
+                "title": "Amazon Parent Brand (external)"
+            },
+            {
+                "exportId": "51b890c7fdcbcef6c2105651b3b71cb391b386ced1ac6d30ac4cd5400c226c8b",
+                "title": "Visual Guidelines"
+            },
+            {
+                "exportId": "1d1371e55225d2e4cab0cab22867c48e20ac5a4e943a0dff0bd4829e2fd06075",
+                "title": "Co-branding & Third-Party Logo Usage"
+            },
+            {
+                "exportId": "76e09878ecb37b98b2120341990a6500910e5263da8e924f29ca2a92eefa279b",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "e9fa3115bcc64320f6f6d9bc3a6cfa5e1ece36baed40e9d3761ace12db93e7e8",
+                "title": "Prime Day 2022 External 3P"
+            },
+            {
+                "exportId": "646c778cac54fa91e74d37f06dd52a439da080a77f3c9f00fc0d41f410593a4a",
+                "title": "Motion Guidelines"
+            },
+            {
+                "exportId": "df5e6d52ca63c2220f53a6241d03088857919a78cd542469632b4fbea925029c",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "7ddf9f88758bc6a30eb1ef8bcfc63e9a337e08cf84a7b88fe56aa7712728b20f",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "e514e82da4c96a61dffe8193bbdf2cf71889b55cf11474d621c5d2cda90b139c",
+                "title": "Amazon Parent Brand"
+            },
+            {
+                "exportId": "1955f2489c6e45acf06c526ac0b8ecd389c300c171bd6e6d95f8e4cdd469f546",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "e5233f11a2624584b6c2fb4c9ba5d9ab9f924329c534b74710dcf730df01d275",
+                "title": "Available at Amazon Lockup"
+            },
+            {
+                "exportId": "24b2e2e1a733c3ecd1a0439befcd5f80eaad395884c9937725857933b9da0b48",
+                "title": "Amazon Halo"
+            },
+            {
+                "exportId": "b36d4ffcb9cb1f783ef1a458a2f1d27052d1b420496a40fefd42721d75474ad8",
+                "title": "AWS"
+            },
+            {
+                "exportId": "8c6366948b6f2c4564085238ebf24316f09a4dd5d72c9422dcab10c2d3c7d5b3",
+                "title": "Amazon Halo"
+            },
+            {
+                "exportId": "1cc6bd3d300335f7aa3d7feec0d4697bd66e2718a6d6f94e57c3ac2535e8dd3b",
+                "title": "Amazon Halo"
+            },
+            {
+                "exportId": "4f09c336a18b0eeb14d8f5f1853519ef0d6239b9b57d1b0648ed5016269129f6",
+                "title": "Amazon Parent Brand (external)"
+            },
+            {
+                "exportId": "132645155689cf1094ff2f1b6acc4703a6b84e2d5be226bb954c79d347f1c294",
+                "title": "Amazon Parent Brand - External OLd"
+            },
+            {
+                "exportId": "37bf9b62c9bfe8d0e69fdcfe86faf9d92f205cc59334c6298e639a9f86a9b7e2",
+                "title": "Trademarks"
+            },
+            {
+                "exportId": "dc1e7c03c4161d4e90d017dae6e6c0f29c62691e0fdc8e28ff165743028625a1",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "54d74fd5d080747dc005c8eeb19357e3f2d21babf451d1bc7213f6d6a73598de",
+                "title": "The Amazon Box"
+            },
+            {
+                "exportId": "fd8ff4ad03667ef3129eabd45a308d6e33a8c52c19f5216247947607de2a9298",
+                "title": "Amazon Parent Brand - External OLd"
+            },
+            {
+                "exportId": "e0ef6e637cbda368174269fe39ff489c8ffece8c0ba73c0274fbf7a4be831929",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "e9c6f05c26feb0b95a224f83011fa420d322d6e4db6b63a848e982d554cef2d3",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "dcb1e7ee7b24ef3436a74309451dcbc36be0aa7564553c7be6ba817f8c07f186",
+                "title": "Communication guidelines"
+            },
+            {
+                "exportId": "d3cb5fa76cb215dbc82dc71c1459b199c65c48d26d1e9e396fa5dc8344bd1f86",
+                "title": "Amazon Retail Brand"
+            },
+            {
+                "exportId": "2686e53c392e250c02982cb3c6186c30e5305811bc47b6f94c325499dcde2d2f",
+                "title": "Visual guidelines"
+            },
+            {
+                "exportId": "f080746adf7a5b8abeb3d22d8a3d75807e1a3f335d57435f2cf91705cf03ce0a",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "169c09c5d80186e59f9e2e7da9ae91f7c639aacb51a05c5d8455ee0fe63fbd75",
+                "title": "The Amazon Brand Expression System"
+            },
+            {
+                "exportId": "227b7db9db7b3a0a3d343345f65040759f045463a6cf4875a85732c6c3414e79",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "62d7ccf5191c124350bd91a24d89a64cdbdc1e5cac8e9d6fdb79b35228b5e4c5",
+                "title": "Amazon Halo"
+            },
+            {
+                "exportId": "4cdf88bc85e427185b76556091654f028e3e7ad0e63d46055ab09430d958e0e3",
+                "title": "Prime"
+            },
+            {
+                "exportId": "1908544ade1483f5c7915983c1aa8d0caab9251f01d974e8a255dbb368c0347d",
+                "title": "Prime"
+            },
+            {
+                "exportId": "119e8a3b6bfba3f0f957a3e403e0e5dc5da4b6ec94589054e200c2d1f689611f",
+                "title": "Amazon Fire"
+            },
+            {
+                "exportId": "5dabdcfec4a8040d6a44d52bee658b28856379f084e597c06aa6a9d4dda782ed",
+                "title": "Amazon Halo"
+            },
+            {
+                "exportId": "e830b93ecf6736da48b6ca6da749bcb31bbd8481ec28a2ad9edb06cf9d5ce164",
+                "title": "Prime Student"
+            },
+            {
+                "exportId": "3989f5c1ce48fb4b78e7588f12eb2262e55618e877913ea2cf7331ba011284c6",
+                "title": "Amazon Halo"
+            },
+            {
+                "exportId": "071098a6cc1251d5498bf9659f87f7da2830023078f1c670a1afeaedd4fa7ee6",
+                "title": "Amazon Halo"
+            },
+            {
+                "exportId": "4690bb6740d064afb9bd1e2464f29ddf4a41eb16bd18693b45f6cdd1e5d4d10a",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "f8ee67ac0472f362079e955e0477f00f399a51c460f040b7dd197c216daea374",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "84a7e005ee269795f746bd6086488c036afe696783bdd3d573ebef4e9d82c048",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "6de7d3a4d44b50af3a05000fff6dbc5cc83a3b64a62658897fe66e0edf4bb82f",
+                "title": "Amazon Kids"
+            },
+            {
+                "exportId": "1d711c5f80e3158236333e236ae9d93a790d2081274e31323799695bcdc6c086",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "2b76c83ff6f9a9b0f739bb11aab51573b5ee06f89201325b2e9ac70afbde7764",
+                "title": "Prime"
+            },
+            {
+                "exportId": "cfe03ed416077102707ba1eebdd058537b37a75429c9d780eebfdc4b0ceec988",
+                "title": "The Amazon Box"
+            },
+            {
+                "exportId": "09037da98a84bcc8c597f8dccbd339d28b0cb2d627054782a76aa1960d44b9de",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "165500b83f248833155ffc6f7d3b1f581c57c6699a7159c444f67efcd9491bd4",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "d92def81ee3bfa162ef4ea6b2cd7362441ea3b872b326da5539bed3fec24b6e4",
+                "title": "Amazon Halo"
+            },
+            {
+                "exportId": "5a3419737bb3d8307aa12f87f8159df9fe50891ec22f35924b1e81396cff2d78",
+                "title": "Prime Video"
+            },
+            {
+                "exportId": "f41ff4b2c64a7b5607cd12eb946939ff5d64eea1be5b2b5979b74b74b082fff0",
+                "title": "Retail External 2022"
+            },
+            {
+                "exportId": "be8bd86ce371d1f63fb4089de102965fcf3e3a7b5e2e192d2722f6ea5715c1b5",
+                "title": "Kindle"
+            },
+            {
+                "exportId": "f199f115b6de3f9092af7272e6245116e640f0876abda7dcb59a960aa7dbee5a",
+                "title": "Co-branding & Third-Party Logo Usage"
+            },
+            {
+                "exportId": "bc9e8e6b7dba372563048046ecc1a797a706c3b69ff38e07e3f62049e77b94f5",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "33666918223ea78cf125298482ebb1f42c34987badd0fa8841ace784f3acfdb1",
+                "title": "Amazon Retail Brand"
+            },
+            {
+                "exportId": "ee0dfe694c109fd65ec81a217496a1f35458b10ed52626423bee9a9b82e77b94",
+                "title": "Amazon Halo"
+            },
+            {
+                "exportId": "d30fd39deea7e7e3563cb39761162341e91c1ec78acd198712f6608c7963c9e4",
+                "title": "Amazon Parent Brand (external)"
+            },
+            {
+                "exportId": "f68a381b97309c9d939ed364ddf7c65bbea0c04eadffe10d5f443c7a988ebc55",
+                "title": "Amazon Fresh"
+            },
+            {
+                "exportId": "d043e1b8da542cd69241b99797c3089ee7b9adfe68ecea32ab04ffde5b5749f3",
+                "title": "Prime Day 2022 External 3P"
+            },
+            {
+                "exportId": "39975927a5086b945245d40832c9894be62350b3e7e8cd11028e00bfa96eb431",
+                "title": "Amazon Freight"
+            },
+            {
+                "exportId": "f20c05f0c8330813d9f34eed146f5a43db8213a66611515d4afde043b75beeb0",
+                "title": "Amazon Halo"
+            },
+            {
+                "exportId": "f986f22355a0729b69d2e79305f11117571305d8f6f82fd42afaf353290e358d",
+                "title": "Logos"
+            },
+            {
+                "exportId": "3f29c3f6a5cc0eb550fe6751da3a0320a9b03c24d6dbe557cec0c7dce367f4dd",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "1432091d52c426d6102c1920f9dd32751c8623e93977412183a2f7dea2a5e9c6",
+                "title": "Visual guidelines"
+            },
+            {
+                "exportId": "ddcb9262021eb02422a5430614689f0f49bd7a194c604540978d39d7f1f55f63",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "c7f854cd125bfe9b6768470e2bac2cac27c380a042314733e394a0f6666d6da6",
+                "title": "Amazon Halo"
+            },
+            {
+                "exportId": "36aea26b757a7e90a9586799b8a0b25a9228e032f1d0a5472ed71683d8100dbe",
+                "title": "Retail"
+            },
+            {
+                "exportId": "67527c78332aab353706d2d8b0014795941ae503d2a5e3e19d87d4ff14d4e77a",
+                "title": "Retail"
+            },
+            {
+                "exportId": "eaf0f4e19fb706b7aa2ca030154c23a7cb839435a0ea5590c55af3d3ca9165b1",
+                "title": "Amazon Halo"
+            },
+            {
+                "exportId": "c909cdbe09bb75462c3cf6e20898d13debc9d165aa28de356e38ded6e4722815",
+                "title": "Prime Old"
+            },
+            {
+                "exportId": "7de34d45bf79cea844776dad987f84c6fb5bc222f276b751c491307db4853878",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "aeae8faba2944957add65bb85aedf0bd605d921f9840ec65a3e2549ba33b33bd",
+                "title": "Amazon Freight"
+            },
+            {
+                "exportId": "19c1890cf139316b8739055a1c620854c75e4e7fa4cbbcea64bcf772599f6ae8",
+                "title": "Retail External 2022"
+            },
+            {
+                "exportId": "956eeb132e89836e1275237ebac24f851e2ab81065e640e818a4bff169eaae07",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "e410620b6dfd32d4e516ba895062aee61b3aa56d3b9cf9d47002442219ef00e7",
+                "title": "AWS"
+            },
+            {
+                "exportId": "734372bcec81df94510ca65a873992e4a2c6f24249f690ab4906bb0594ee78b3",
+                "title": "Amazon Halo"
+            },
+            {
+                "exportId": "31632c194b81bd3045ab7012f7d10753864b601ba58567858f2ada85c32ac8ae",
+                "title": "Prime Student"
+            },
+            {
+                "exportId": "f49ca730c851005b36131bb053b7c094b14df8edf78cccf3874d6f4e04678f78",
+                "title": "Alexa-Archive"
+            },
+            {
+                "exportId": "e5d1c2e8428534ff34e717ede67a286f91be5be8166b9176ded83c3a77231ace",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "e66159014dcc58b974c7c37f5d44b1aa53b8a39448d8248c0c174f2e38c114df",
+                "title": "Amazon Fire TV"
+            },
+            {
+                "exportId": "884b21dea035a03dfaae766e68bed5c3ea0206149b2887ee7a2b782fdd4a46da",
+                "title": "Prime Video"
+            },
+            {
+                "exportId": "66f45706e562cb8b809eea167e893c27e0847bea1f43b2221487f4521f67e29b",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "d76838275b1245aba8f5539faeca906ff18a0606cdda0348ff196c000d8a30eb",
+                "title": "Prime External 2022"
+            },
+            {
+                "exportId": "b826936a762263a8dbdddd637a8ee66cd60b090f8055f662a63bea53611cba32",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "27459ecefd3802a89f64cb1c57328df11e2a55de5b935b7ab37893b902f615bc",
+                "title": "Motion Overview"
+            },
+            {
+                "exportId": "4ccad41129aa35395577c0e7575e2c063e409f59190f6ff2959782cacffad030",
+                "title": "Amazon Halo"
+            },
+            {
+                "exportId": "bf2d404c9cbc28189feb8479c39a49b4d69763e0985ce42132f19c5f38d491d5",
+                "title": "Amazon Halo"
+            },
+            {
+                "exportId": "89452a41bec6488824d5166552978c84c6a524d24852880528ce5bb0417ba676",
+                "title": "Amazon Echo"
+            },
+            {
+                "exportId": "fad29dfeb3d5337a4b9b56c0c2f7d8766c7c33f6fd99b7810d4276fc92b28290",
+                "title": "Prime Student"
+            },
+            {
+                "exportId": "91b5b11531480ea643d0f16057c788caea708068693e40d645bda8833deb209c",
+                "title": "Amazon Kids"
+            },
+            {
+                "exportId": "2114aa2c5c9fd4c15b8a5eb06af3a677958a394226294cd1ed808a086d9befbd",
+                "title": "Prime Student"
+            },
+            {
+                "exportId": "9cf980a3e714b5025fe464aa289103b1dc8744625b8f3b4c0c72b7a6ed4c66ba",
+                "title": "Amazon Freight"
+            },
+            {
+                "exportId": "d0d2b11fa735bcccc2f7a98af418320cab706d078e38a11cfb8be75add129553",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "efdfcbe31a44b864488219c79b742430a7f8ac7e8547cc708272a46f02fd3c7f",
+                "title": "Motion Guidelines"
+            },
+            {
+                "exportId": "851429bdd6f18ef9482f65ff38a020cc4d3a925ab7f3f2a6c7c0e29fd77467fe",
+                "title": "Alexa"
+            },
+            {
+                "exportId": "b46a6872649799a4dedc51f8b3fab377eaf3bd4a1f7778f5d683c488cf3be4f3",
+                "title": "Prime Video"
+            },
+            {
+                "exportId": "66058c62a4faf9ab78c30106a1527c9d755dfb96c598beb2f6dfbc8cdc3a54af",
+                "title": "Amazon Freight"
+            },
+            {
+                "exportId": "b9044a38faa12cacf04f88136e63a243a70841af5ff8517fad4f3944044a59de",
+                "title": "Amazon Freight"
+            },
+            {
+                "exportId": "1c3862734ba9b2b605653ed47cafc7fa00731889f78bd85a01731fd4c0511146",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "ef5cbd75aefff79ec84579652045058dcfa1f9b8b4eff1f991aee43faa063047",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "77c48fbfd213de92473adf358e2d1f39c6dece3e9270233d0bc1b364d50d871c",
+                "title": "Amazon Echo"
+            },
+            {
+                "exportId": "b6344d9c8040505e6756d5a711e7eb30c66e92a928ec65bb2c841984de4a5588",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "72e9b68260a29bb72486878b79574298ec2bfbe8758760334a139daa62d115b4",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "05ab62bdaa8579e9881d40ed68dd125a5e00dc8b0ee83145298d7d0ee53106cf",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "3d03bbafb2af8fdad353a52d43c3021756345c982842db67a1214647a8ded4d8",
+                "title": "Amazon Care"
+            },
+            {
+                "exportId": "bfdcf6b3f132d561a80bc32a9ba795f531e5ff1a464fab4dc178791a3979e79a",
+                "title": "Amazon Care"
+            },
+            {
+                "exportId": "c40320912e6ff07823d9134475ee294eed5d7eee333dd3d17d2f74f0debf14b7",
+                "title": "Amazon Care"
+            },
+            {
+                "exportId": "057254b21e2ef8485c26246aaa6ceeb39b0812d4fe29b9a603505a223dc57bdb",
+                "title": "AWS"
+            },
+            {
+                "exportId": "307945817f712bc2156cd81abb84b35b7053e7e45884dea3af2478800dc52a65",
+                "title": "Amazon Care"
+            },
+            {
+                "exportId": "40acb084463519a754fbf4dd09331f532b509308edda2edad72dd97681d32819",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "791c99f881bc3fb192cc41a7e778a5e2454149160401b2c92a51b11b7a5f9071",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "f319ee8ada53e7050b5ea9966eb89974e64e49a6a259a4f003d12804b1abadec",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "56634d548c1ff7c4f4ca70a360ab802bb5b0903ef13c039a5bce9a82bce05bf8",
+                "title": "Available at Amazon Lockup"
+            },
+            {
+                "exportId": "8b31b6b261a1f4cb40f684f729c42fceb79ee918a13a77b924a5cbf413280bfd",
+                "title": "Amazon Care"
+            },
+            {
+                "exportId": "a57bcef685ce3d6e94e670315cd46dd152aa9380213066d87426ebea6740b000",
+                "title": "Amazon Care"
+            },
+            {
+                "exportId": "90d3cff2882d24224930b4d91669dfdea96881c9119bc5ee3d258dc339f9a2cd",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "8a83656fab54e556a3dabc342f1587988360bce883b735f868d97200e4962c7f",
+                "title": "Amazon Parent Brand (external)"
+            },
+            {
+                "exportId": "8f73516ac98a918f6ad260a357d63b033ef8d0cb322b0ee8b8b7577552ca7804",
+                "title": "Design Guidelines"
+            },
+            {
+                "exportId": "ec8bd6277a6e5fa8920941e7ec88410e35c27f5d25cb98cbed39e22b43179e36",
+                "title": "Prime Day 2022 3P OLD"
+            },
+            {
+                "exportId": "1b4fb16733a5cb81b823e4158639a51041267fc2271ce04c5c01d0150ccace96",
+                "title": "Amazon Care"
+            },
+            {
+                "exportId": "d90a6623ddd13eb394810c26c523411f093c2c480d305248b467961a9e9791c6",
+                "title": "Amazon Care"
+            },
+            {
+                "exportId": "529a40c111f9cdf29990144f83b2f64fe03034fa09388f73c29c02ce71633185",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "27e32506f3925c5035a9ec7c1a16dca29abf5702862399c8bd8da470e9d3096f",
+                "title": "AWS"
+            },
+            {
+                "exportId": "95bfacd360f03401264f7fa375b967e5cd5679dbc144a60fadb9b2bcaf22790a",
+                "title": "Amazon Halo"
+            },
+            {
+                "exportId": "c7024444242f9691240374d7c09ba8102225417f2be8d8d4403476dd03b363b9",
+                "title": "The Amazon Brand Expression System"
+            },
+            {
+                "exportId": "eacb943fe0d7f5cae280b497d730e6fb68c178d9755b9daa97cbe8870d18169d",
+                "title": "AWS"
+            },
+            {
+                "exportId": "fcdc33ad431f109fc8dfb7f286f27d0bdbbdb7ff0c469bc28ce7bc0511699430",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "f9d02dbba6ecb137d9d55de3ca14b3819522eeae379ef5130971a8c99d7e55bc",
+                "title": "Prime Logos"
+            },
+            {
+                "exportId": "17ed650b8581c82f764881c936a39edca2339d53b258f0f69bbcc3b2c0ed31a6",
+                "title": "Amazon Halo"
+            },
+            {
+                "exportId": "476ccdf8023488b63ad4489d7cb54759631e2b94bc4b3191f6bb28d34e156815",
+                "title": "JP Amazon"
+            },
+            {
+                "exportId": "8d8f894a9a09a3caf6b310d400807a2ac1468c035e3d8eeb4701dd74b3b1de04",
+                "title": "Prime External 2022"
+            },
+            {
+                "exportId": "5c551cfb063396e860b7d03ef8c5e096c7d204b9fd8a45d300058c52c7fd9efb",
+                "title": "Color"
+            },
+            {
+                "exportId": "d97b41a2bd6f06e4e1572e448c6298b0c091f7ba4f10c38ef260f5530743752a",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "1879a5342e23337d973da60136518c0a272dc393f8352cd98f79a205f8c0c348",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "53229e9ee24d6e6a3c6e79d52b95eff570dee8e7270b17f3c17427bd70613f8c",
+                "title": "Prime External 2022"
+            },
+            {
+                "exportId": "53d176516ae7272f984cdb2207860530f045bcda976b5a621e94baf5d712fee5",
+                "title": "Alexa"
+            },
+            {
+                "exportId": "7a7baccae3e5f65fee8b0cb6876b5b8956597f8b1ac78464cb90e1fd88a45c46",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "e96b9e5f232be7a4cd50cf8796fc10b34aa29f0e59b1be9fe3f8ea7152d0bca1",
+                "title": "Amazon Freight"
+            },
+            {
+                "exportId": "6906e2d143a2831a3d1720dfd34d00aa737958f32f65a0e2b99abfce75efb900",
+                "title": "AWS"
+            },
+            {
+                "exportId": "acfe0ddbcb41a4b8f76d5edf2931b35277ea0f1bc90c91e446d505ab9a9365c4",
+                "title": "Prime Day 2022 External 3P"
+            },
+            {
+                "exportId": "c2d1636fd61663e5050bd3714ca20bf956b3f3cf06cc56b4c8c064f9ecdc568f",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "ed642a839c9f1c207066d634d54fd85ec2877f42f900461c9f6e07468134e98a",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "89a201c4c3d90c3302226c472d77669811c88e9c305e227df4365fd5ead6ac98",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "83a8b9d4a22a0ba3e7c176e9f31f6f26822e7bada5bab3ea57304c9b09a82c58",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "ef665aab61e1ff978de50f1ae43ac0d984402088abe7705866d8d3c3068ce287",
+                "title": "Amazon Care"
+            },
+            {
+                "exportId": "9a6282cdc59d8bc76e3ac10170dc847b86aa692ef06c4280ac89d4fc451b221d",
+                "title": "Amazon Care"
+            },
+            {
+                "exportId": "28370c583447b16d0fd6d6a8884f51671e9cb65d7db1e1382906d1049d11feb1",
+                "title": "Amazon Care"
+            },
+            {
+                "exportId": "f5c2d380b31e637cb02db196e5c7942d47a7029b1efd13e1cb199207c131213c",
+                "title": "Amazon Business"
+            },
+            {
+                "exportId": "395220d753ecc0b954bee91e29ccdc8e203161c506ce7dafd722ef7feda49ebe",
+                "title": "Amazon Business"
+            }
+        ]
+
+        map = {
+            "Amazon Kids": "9120E38D09C3",
+            "Kindle": "913BECA31E61",
+            "Amazon Halo": "91509A97D01f",
+            "Prime Video": "91589CD58EB4",
+            "Shopbop Brand": "9160F6C0C8F1",
+            "Prime Student": "916CEC3E7B08",
+            "Trademarks": "9171BC57C2Ad",
+            "Alexa": "9174C6D4221f",
+            "AWS": "9188F3F120Af",
+            "Employer Brand": "920C62258F9f",
+            "Operations Internal Team Guidelines": "918D526B6CB1",
+            "Amazon Fire TV": "91908DE9C02f",
+            "brandexpression": "9198BD3A1B96",
+            "Amazon Fresh": "91AD35615563",
+            "Amazon Freight": "91B5C8363ADc",
+            "Amazon Echo": "91BDF7852F43",
+            "A Guide To Overcoming Customer Pain Points In The EU": "240C432AC404",
+            "Help Center": "91CC4FDA1505",
+            "Brand Database": "91CF61C9EDAe",
+            "Amazon Care": "91D3774C7F78",
+            "Prime": "92509D2B33D6",
+            "Care Medical": "91DA3B0F87E3",
+            "Amazon Fleet Design": "91F63D27C77a",
+            "Amazon Music": "91FE030AD815",
+            "Amazon Pay": "9207C2539E6e",
+            "Retail": "9215CF0BA046",
+            "Amazon Echo Brand": "921FD18AB4E9",
+            "diversity": "923671D8D314",
+            "Amazon Fire": "92541E3E7DEf",
+            "Brand Team Review": "92576C49428e",
+            "Team Logo Standards": "9262538CAF57",
+            "Amazon FLEX": "9273FD14EAB9",
+            "Amazon Business": "928A46AD24Ab",
+            "Retail Brand": "3DFBB2C1FB2b",
+            "Amazon Parent": "912B110E06F1",
+            "JP": "926AFF1400F4",
+            "Fourth of July 2021": "36489AF16097",
+            "Back to School 2021": "222077C6672e",
+            "Back to School 2022": "22BD302CDF1d",
+            "Cultural & Community Occasions (CCOs)": "235B3FBFFCF4",
+            "Easter 2021": "26B4CE296B23",
+            "Events Framework": "24DCAD0D43Db",
+            "Father's Day 2022": "254B5DAC6B25",
+            "Father's Day 2021": "326AA20F8C4d",
+            "Game Day 2021": "25D50F566214",
+            "Get Ready for Warmer Weather 2021": "3310E6C1E5Ee",
+            "Halloween 2021": "267B02231BE9",
+            "Hispanic Heritage Month 2021": "3B8C6D7EFFDa",
+            "Mother's Day 2022": "2A457F278388",
+            "Mother's Day 2021": "326D065F5AA3",
+            "New Year New You 2021": "281A63834525",
+            "Off to College 2021": "2B536707E39d",
+            "Off to College 2022": "33638AE01B7d",
+            "Pride 2021": "3D9A818ED413",
+            "Prime Day 2021": "33DB849FD3A3",
+            "Holiday Events 2021": "3ECDA785BA8e",
+            "Retail Seasonal Events: Spring": "2AD1823F6CA3",
+            "Retail Seasonal Events: Winter": "2B3052D51037",
+            "Retail Seasonal Events: Autumn": "403A32FF038n",
+            "Retail Seasonal Events: Summer": "40860923B5B4",
+            "St. Patrick’s Day 2021": "3909A437B5F3",
+            "Valentine's Day 2022": "43A9D25DDCB6",
+            "Valentine's Day 2021": "39DCB942F3D1",
+            "Prime Day 2022": "2F3150DDD514",
+            "Accessibility at Amazon": "1F13FFFE89Bb",
+            "Branding at Amazon": "1F43A75D67Eb",
+            "ops swag": "1805D18A226f",
+            "Internal Programs": "19405BFF8CFb",
+            "Naming at Amazon": "216AB84F3E21"
+        }
+
+        const encodedMapList = []
+        for (const key in map) {
+            encodedMapList.push({
+                name: key.toLowerCase().replace('\'', '').split(' ').join('-'),
+                value: map[key]
+            })
+        }
+
+        function redirect(url) {
+            window.location.href = url;
+        }
+
+        let redirectUrl = 'https://design.amazon.com/';
+        let redirectPath = ''
+        let portal = 'brands'
+
+        let href = window.location.href;
+
+        for (let exp of exportMappings) {
+            if (href.includes(exp.exportId)) {
+                href.replace(exp.exportId, exp.title)
+                break;
+            }
+        }
+
+        if (href.includes('events.amazon.com')) {
+            portal = 'events'
+        } else {
+            portal = 'brands'
+        }
+
+        console.log(encodedMapList)
+
+        let path;
+
+        if (href.includes('.net')) {
+            path = href.split('.net')[1];
+        } else {
+            path = href.split('.com')[1];
+        }
+
+        if (path !== '') {
+            const subPaths = path.split('/');
+            console.log(subPaths)
+            if (subPaths[1]) {
+                console.log()
+                const match = encodedMapList.find(item => item.name === subPaths[1]);
+                if (match) {
+                    redirectPath += match.value + '/' + match.name;
+                }
+
+                if (subPaths.length > 1) {
+                    for (let index = 2; index < subPaths.length; index++) {
+                        redirectPath += '/' + subPaths[index]
+                    }
+                }
+            }
+        }
+
+        const finalUrl = redirectUrl + (redirectPath !== '' ? 'styleguide/' + redirectPath : portal)
+        console.log(finalUrl)
+
+        redirect(finalUrl)
+    </script>
+</body>
+
+</html>

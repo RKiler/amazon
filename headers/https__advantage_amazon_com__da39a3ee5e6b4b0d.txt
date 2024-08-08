@@ -1,0 +1,14 @@
+200 OK
+X-Amz-Rid: GN75TJQAHWYF14014GK4
+Set-Cookie: session-id=141-0451830-8043525; Max-Age=31536000; Expires=Fri, 08 Aug 2025 09:10:16 GMT; Path=/; Domain=.amazon.com; Secure
+Cache-Control: no-cache, no-store, must-revalidate
+Expires: 0
+Strict-Transport-Security: max-age=47474747;
+Pragma: no-cache
+Retry-Count: 0
+Content-Type: text/html; charset=utf-8
+Date: Thu, 08 Aug 2024 09:10:16 GMT
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Vary: Content-Type,Accept-Encoding,User-Agent
+Server: Server

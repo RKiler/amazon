@@ -1,0 +1,14 @@
+200 OK
+Retry-Count: 0
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Type: text/html;charset=UTF-8
+X-Frame-Options: SAMEORIGIN
+Server: Server
+Date: Thu, 08 Aug 2024 09:11:10 GMT
+Vary: Content-Type,Accept-Encoding,User-Agent
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+X-Amz-Rid: 15FGVZ42VVWPZ8G1RM8Z
+Set-Cookie: session-id=136-2648259-0585621; Domain=.amazon.com; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/; Secure session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/; Secure
+Content-Security-Policy-Report-Only: default-src https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com; script-src https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com 'unsafe-inline' 'unsafe-eval'; style-src https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com 'unsafe-inline'; report-uri /1/batch/2/OE/mid=ATVPDKIKX0DER:sid=136-2648259-0585621:rid=15FGVZ42VVWPZ8G1RM8Z:sn=alexa-voice-service-setup.amazon.com
+Content-Language: en-US

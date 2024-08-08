@@ -1,0 +1,14 @@
+200 OK
+Cache-Control: public, max-age=30, stale-if-error=604800, stale-while-revalidate=60
+Via: 1.1 851c08a67685da1a5c66610a9f744baa.cloudfront.net (CloudFront)
+Retry-Count: 0
+Last-Modified: Fri, 14 Jun 2024 20:18:08 GMT
+X-Amz-Server-Side-Encryption: AES256
+Server: AmazonS3
+Etag: W/"c94b96a7ec041ed5c874620a7ccc618c"
+X-Cache: Miss from cloudfront
+X-Amz-Cf-Pop: SFO53-P1
+Vary: accept-encoding
+X-Amz-Cf-Id: 7TE7ldBrs44Mvxq6C1z6h1RkVNMTB9maWLYFaLPhG5ZFs8LBlpbZug==
+Content-Type: text/html; charset=utf-8
+Date: Thu, 08 Aug 2024 09:12:43 GMT

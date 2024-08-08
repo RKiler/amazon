@@ -1,0 +1,146 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset='utf-8'>
+  <meta content='width=device-width, initial-scale=1' name='viewport'>
+  <title>Amazon AdBot</title>
+  <link rel="stylesheet" href="https://images-na.ssl-images-amazon.com/images/G/01/AUIClients/AdProductsWebsiteAssets-f18eec00b3bc226776a0ab15f486e173b6eeb96a._V2_.css#AUIClients/AdProductsWebsiteAssets.secure.min"/>
+  <link rel="stylesheet" href="https://images-na.ssl-images-amazon.com/images/G/01/vap/video/airy2/prod/439.0-0/css/beacon.css"/>
+</head>
+
+<body>
+<header class='navbar navbar-inverse bs-docs-nav' id='top' role='banner'>
+  <div class='container-fluid'>
+    <div class='navbar-header'>
+      <a class='navbar-brand'>
+        <img src="https://images-na.ssl-images-amazon.com/images/G/01/AdProductsWebsite/images/amazon-ads-logo.png" alt="Amazon Advertising">
+      </a>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="row spacing-base">
+    <div id="main">
+      <div class="row">
+        <div class="col-md-12" style="">
+          <div class="freeform section" data-index="1">
+            <div class="section-heading">
+              <h2>Amazon AdBot FAQs</h2>
+            </div>
+            <div class="section-body">
+              <p>
+                <strong>1. What is Amazon AdBot?</strong><br>
+                Amazon AdBot is a crawler used by different advertising services at Amazon to determine a website&#39;s content in order to provide relevant and appropriate advertising. Amazon AdBot only crawls websites for which Amazon or an advertiser partner may serve an ad.
+                <br><br>
+              </p>
+
+              <p>
+                <strong>2. What is the User Agent for Amazon AdBot?</strong><br>
+                Amazon AdBot identifies itself with the user agent string: <br>
+                <em>Mozilla/5.0 (compatible; AmazonAdBot/1.0; +https://adbot.amazon.com)</em>
+                <br><br>
+              </p>
+
+              <p>
+                <strong>3. Is there a mechanism by which I can control how Amazon AdBot crawls my website?</strong><br>
+                Yes, via your website&#39;s robots.txt file. Robots.txt is a file that website administrators can place at the root of a website to control how web crawlers crawl their pages. Amazon AdBot honors these crawl instructions (Note: Amazon AdBot may crawl ads.txt irrespectively). For example: <br><br>
+              </p>
+              <p style="margin-left:5%">
+                3.1 If you want to <b>allow</b> Amazon AdBot to access all pages on your website, add the following lines in your website&#39;s robots.txt file:
+                <br>
+                <code>
+                  <em>User-agent: AmazonAdBot</em> <br>
+                  <em>Disallow: </em>
+                </code>
+                <br><br>
+                3.2 If you want to <b>disallow</b> Amazon AdBot from accessing all pages on your website, add:
+                <br>
+                <code>
+                  <em>User-agent: AmazonAdBot</em> <br>
+                  <em>Disallow: /</em>
+                </code>
+                <br>
+                Note: Disallowing Amazon AdBot from accessing pages on your website may decrease ad relevancy.<br><br>
+
+                3.3 If you want to <b>change the frequency</b> in which AmazonAdBot visits your site, you can specify the acceptable delay (in seconds) between two consecutive crawl requests in your robots.txt file by using the Crawl-Delay directive with value in seconds.
+                <br><br>
+                <code>
+                  <em>User-agent: AmazonAdBot</em><br>
+                  <em>Crawl-Delay: [value in seconds]</em><br>
+                </code>
+                <br>
+                For example: If you would like a 1 second delay between two consecutive crawl requests, you can set the Crawl-Delay to 1.<br>
+                <br>
+
+                <code>
+                  <em>User-agent: AmazonAdBot</em><br>
+                  <em>Crawl-Delay: 1</em><br>
+                </code>
+                <br>
+              </p>
+              <p>     <strong>4. Is there a mechanism to verify if the Amazon Ad Bot crawl request is genuine? </strong><br>
+                If you see what appears to be Amazon AdBot traffic in your server logs based on a user agent string such as Mozilla/5.0 (compatible; AmazonAdBot/1.0; +https://adbot.amazon.com) and you want to verify if this traffic is genuine, you may: <br>
+                <br>
+              <ol>
+                <li> Run a reverse DNS lookup on the IP address accessing your website (as found in your logs), using the ‘host’ command. </li>
+                <li> Verify that the result is a sub-domain of domain name  amazonadbot.com. </li>
+                <li> Run a forward DNS lookup on the fully qualified domain name retrieved in step 1 using the ‘host’ command. Verify that it's the same as the original accessing IP address from your logs.</li>
+              </ol>
+              <div style="margin-left:2%">
+                <b> Example DNS Lookup:</b><br><br>
+
+
+                Reverse DNS Lookup<br>
+                <code>
+                  <em>example.com ~ $ host 52.70.xx.52</em><br>
+                  <em>52.xx.70.52.in-addr.arpa domain name pointer crawler-52-70-xx-52.amazonadbot.com.</em><br>
+                </code>
+                <br>
+                Forward DNS Lookup:<br>
+                <code>
+                  <em>example.com ~ $ host crawler-52-70-xx-52.amazonadbot.com</em><br>
+                  <em>crawler-52-70-xx-52.amazonadbot.com has address 52.70.xx.52</em><br>
+                </code>
+                <br>
+                The ‘host’ tool is a dns lookup utility that is available on Linux systems, Unix systems and Mac OS. On Windows systems, ‘host’ tool is not available. Alternatively, ’nslookup’ utility can be run from your MS-DOS command line, or from the powershell of latest Windows versions. <br>
+                <br>
+                Amazon does not post a public list of IP addresses for website owners to add to allow-lists since IP address ranges can change.
+                <br></div>
+              </p>
+              <p>
+                <strong>5. I have additional questions about Amazon AdBot. Who should I contact?</strong><br>
+                If you have additional questions about Amazon AdBot, you may contact <a href="mailto:contactadbot@amazon.com">ContactAdBot@amazon.com</a>.
+                <br><br>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer text-center padding-base" id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="row">
+        <div class="col-md-12 " style="">
+          <div  class="freeform section" data-index="1">
+            <div class="section-body">
+              <p>
+                <br/>&copy; Copyright 2018-2021, Amazon
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+
+</html>

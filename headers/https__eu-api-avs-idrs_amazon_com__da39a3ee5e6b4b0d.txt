@@ -1,0 +1,11 @@
+200 OK
+Etag: "f2-61e803e0dc180-gzip"
+Accept-Ranges: bytes
+Content-Type: text/html
+X-Amz-Rid: FAV5P5MCRZWC2RM7Y9JP
+Vary: Content-Type,Accept-Encoding,User-Agent
+Last-Modified: Wed, 31 Jul 2024 00:33:26 GMT
+Server: Server
+Date: Thu, 08 Aug 2024 09:13:05 GMT
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Retry-Count: 0

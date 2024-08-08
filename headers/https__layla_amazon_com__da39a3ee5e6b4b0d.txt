@@ -1,0 +1,19 @@
+200 OK
+Pragma: no-cache
+X-Frame-Options: SAMEORIGIN
+Via: 1.1 38eecd3ca21bf068d69a2f9cfe668d14.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 18qktWGQrhGv0ZSmduZf26-zaZWmLu5UzPDXubxzZZV8w8J7TUsuQg==
+Date: Thu, 08 Aug 2024 09:11:26 GMT
+Set-Cookie: session-id=258-6045156-5378063; Max-Age=31536000; Expires=Fri, 08 Aug 2025 09:11:26 GMT; Path=/; Domain=.amazon.com; Secure
+X-Amz-Cf-Pop: SFO5-P2
+Content-Type: text/html; charset=utf-8
+X-Amz-Rid: R3FV4YTSZ23KZYZG79X2
+Expires: 0
+Strict-Transport-Security: max-age=47474747;
+Age: 1
+Retry-Count: 0
+Vary: Content-Type,Accept-Encoding,User-Agent
+Cache-Control: no-cache, no-store, must-revalidate
+X-Content-Type-Options: nosniff
+X-Cache: Miss from cloudfront
+Server: Server

@@ -1,0 +1,18 @@
+200 OK
+Set-Cookie: session-id=136-0434298-5736656; Max-Age=31536000; Expires=Fri, 08 Aug 2025 09:12:59 GMT; Path=/; Domain=.amazon.com; Secure
+Cache-Control: no-cache, no-store, must-revalidate
+X-Content-Type-Options: nosniff
+X-Amz-Cf-Pop: SFO53-P4
+X-Amz-Cf-Id: 0PI5H_ugcoNRX7jwJ9oIEuUBA6TdtwecWg0JqG-e0F2zqaQAGAd9Kw==
+Expires: 0
+Pragma: no-cache
+X-Cache: Miss from cloudfront
+Content-Type: text/html; charset=utf-8
+Date: Thu, 08 Aug 2024 09:12:59 GMT
+X-Amz-Rid: 5VPFHPXCKY40CGM85EXA
+Vary: Content-Type,Accept-Encoding,User-Agent
+Via: 1.1 594aa5e4a6030c26c04a6a841838abb2.cloudfront.net (CloudFront)
+Retry-Count: 0
+Server: Server
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=47474747;

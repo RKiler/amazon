@@ -1,0 +1,18 @@
+200 OK
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Content-Security-Policy: default-src 'self'; base-uri 'none'; object-src 'none'; frame-ancestors 'none'; script-src 'self' https://d12x47ju0y6h6n.cloudfront.net 'nonce-PJ717GfpNdd9E95bS+KWIFD076i4S2AjQayaobyQ32cKqKqoqfijLzrDzQt8t3sy'; connect-src 'self' https://cognito-idp.us-west-2.amazonaws.com https://scm-hw-eng-clientv2-beta.auth.us-west-2.amazoncognito.com https://unagi-na.amazon.com/ https://cxz2zhlo8k.execute-api.us-west-2.amazonaws.com/prod/v1/log https://dazvwmjk3l.execute-api.us-west-2.amazonaws.com/Prod https://scm-ui-scos-ux-fileupload-prod-us-west-2-2.s3.us-west-2.amazonaws.com https://scm-ui-scos-ux-filedownload-prod-us-west-2-2.s3.us-west-2.amazonaws.com https://d12x47ju0y6h6n.cloudfront.net https://sentryio.ocean-wave.aws.a2z.com https://is-it-down.amazon.com https://sctopologysvc-configuration-beta-us-west-2--1-e7d74ab0.s3.us-west-2.amazonaws.com https://sctopologysvc-computedvalues-beta-us-west-2--1-e7d74ab0.s3.us-west-2.amazonaws.com https://aws-scos-vendorcomm-us-west-2-342450130795-beta.s3-us-west-2.amazonaws.com https://aws-scos-offers-beta.s3.us-west-2.amazonaws.com https://aws-scos-offers-for-review-beta.s3.us-west-2.amazonaws.com https://scosfiledepotservice-inf-fileuploadbucket00216c55-i7x5hcbqq03s.s3.us-west-2.amazonaws.com https://scosfiledepotservice-inf-filevalidationresultbuck-2kqvtx2lj3nf.s3.us-west-2.amazonaws.com https://offer-computation-report-output-prod-cell-2.s3.us-west-2.amazonaws.com https://fp-scmfp-fulfillment-planner-runs-us-west-2-beta.s3.us-west-2.amazonaws.com https://pi-scmpi-planner-insights-us-west-2-beta.s3.us-west-2.amazonaws.com https://anomaly-detection-output-us-west-2-beta-528369671483.s3.us-west-2.amazonaws.com https://803845933744-aws-inf-b.seshsvc.us-west-2.ocean-wave.aws.a2z.com https://midway-auth.amazon.com/; style-src 'self' https://d12x47ju0y6h6n.cloudfront.net; manifest-src 'self' https://d12x47ju0y6h6n.cloudfront.net; img-src 'self' https://internal-cdn.amazon.com https://d12x47ju0y6h6n.cloudfront.net; font-src 'self' data: ;
+Cache-Control: no-store, no-cache
+X-Amz-Cf-Id: oTXq8uBtFQNf5GeV-6vnZYWwHCFF5dNsN2mqC-nxWIEMbCMkcZ-Gkg==
+Retry-Count: 0
+X-Amz-Cf-Pop: SFO53-C1
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Content-Type: text/html
+Content-Length: 6058
+Date: Thu, 08 Aug 2024 09:12:31 GMT
+X-Amzn-Requestid: 7532781e-5bee-45ee-a1fd-13d51526e4eb
+X-Amzn-Trace-Id: Root=1-66b48bff-7d637d2c7f7fc3c34ed5f1a2
+X-Cache: Miss from cloudfront
+Via: 1.1 a2165b66922b78c24eb18ccc5d845334.cloudfront.net (CloudFront)
+X-Amz-Apigw-Id: cLrP5HOCvHcEecQ=

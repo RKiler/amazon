@@ -1,0 +1,16 @@
+200 OK
+X-Amz-Rid: DKJVE8VSW5ACMNT4GE9B
+Vary: Content-Type,Accept-Encoding,User-Agent
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+X-Cache: Miss from cloudfront
+Content-Type: application/json
+X-Amzn-Trace-Id: Root=1-66b48c3b-df2e8981739670d0789d88ad;
+X-Amz-Cf-Pop: SFO53-C1
+X-Amz-Cf-Id: lK-5QT4CudwRlXKq5WD-xi4SaQzRmvpjc5yj05L-NI0FWceoyTJeog==
+Satsuma-Connection-Onramp: cf
+Retry-Count: 0
+Server: Server
+Date: Thu, 08 Aug 2024 09:13:31 GMT
+Satsuma-Request-Id: DKJVE8VSW5ACMNT4GE9B
+Via: 1.1 acc85cd7bb80090b1fc6f29cede93766.cloudfront.net (CloudFront)
+Alt-Svc: h3=":443"; ma=86400

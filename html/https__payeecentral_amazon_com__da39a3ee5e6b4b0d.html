@@ -1,0 +1,1755 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!doctype html><html class="a-no-js" data-19ax5a9jf="dingo">
+   <head><script>var aPageStart = (new Date()).getTime();</script><meta charset="utf-8"/>
+      <title dir="ltr">Amazon Payee Central</title>
+      <link rel="stylesheet" href="https://images-na.ssl-images-amazon.com/images/I/11EIQ5IGqaL._RC|01ZTHTZObnL.css,41tGz3DNCrL.css,31ufSReDtSL.css,013z33uKh2L.css,017DsKjNQJL.css,0131vqwP5UL.css,41EWOOlBJ9L.css,11TIuySqr6L.css,01ElnPiDxWL.css,11fJbvhE5HL.css,01Dm5eKVxwL.css,01IdKcBuAdL.css,01y-XAlI+2L.css,21P6CS3L9LL.css,01oDR3IULNL.css,41DVQoE4qXL.css,01XPHJk60-L.css,01S0vRENeAL.css,21aPhFy+riL.css,11MrAKjcAKL.css,21fecG8pUzL.css,11a5wZbuKrL.css,01CFUgsA-YL.css,31C80IiXalL.css,11qour3ND0L.css,11gKCCKQV+L.css,11061HxnEvL.css,11oHt2HYxnL.css,01j2JE3j7aL.css,11JQtnL-6eL.css,21KA2rMsZML.css,11jtXRmppwL.css,01QrWuRrZ-L.css,21uwtfqr5aL.css,11QyqG8yiqL.css,11K24eOJg4L.css,11F2+OBzLyL.css,01890+Vwk8L.css,11Y05DTEL6L.css,01cbS3UK11L.css,21F85am0yFL.css,01giMEP+djL.css_.css?AUIClients/AmazonUI#us.not-trident" />
+<link rel="stylesheet" href="https://images-na.ssl-images-amazon.com/images/I/51FGhzkZSEL.css?AUIClients/PayeeCentralUI" />
+<script>
+(function(d,g,S,G){function w(a){x&&x.tag&&x.tag(k(":","aui",a))}function m(a,b){x&&x.count&&x.count("aui:"+a,0===b?0:b||(x.count("aui:"+a)||0)+1)}function q(a){try{return a.test(navigator.userAgent)}catch(b){return!1}}function r(a){return"function"===typeof a}function z(a,b,c){a.addEventListener?a.addEventListener(b,c,!1):a.attachEvent&&a.attachEvent("on"+b,c)}function k(a,b,c,d){b=b&&c?b+a+c:b||c;return d?k(a,b,d):b}function H(a,b,c){try{Object.defineProperty(a,b,{value:c,writable:!1})}catch(u){a[b]=
+c}return c}function va(a,b,c){var d=c=a.length,f=function(){d--||(T.push(b),U||(setTimeout(fa,0),U=!0))};for(f();c--;)ha[a[c]]?f():(C[a[c]]=C[a[c]]||[]).push(f)}function wa(a,b,c,d,f){var e=g.createElement(a?"script":"link");z(e,"error",d);f&&z(e,"load",f);a?(e.type="text/javascript",e.async=!0,c&&/AUIClients|images[/]I/.test(b)&&e.setAttribute("crossorigin","anonymous"),e.src=b):(e.rel="stylesheet",e.href=b);g.getElementsByTagName("head")[0].appendChild(e)}function ia(a,b){return function(c,u){function f(){wa(b,
+c,e,function(b){V?m("resource_unload"):e?(e=!1,m("resource_retry"),f()):(m("resource_error"),a.log("Asset failed to load: "+c));b&&b.stopPropagation?b.stopPropagation():d.event&&(d.event.cancelBubble=!0)},u)}if(ja[c])return!1;ja[c]=!0;m("resource_count");var e=!0;return!f()}}function xa(a,b,c){for(var d={name:a,guard:function(c){return b.guardFatal(a,c)},guardTime:function(a){return b.guardTime(a)},logError:function(c,e,n){b.logError(c,e,n,a)}},f=[],e=0;e<c.length;e++)I.hasOwnProperty(c[e])&&(f[e]=
+W.hasOwnProperty(c[e])?W[c[e]](I[c[e]],d):I[c[e]]);return f}function D(a,b,c,u,f){return function(e,g){function m(){var a=null;u?a=g:r(g)&&(X.start=A(),a=g.apply(d,xa(e,n,B)),X.end=A());if(b){I[e]=a;a=e;for(ha[a]=!0;(C[a]||[]).length;)C[a].shift()();delete C[a]}X.done=!0}var n=f||this;r(e)&&(g=e,e=G);b&&(e=e?e.replace(ka,""):"__NONAME__",Y.hasOwnProperty(e)&&n.error(k(", reregistered by ",k(" by ",e+" already registered",Y[e]),n.attribution),e),Y[e]=n.attribution);for(var B=[],J=0;J<a.length;J++)B[J]=
+a[J].replace(ka,"");var X=E[e||"anon"+ ++ya]={depend:B,registered:A(),namespace:n.namespace};e&&za.hasOwnProperty(e);c?m():va(B,n.guardFatal(e,m),e);return{decorate:function(a){W[e]=n.guardFatal(e,a)}}}}function la(a){return function(){var b=Array.prototype.slice.call(arguments);return{execute:D(b,!1,a,!1,this),register:D(b,!0,a,!1,this)}}}function Z(a,b){return function(c,d){d||(d=c,c=G);var f=this.attribution;return function(){y.push(b||{attribution:f,name:c,logLevel:a});var e=d.apply(this,arguments);
+y.pop();return e}}}function K(a,b){this.load={js:ia(this,!0),css:ia(this)};H(this,"namespace",b);H(this,"attribution",a)}function ma(){g.body?t.trigger("a-bodyBegin"):setTimeout(ma,20)}function F(a,b){a.className=aa(a,b)+" "+b}function aa(a,b){return(" "+a.className+" ").split(" "+b+" ").join(" ").replace(/^ | $/g,"")}function na(a){try{return a()}catch(b){return!1}}function L(){if(M){var a={w:d.innerWidth||h.clientWidth,h:d.innerHeight||h.clientHeight};5<Math.abs(a.w-ba.w)||50<a.h-ba.h?(ba=a,N=4,
+(a=l.mobile||l.tablet?450<a.w&&a.w>a.h:1250<=a.w)?F(h,"a-ws"):h.className=aa(h,"a-ws")):0<N&&(N--,oa=setTimeout(L,16))}}function Aa(a){(M=a===G?!M:!!a)&&L()}function Ba(){return M}"use strict";var O=S.now=S.now||function(){return+new S},A=function(a){return a&&a.now?a.now.bind(a):O}(d.performance),P=A(),za={},v=d.AmazonUIPageJS||d.P;if(v&&v.when&&v.register){P=[];for(var p=g.currentScript;p;p=p.parentElement)p.id&&P.push(p.id);return v.log("A copy of P has already been loaded on this page.","FATAL",
+P.join(" "))}var x=d.ue;w();w("aui_build_date:3.23.1-2023-11-08");var T=[],Ca=[],U=!1;var fa=function(){for(var a=setTimeout(fa,0),b=O();Ca.length||T.length;)if(T.shift()(),50<O()-b)return;clearTimeout(a);U=!1};var ha={},C={},ja={},V=!1;z(d,"beforeunload",function(){V=!0;setTimeout(function(){V=!1},1E4)});var ka=/^prv:/,Y={},I={},W={},E={},ya=0,ca=String.fromCharCode(92),y=[],pa=!0,qa=d.onerror;d.onerror=function(a,b,c,u,f){f&&"object"===typeof f||(f=Error(a,b,c),f.columnNumber=u,f.stack=b||c||u?
+k(ca,f.message,"at "+k(":",b,c,u)):G);var e=y.pop()||{};f.attribution=k(":",f.attribution||e.attribution,e.name);f.logLevel=e.logLevel;f.attribution&&console&&console.log&&console.log([f.logLevel||"ERROR",a,"thrown by",f.attribution].join(" "));y=[];qa&&(e=[].slice.call(arguments),e[4]=f,qa.apply(d,e))};K.prototype={logError:function(a,b,c,u){b={message:b,logLevel:c||"ERROR",attribution:k(":",this.attribution,u)};if(d.ueLogError)return d.ueLogError(a||b,a?b:null),!0;console&&console.error&&(console.log(b),
+console.error(a));return!1},error:function(a,b,c,d){a=Error(k(":",d,a,c));a.attribution=k(":",this.attribution,b);throw a;},guardError:Z(),guardFatal:Z("FATAL"),guardCurrent:function(a){var b=y[y.length-1];return b?Z(b.logLevel,b).call(this,a):a},guardTime:function(a){var b=y[y.length-1],c=b&&b.name;return c&&c in E?function(){var b=A(),d=a.apply(this,arguments);E[c].async=(E[c].async||0)+A()-b;return d}:a},log:function(a,b,c){return this.logError(null,a,b,c)},declare:D([],!0,!0,!0),register:D([],
+!0),execute:D([]),AUI_BUILD_DATE:"3.23.1-2023-11-08",when:la(),now:la(!0),trigger:function(a,b,c){var g=O();this.declare(a,{data:b,pageElapsedTime:g-(d.aPageStart||NaN),triggerTime:g});c&&c.instrument&&Q.when("prv:a-logTrigger").execute(function(b){b(a)})},handleTriggers:function(){this.log("handleTriggers deprecated")},attributeErrors:function(a){return new K(a)},_namespace:function(a,b){return new K(a,b)},setPriority:function(a){pa?pa=!1:this.log("setPriority only accept the first call.")}};var t=
+H(d,"AmazonUIPageJS",new K);var Q=t._namespace("PageJS","AmazonUI");Q.declare("prv:p-debug",E);t.declare("p-recorder-events",[]);t.declare("p-recorder-stop",function(){});H(d,"P",t);ma();if(g.addEventListener){var ra;g.addEventListener("DOMContentLoaded",ra=function(){t.trigger("a-domready");g.removeEventListener("DOMContentLoaded",ra,!1)},!1)}var h=g.documentElement,da=function(){var a=["O","ms","Moz","Webkit"],b=g.createElement("div");return{testGradients:function(){return!0},test:function(c){var d=
+c.charAt(0).toUpperCase()+c.substr(1);c=(a.join(d+" ")+d+" "+c).split(" ");for(d=c.length;d--;)if(""===b.style[c[d]])return!0;return!1},testTransform3d:function(){return!0}}}();v=h.className;var sa=/(^| )a-mobile( |$)/.test(v),ta=/(^| )a-tablet( |$)/.test(v),l={audio:function(){return!!g.createElement("audio").canPlayType},video:function(){return!!g.createElement("video").canPlayType},canvas:function(){return!!g.createElement("canvas").getContext},svg:function(){return!!g.createElementNS&&!!g.createElementNS("http://www.w3.org/2000/svg",
+"svg").createSVGRect},offline:function(){return navigator.hasOwnProperty&&navigator.hasOwnProperty("onLine")&&navigator.onLine},dragDrop:function(){return"draggable"in g.createElement("span")},geolocation:function(){return!!navigator.geolocation},history:function(){return!(!d.history||!d.history.pushState)},webworker:function(){return!!d.Worker},autofocus:function(){return"autofocus"in g.createElement("input")},inputPlaceholder:function(){return"placeholder"in g.createElement("input")},textareaPlaceholder:function(){return"placeholder"in
+g.createElement("textarea")},localStorage:function(){return"localStorage"in d&&null!==d.localStorage},orientation:function(){return"orientation"in d},touch:function(){return"ontouchend"in g},gradients:function(){return da.testGradients()},hires:function(){var a=d.devicePixelRatio&&1.5<=d.devicePixelRatio||d.matchMedia&&d.matchMedia("(min-resolution:144dpi)").matches;m("hiRes"+(sa?"Mobile":ta?"Tablet":"Desktop"),a?1:0);return a},transform3d:function(){return da.testTransform3d()},touchScrolling:function(){return q(/Windowshop|android|OS ([5-9]|[1-9][0-9]+)(_[0-9]{1,2})+ like Mac OS X|SOFTWARE=([5-9]|[1-9][0-9]+)(.[0-9]{1,2})+.*DEVICE=iPhone|Chrome|Silk|Firefox|Trident.+?; Touch/i)},
+ios:function(){return q(/OS [1-9][0-9]*(_[0-9]*)+ like Mac OS X/i)&&!q(/trident|Edge/i)},android:function(){return q(/android.([1-9]|[L-Z])/i)&&!q(/trident|Edge/i)},mobile:function(){return sa},tablet:function(){return ta},rtl:function(){return"rtl"===h.dir}};for(p in l)l.hasOwnProperty(p)&&(l[p]=na(l[p]));for(var ea="textShadow textStroke boxShadow borderRadius borderImage opacity transform transition".split(" "),R=0;R<ea.length;R++)l[ea[R]]=na(function(){return da.test(ea[R])});var M=!0,oa=0,ba=
+{w:0,h:0},N=4;L();z(d,"resize",function(){clearTimeout(oa);N=4;L()});var ua={getItem:function(a){try{return d.localStorage.getItem(a)}catch(b){}},setItem:function(a,b){try{return d.localStorage.setItem(a,b)}catch(c){}}};h.className=aa(h,"a-no-js");F(h,"a-js");!q(/OS [1-8](_[0-9]*)+ like Mac OS X/i)||d.navigator.standalone||q(/safari/i)||F(h,"a-ember");v=[];for(p in l)l.hasOwnProperty(p)&&l[p]&&v.push("a-"+p.replace(/([A-Z])/g,function(a){return"-"+a.toLowerCase()}));F(h,v.join(" "));h.setAttribute("data-aui-build-date",
+"3.23.1-2023-11-08");t.register("p-detect",function(){return{capabilities:l,localStorage:l.localStorage&&ua,toggleResponsiveGrid:Aa,responsiveGridEnabled:Ba}});q(/UCBrowser/i)||l.localStorage&&F(h,ua.getItem("a-font-class"));t.declare("a-event-revised-handling",!1);t.execute("RetailPageServiceWorker",function(){function a(a,b){f.controller&&a?(a={feature:"retail_service_worker_messaging",command:a},b&&(a.data=b),f.controller.postMessage(a)):a&&m("sw:sw_message_no_ctrl",1)}function b(a){var b=a.data;
+if(b&&"retail_service_worker_messaging"===b.feature&&b.command&&b.data){var c=b.data;a=d.ue;var e=d.ueLogError;switch(b.command){case "log_counter":a&&r(a.count)&&c.name&&a.count(c.name,0===c.value?0:c.value||1);break;case "log_tag":a&&r(a.tag)&&c.tag&&(a.tag(c.tag),b=d.uex,a.isl&&r(b)&&b("at"));break;case "log_error":e&&r(e)&&c.message&&e({message:c.message,logLevel:c.level||"ERROR",attribution:c.attribution||"RetailServiceWorker"});break;case "log_weblab_trigger":if(!c.weblab||!c.treatment)break;
+a&&r(a.trigger)?a.trigger(c.weblab,c.treatment):(m("sw:wt:miss"),m("sw:wt:miss:"+c.weblab+":"+c.treatment));break;default:m("sw:unsupported_message_command",1)}}}function c(){e.forEach(function(a){w(a)})}function h(a,b,c){if(b){a=q(/Chrome/i)&&!q(/Edge/i)&&!q(/OPR/i)&&!a.capabilities.isAmazonApp&&!q(new RegExp(ca+"bwv"+ca+"b"));var d="sw:browser:"+c+":";b.browser&&a&&(e.push(d+"supported"),b.browser.action(d,c));!a&&b.browser&&e.push(d+"unsupported")}}try{var f=navigator.serviceWorker}catch(n){w("sw:nav_err")}(function(){if(f){var c=
+function(){a("page_loaded",{rid:d.ue_id,mid:d.ue_mid,pty:d.ue_pty,sid:d.ue_sid,spty:d.ue_spty,furl:d.ue_furl})};z(f,"message",b);a("client_messaging_ready");t.when("load").execute(c);z(f,"controllerchange",function(){a("client_messaging_ready");"complete"===g.readyState&&c()})}})();var e=[],l=function(a,b){var c=d.uex,e=d.uet;a=k(":","aui","sw",a);"ld"===b&&r(c)?c("ld",a,{wb:1}):r(e)&&e(b,a,{wb:1})},p=function(a,b,c){function e(a){b&&r(b.failure)&&b.failure(a)}function g(){p=setTimeout(function(){w(k(":",
+"sw:"+n,h.TIMED_OUT));e({ok:!1,statusCode:h.TIMED_OUT,done:!1});l(n,"ld")},c||4E3)}var h={NO_CONTROLLER:"no_ctrl",TIMED_OUT:"timed_out",UNSUPPORTED_BROWSER:"unsupported_browser",UNEXPECTED_RESPONSE:"unexpected_response"},n=k(":",a.feature,a.command),p,q=!0;if("MessageChannel"in d&&f&&"controller"in f)if(f.controller){var B=new MessageChannel;B.port1.onmessage=function(c){(c=c.data)&&c.feature===a.feature&&c.command===a.command?(q&&(l(n,"cf"),q=!1),l(n,"af"),clearTimeout(p),c.done||g(),c.ok?b&&r(b.success)&&
+b.success(c):e(c),c.done&&l(n,"ld")):m(k(":","sw:"+n,h.UNEXPECTED_RESPONSE),1)};g();l(n,"bb");f.controller.postMessage(a,[B.port2])}else w(k(":","sw:"+a.feature,h.NO_CONTROLLER)),e({ok:!1,statusCode:h.NO_CONTROLLER,done:!0});else w(k(":","sw:"+a.feature,h.UNSUPPORTED_BROWSER)),e({ok:!1,statusCode:h.UNSUPPORTED_BROWSER,done:!0})};(function(){f?(l("ctrl_changed","bb"),f.addEventListener("controllerchange",function(){w("sw:ctrl_changed");l("ctrl_changed","ld")})):m(k(":","sw:ctrl_changed","sw_unsupp"),
+1)})();(function(){var a=function(){l(b,"ld");var a=d.uex;p({feature:"page_proxy",command:"request_feature_tags"},{success:function(b){b=b.data;Array.isArray(b)&&b.forEach(function(a){"string"===typeof a?w(k(":","sw:ppft",a)):m(k(":","sw:ppft","invalid_tag"),1)});m(k(":","sw:ppft","success"),1);x&&x.isl&&r(a)&&a("at")},failure:function(a){m(k(":","sw:ppft","error:"+(a.statusCode||"ppft_error")),1)}})};if("requestIdleCallback"in d){var b=k(":","ppft","callback_ricb");d.requestIdleCallback(a,{timeout:1E3})}else b=
+k(":","ppft","callback_timeout"),setTimeout(a,0);l(b,"bb")})();(function(a){var b=a.reg,g=a.unreg;f&&f.getRegistrations?(Q.when("A").execute(function(a){h(a,g,"unregister")}),z(d,"load",function(){Q.when("A").execute(function(a){h(a,b,"register");c()})})):(b&&b.browser&&e.push("sw:browser:register:unsupported"),g&&g.browser&&e.push("sw:browser:unregister:unsupported"),c())})({reg:{},unreg:{}})});t.declare("a-fix-event-off",!1);m("pagejs:pkgExecTime",A()-P)})(window,document,Date);
+  (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/61yXDIPmT-L._RC|11Y+5x+kkTL.js,51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11tMohjWmVL.js,11OREnu1epL.js,11wcWdhrnDL.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01xcgyFXs5L.js_.js?AUIClients/AmazonUI');
+  (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/81WKHfQn-lL.js?AUIClients/PayeeCentralUI');
+</script>
+
+      
+      
+      <script type="text/javascript">
+         P.when("preLoginJs", "ready").execute(function(preLoginJs) {
+             preLoginJs.initialize();
+         });
+      </script>
+   </head>
+
+   <div id="pc_header" class="a-row pre-login-header">
+      
+
+
+
+
+
+
+
+
+
+<!-- Getting current URI to check whether we need to hide language drop down in case of legal docs -->
+
+
+<div id="pc_error_nav" class="a-container a-global-nav-wrapper pc_error_nav_container a-hidden">
+<div id="browser-error">
+    <div id="pc-browser-error-icon">
+        <i id="browser-error-icon" class="a-icon a-icon-error a-icon-mini" role="presentation"></i>
+    </div>
+    <div id="pc-browser-error-message">
+        <p id="browser-error-msg" class="a-text-bold">Your web browser is not supported by Payee Central and will prevent you from accessing some features. Please use Mozilla Firefox or Google Chrome for the best customer experience on Payee Central.</p>
+    </div>
+</div>
+</div>
+<!-- Common Header used by all jsp pages -->
+<div class="a-container a-global-nav-wrapper pc_header_nav_container">
+    <div class="pc_logo a-float-left">
+        <a class="a-link-normal" title="Home" href="/"> 
+            <img alt="" src="/resources/images/logos/payee-central-logo-3.png" title="Amazon Payee Central"/>
+        </a>
+    </div>
+    <div  class="pc-menu a-float-right" >
+        <div>
+        <ul class="a-unordered-list a-list-link a-horizontal">
+            
+            
+                <li><span class="a-list-item">
+                    
+                    <a id="pc-lang-popover" data-locale="en_US" class="a-link-normal" href="#">English-US<span class="pc-popover-arrow" /></a>
+                </span></li>
+            
+            
+        </ul>
+        </div>
+    </div>
+</div>
+<script type="a-state" data-a-state='{"key":"show-popover"}'>
+	{ "saveDraftPopover" : false }
+</script>
+
+<script type="text/javascript">
+P.when("A", "jQuery","LanguagePopover", "DisableBackspace", "ready").execute(function(A, $, LanguagePopover, DisableBackspace) {
+    DisableBackspace.init();
+    checkBrowser();
+    function checkBrowser() {
+         var navigatorAppName= navigator.appName;
+         var navigatorUserAgent= navigator.userAgent;
+         var browserDetail= navigatorUserAgent.match(/version\/([\.\d]+)/i)
+         A.$('#pc_error_nav').addClass('a-hidden');
+
+         var browserVersion= navigatorUserAgent.match(/(opera|chrome|safari|firefox|msie|Trident)\/?\s*(\.?\d+(\.\d+)*)/i);
+         var edgeVersion = navigatorUserAgent.match(/(Edg)\/?\s*(\.?\d+(\.\d+)*)/i);
+         var currentBrowser;
+         var currentVersion;
+
+         if(browserVersion) {
+              currentBrowser = browserVersion[1];
+              currentVersion = browserDetail != null ? browserDetail[1] : browserVersion[2];
+              } else {
+                    currentBrowser = navigatorAppName;
+                    currentVersion = navigator.appVersion;
+              }
+                 var supportedBrowser = ["Chrome","Firefox"];
+                 var supportedChromeVersion = "77";
+                 var supportedFirefoxVersion = "60";
+
+                 var isSupportedBrowser = supportedBrowser.indexOf(currentBrowser)
+                 if(isSupportedBrowser === -1 || (currentBrowser === "Chrome" && parseInt(currentVersion) < supportedChromeVersion)
+                        || (currentBrowser === "Firefox" && parseInt(currentVersion) < supportedFirefoxVersion)) {
+                        A.$('#pc_error_nav').removeClass('a-hidden');
+                 } else if(edgeVersion != null) {
+                     if(edgeVersion[1]==="Edg") {
+                         A.$('#pc_error_nav').removeClass('a-hidden');
+                     }
+                 }
+    }
+
+    function createCookie(name,value,days) {
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime()+(days*24*60*60*1000));
+            var expires = "; expires="+date.toGMTString();
+        }
+        else var expires = "";
+        document.cookie = name+"="+value+expires+"; path=/;domain=.amazon.com" + "; secure";
+    }
+
+    function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0;i < ca.length;i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        }
+        return null;
+    }
+
+    function eraseCookie(name) {
+        createCookie(name,"",-1);
+    }
+
+    //Create Language popover
+    var langs = {"ar_AE":"عربى","cs_CZ":"Čeština","de_DE":"Deutsch","en_GB":"English-UK","en_US":"English-US","es_ES":"Espa&ntilde;ol","fr_FR":"Fran&ccedil;ais","it_IT":"Italiano","ja_JP":"&#26085;&#26412;&#35486;","ko_KR":"한국어","pl_PL":"Polski","pt_BR":"Portugu&ecirc;se","zh_CN":"&#31616;&#20307;&#20013;&#25991;","tr_TR":"T&uuml;rk&ccedil;e","nl_NL":"Nederlands"};
+    LanguagePopover.createLanguagePopover(langs);
+    
+    var showSaveDraftPopoverState = A.state('show-popover');
+    A.state.bind('show-popover', function(state, changed){
+        if (changed.saveDraftPopover){
+        		showSaveDraftPopoverState = state;
+        }
+    });
+   
+
+    $("a.pc-language-link").live("click",function() {
+        function changeLanguage( language ){
+            var url = window.location.href;
+            if(url.indexOf('locale=') > -1){
+                var param = location.search.replace(/locale=[^&]*/i, 'locale='+language);
+                url = location.origin + location.pathname + param;
+            }
+            else{
+                if(location.hash !== ""){
+                    url = location.origin + location.pathname + location.search;
+                }
+                url += ((url.indexOf('?') > -1)?"&":"?") + "locale=" + encodeURIComponent(language);
+            }
+            return url;
+        }
+        var language = $(this).data('locale');
+        if(typeof langs[language] === 'undefined'){
+            language = 'en_US';
+        }
+      //set/reset the cookie before sending the request to backend 
+        createCookie("pc-lc-main",language,365);
+        createCookie("lc-tacbus",language,365);
+        createCookie("lc-main",language,365);
+        var url = changeLanguage(language);
+        if(showSaveDraftPopoverState.saveDraftPopover === true){
+        	    	P.when("SaveDraftPopoverModule", "ready").execute(function(SaveDraftPopoverModule){ 		
+        	       SaveDraftPopoverModule.onPageRedirectAction(url);
+        		});
+        }
+        else {	        
+            window.location.href = url;
+        } 
+        
+    });
+    // find all elements having class needtimezone and replace href value TIMEZONE by client time zone offset
+    A.on.ready(function(){
+        var timeZoneOffsetInMinutes = (new Date().getTimezoneOffset()) * -1;
+        var timeZoneRequiredElements = $('.needtimezone');
+        $(timeZoneRequiredElements).each(function(index, aElement){
+            if(aElement.nodeName.toUpperCase() == "A"){
+                e = aElement;
+            }
+            else{
+                e = $(aElement).find('a')[0];
+            }
+
+            if(e.href && e.href.length > 0){
+                e.href = e.href.replace("TIMEZONE",timeZoneOffsetInMinutes);
+            }
+        });
+    });
+});
+
+P.when("a-popover", "jQuery").register("LanguagePopover", function(popover, $){
+    function _createLanguagePopover(langs){
+        var $langPopoverContent = $("<div/>");
+        $.each(langs, function(key,value){
+            $langPopoverContent.append($("<a/>",{"class":"pc-language-link pc-main-nav-link","data-locale":key}).html(value));
+        });
+
+        var $langPopoverTrigger = $("#pc-lang-popover");
+        var langPopoverOptions = {
+          "inlineContent": $langPopoverContent,
+          "width": 150,
+          "closeButton":false,
+          "position": "triggerBottom",
+          "activate":"onclick"
+        };
+        popover.create($langPopoverTrigger, langPopoverOptions);
+    }
+
+    return {
+        createLanguagePopover : _createLanguagePopover
+    }
+});
+</script>
+   </div>
+
+   <div class="a-row pre-login-page a-ws-row">
+
+      <div class="a-row a-spacing-top-extra-large">
+          
+          <div class="a-column a-span4"></div>
+         <div class="a-column a-span4">
+            <div style="margin-bottom: 10px;">
+               <p class="a-text-center a-size-large">
+                  Sign in
+                </p>
+               <p class="a-spacing-mini a-size-base">
+                   Enter the email address where you received the Payee Central invitation.
+               </p>
+            </div>
+            <div class="a-row box-container email-input-box">
+               <div style="margin-bottom: 5px;">
+                  <span>
+                     Email address
+                  </span>
+               </div>
+               <div style="margin-bottom: 50px;">
+                  <input type="text" id="emailInput" autocomplete="email" spellcheck="false" class="a-input-text a-column a-span12"/>
+               </div>
+               <div id="invalidEmailText" style="display:none;margin-bottom: 10px;">
+                  <div class="a-box a-alert-inline a-alert-inline-error" role="alert"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content">
+                     Please enter a valid email address
+                  </div></div></div>
+               </div>
+               <div id="notInvitedText" style="display:none;margin-bottom: 10px;">
+                  <div class="a-box a-alert-inline a-alert-inline-error" role="alert"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content">
+                     This email address is not registered for access to Payee Central, please check your email and try again. If you have not been invited to be registered as a Payee, please reach out to your Amazon contact for an invitation. 
+                  </div></div></div>
+               </div>
+               <div>
+                  <span id="nextButton" class="a-button a-button-span4 a-button-primary"><span class="a-button-inner"><input class="a-button-input" type="submit" aria-labelledby="nextButton-announce"/><span id="nextButton-announce" class="a-button-text" aria-hidden="true">
+                     Next
+                  </span></span></span>
+               </div>
+            </div>
+            <div>
+               <p class="a-spacing-top-base a-text-bold">
+                  Unable to sign in
+                  ?
+               </p>
+            </div>
+            <div class="a-row a-spacing-top-small">
+               <span>
+                  Find solution to your issue in our
+               </span>
+               <a class="a-link-normal" id="faqLink">
+                  FAQs
+                  <span class="faq_icon">&#9656</span>
+                  <span class="faq_icon content-display-none">&#9662</span>
+               </a>
+            </div>
+         </div>
+         <div class="a-column a-span4"></div>
+      </div>
+
+      <div class="a-box a-spacing-top-extra-large a-box-normal a-color-offset-background"><div class="a-box-inner a-padding-extra-large">
+          <div style="display: flex;justify-content:space-between;">
+             <div class="a-column a-span12 a-text-center boxSection">
+                   <img alt="" src="https://m.media-amazon.com/images/G/01/payeecentral/website/landingpage//pc_send_invoice._CB1565608466_.png" class="pre-login-icons"/>
+                   <div>
+                       <span class="a-size-base a-color-base">
+                          Electronic Invoicing
+                       </span>
+                   </div>
+                   <p class="a-spacing-mini a-size-mini a-color-secondary">
+                       Submit invoices electronically directly to Amazon
+                   </p>
+             </div>
+
+             <div class="a-column a-span12 a-text-center boxSection">
+                   <img alt="" src="https://m.media-amazon.com/images/G/01/payeecentral/website/landingpage//pc_manage_account._CB1565608466_.png" class="pre-login-icons"/>
+                   <div>
+                       <span class="a-size-base a-color-base">
+                          Account security
+                       </span>
+                   </div>
+                   <p class="a-spacing-mini a-size-mini a-color-secondary">
+                       Manage your account information securely and keep it up to date
+                   </p>
+              </div>
+
+             <div class="a-column a-span12 a-text-center boxSection">
+                   <img alt="" src="https://m.media-amazon.com/images/G/01/payeecentral/website/landingpage//pc_payment._CB1565608466_.png" class="pre-login-icons"/>
+                   <div>
+                       <span class="a-size-base a-color-base">
+                          Variety of payment methods
+                       </span>
+                   </div>
+                   <p class="a-spacing-mini a-size-mini a-color-secondary">
+                      Select your preferred form of payment
+                   </p>
+              </div>
+
+              <div class="a-column a-span12 a-text-center boxSection">
+                   <img alt="" src="https://m.media-amazon.com/images/G/01/payeecentral/website/landingpage//pc_track_invoices._CB1565608467_.png" class="pre-login-icons"/>
+                   <div>
+                       <span class="a-size-base a-color-base">
+                          Invoice tracking
+                       </span>
+                   </div>
+                   <p class="a-spacing-mini a-size-mini a-color-secondary">
+                      View invoice status from submission through to payment
+                   </p>
+              </div>
+
+              <div class="a-column a-span12 a-text-center boxSection">
+                   <img alt="" src="https://m.media-amazon.com/images/G/01/payeecentral/website/landingpage//pc_get_help._CB1565608466_.png" class="pre-login-icons"/>
+                   <div>
+                       <span class="a-size-base a-color-base">
+                         Account support
+                       </span>
+                   </div>
+                   <p class="a-spacing-mini a-size-mini a-color-secondary">
+                      Contact Amazon directly in one centralized tool
+                   </p>
+              </div>
+          </div>
+      </div></div>
+
+      <div id="preLoginFAQs" class="content-display-none a-padding-extra-large">
+         
+
+
+
+
+
+
+<script>
+    function SubsectionTabHelper(evt, SubsectionID) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        tablinks = document.getElementsByClassName("tablinks");
+        if (tabcontent != null && tablinks != null) {
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(SubsectionID).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    }
+</script>
+
+<div class="presign-in-faq">
+        <h2 class="a-spacing-micro a-spacing-top-micro a-color-base a-text-normal">
+            Frequently asked questions
+        </h2>
+
+        <div class="tab">
+            <button class="tablinks" onclick="SubsectionTabHelper(event, 'pc_h_presignin_about_pre') " id="defaultOpen">
+                <p>About Amazon Payee Central</p></button>
+            <button class="tablinks" onclick="SubsectionTabHelper(event, 'pc_h_presignin_password_pre')">
+                <p>Username and password</p></button>
+            <button class="tablinks" onclick="SubsectionTabHelper(event, 'pc_h_presignin_otp_pre')">
+                <p>One-time password</p></button>
+            <button class="tablinks" onclick="SubsectionTabHelper(event, 'pc_h_presignin_invite_pre')">
+                <p>Invitation</p></button>
+            <button class="tablinks" onclick="SubsectionTabHelper(event, 'pc_h_presignin_safety_pre')">
+                <p>Safety and sustainability</p></button>
+        </div>
+
+        <div id="pc_h_presignin_about_pre" class="tabcontent">
+            <h4 class="a-spacing-small a-spacing-top-base a-text-normal">
+                <p>About Amazon Payee Central</p>
+            </h4>
+            
+
+
+
+
+
+
+
+
+
+
+<div data-questionRefMarker="pc_h_presignin_about_why_q_pre" class="a-row a-expander-container a-spacing-small a-expander-inline-container pc-help-question pc-help-question-line">
+    <a data-csa-c-func-deps="aui-da-a-expander-toggle" data-csa-c-type="widget" data-csa-interaction-events="click" aria-expanded="false" role="button" href="javascript:void(0)" data-action="a-expander-toggle" class="a-expander-header a-declarative a-expander-inline-header a-span8 a-link-expander" data-a-expander-toggle="{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;&quot;, &quot;collapse_prompt&quot;:&quot;&quot;}"><i class="a-icon a-icon-expand"></i><span class="a-expander-prompt">
+        <div class="a-section">
+            <span class="a-size-base heading-color">
+                <p>Why use Amazon Payee Central? </p>
+            </span>
+        </div>
+    </span></a>
+    <div aria-expanded="false" class="a-expander-content a-expander-inline-content a-expander-inner" style="display:none">
+        <div class="a-row">
+            <div class="a-column a-span7 pc-help-answer-line">
+                <span class="a-size-base help-hyperlinks">
+                    <p>Amazon Payee Central is a self-service, online tool designed to help suppliers in their business relations with Amazon. Any payee who works with Amazon operations uses Amazon Payee Central.<br /><br />The advantages of Amazon Payee Central are:<br />• Live status of invoices and payments.<br />• Fast and free online invoice creation tool.<br />• Straightforward banking information updates.<br />• Easy user management.<br />• Simple tools to contact Amazon.</p>
+                </span>
+                <hr aria-hidden="true" class="a-spacing-top-medium a-divider-normal"/>
+            </div>
+            <div class="a-column a-span4 a-push1 pc-help-question-feedback-container">
+                <span class="a-size-small pc-help-pre-feedback-container">
+                    Did this answer help resolve your question?
+                    <br/>
+
+                    <span class="help-hyperlinks">
+                        <a class="a-link-normal pc-help-question-feedback-yes" href="#">
+                            Yes
+                        </a><span class="a-letter-space"></span><span class="a-letter-space"></span><span class="a-letter-space"></span>
+                    </span>
+                    
+                        
+                            <span class="help-hyperlinks">
+                                <a class="a-link-normal pc-help-question-feedback-no-with-feedback" href="#">
+                                    No, I want to create a case
+                                </a>
+                            </span>
+                        
+                        
+                    
+                </span>
+                <span class="a-size-base-plus pc-help-post-feedback-container a-hidden">
+                    <i class="pc-icon pc-icon-done"></i><span class="a-letter-space"></span>
+                    Thanks for your feedback!
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+
+
+
+
+
+
+
+
+
+
+<div data-questionRefMarker="pc_h_presignin_about_access_q2_pre" class="a-row a-expander-container a-spacing-small a-expander-inline-container pc-help-question pc-help-question-line">
+    <a data-csa-c-func-deps="aui-da-a-expander-toggle" data-csa-c-type="widget" data-csa-interaction-events="click" aria-expanded="false" role="button" href="javascript:void(0)" data-action="a-expander-toggle" class="a-expander-header a-declarative a-expander-inline-header a-span8 a-link-expander" data-a-expander-toggle="{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;&quot;, &quot;collapse_prompt&quot;:&quot;&quot;}"><i class="a-icon a-icon-expand"></i><span class="a-expander-prompt">
+        <div class="a-section">
+            <span class="a-size-base heading-color">
+                <p>Can my colleagues also access Amazon Payee Central?</p>
+            </span>
+        </div>
+    </span></a>
+    <div aria-expanded="false" class="a-expander-content a-expander-inline-content a-expander-inner" style="display:none">
+        <div class="a-row">
+            <div class="a-column a-span7 pc-help-answer-line">
+                <span class="a-size-base help-hyperlinks">
+                    <p>Yes. The primary owner of the account can delegate accesses at a user level. Each user can have different visibility with different accesses to their account. For example, one user updates banking information while another user only has access to submit invoices. Primary owners must verify their contact list regularly to make sure that their contact information is up to date.</p>
+                </span>
+                <hr aria-hidden="true" class="a-spacing-top-medium a-divider-normal"/>
+            </div>
+            <div class="a-column a-span4 a-push1 pc-help-question-feedback-container">
+                <span class="a-size-small pc-help-pre-feedback-container">
+                    Did this answer help resolve your question?
+                    <br/>
+
+                    <span class="help-hyperlinks">
+                        <a class="a-link-normal pc-help-question-feedback-yes" href="#">
+                            Yes
+                        </a><span class="a-letter-space"></span><span class="a-letter-space"></span><span class="a-letter-space"></span>
+                    </span>
+                    
+                        
+                            <span class="help-hyperlinks">
+                                <a class="a-link-normal pc-help-question-feedback-no-with-feedback" href="#">
+                                    No, I want to create a case
+                                </a>
+                            </span>
+                        
+                        
+                    
+                </span>
+                <span class="a-size-base-plus pc-help-post-feedback-container a-hidden">
+                    <i class="pc-icon pc-icon-done"></i><span class="a-letter-space"></span>
+                    Thanks for your feedback!
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+
+
+
+
+
+
+
+
+
+
+<div data-questionRefMarker="pc_h_presignin_about_info_q2_pre" class="a-row a-expander-container a-spacing-small a-expander-inline-container pc-help-question pc-help-question-line">
+    <a data-csa-c-func-deps="aui-da-a-expander-toggle" data-csa-c-type="widget" data-csa-interaction-events="click" aria-expanded="false" role="button" href="javascript:void(0)" data-action="a-expander-toggle" class="a-expander-header a-declarative a-expander-inline-header a-span8 a-link-expander" data-a-expander-toggle="{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;&quot;, &quot;collapse_prompt&quot;:&quot;&quot;}"><i class="a-icon a-icon-expand"></i><span class="a-expander-prompt">
+        <div class="a-section">
+            <span class="a-size-base heading-color">
+                <p>What do you do with my information? </p>
+            </span>
+        </div>
+    </span></a>
+    <div aria-expanded="false" class="a-expander-content a-expander-inline-content a-expander-inner" style="display:none">
+        <div class="a-row">
+            <div class="a-column a-span7 pc-help-answer-line">
+                <span class="a-size-base help-hyperlinks">
+                    <p>Amazon only uses your information for payment and tax reporting purposes. We use your contact information to identify you and contact you with any questions related to your account. We never distribute your contact information to a third party.</p>
+                </span>
+                <hr aria-hidden="true" class="a-spacing-top-medium a-divider-normal"/>
+            </div>
+            <div class="a-column a-span4 a-push1 pc-help-question-feedback-container">
+                <span class="a-size-small pc-help-pre-feedback-container">
+                    Did this answer help resolve your question?
+                    <br/>
+
+                    <span class="help-hyperlinks">
+                        <a class="a-link-normal pc-help-question-feedback-yes" href="#">
+                            Yes
+                        </a><span class="a-letter-space"></span><span class="a-letter-space"></span><span class="a-letter-space"></span>
+                    </span>
+                    
+                        
+                            <span class="help-hyperlinks">
+                                <a class="a-link-normal pc-help-question-feedback-no-with-feedback" href="#">
+                                    No, I want to create a case
+                                </a>
+                            </span>
+                        
+                        
+                    
+                </span>
+                <span class="a-size-base-plus pc-help-post-feedback-container a-hidden">
+                    <i class="pc-icon pc-icon-done"></i><span class="a-letter-space"></span>
+                    Thanks for your feedback!
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+
+
+
+
+
+
+
+
+
+
+<div data-questionRefMarker="pc_h_presignin_about_languages_q_pre" class="a-row a-expander-container a-spacing-small a-expander-inline-container pc-help-question pc-help-question-line">
+    <a data-csa-c-func-deps="aui-da-a-expander-toggle" data-csa-c-type="widget" data-csa-interaction-events="click" aria-expanded="false" role="button" href="javascript:void(0)" data-action="a-expander-toggle" class="a-expander-header a-declarative a-expander-inline-header a-span8 a-link-expander" data-a-expander-toggle="{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;&quot;, &quot;collapse_prompt&quot;:&quot;&quot;}"><i class="a-icon a-icon-expand"></i><span class="a-expander-prompt">
+        <div class="a-section">
+            <span class="a-size-base heading-color">
+                <p>Is Amazon Payee Central available in multiple languages?</p>
+            </span>
+        </div>
+    </span></a>
+    <div aria-expanded="false" class="a-expander-content a-expander-inline-content a-expander-inner" style="display:none">
+        <div class="a-row">
+            <div class="a-column a-span7 pc-help-answer-line">
+                <span class="a-size-base help-hyperlinks">
+                    <p>Yes. Amazon Payee Central is available in multiple languages, which you can select from the menu at the top of any page.<br /><br />Amazon Payee Central supports these languages: English, Arabic, Czech, German, Spanish, French, Italian, Japanese, Korean, Polish, Portuguese, Chinese, Turkish, and Dutch.</p>
+                </span>
+                <hr aria-hidden="true" class="a-spacing-top-medium a-divider-normal"/>
+            </div>
+            <div class="a-column a-span4 a-push1 pc-help-question-feedback-container">
+                <span class="a-size-small pc-help-pre-feedback-container">
+                    Did this answer help resolve your question?
+                    <br/>
+
+                    <span class="help-hyperlinks">
+                        <a class="a-link-normal pc-help-question-feedback-yes" href="#">
+                            Yes
+                        </a><span class="a-letter-space"></span><span class="a-letter-space"></span><span class="a-letter-space"></span>
+                    </span>
+                    
+                        
+                            <span class="help-hyperlinks">
+                                <a class="a-link-normal pc-help-question-feedback-no-with-feedback" href="#">
+                                    No, I want to create a case
+                                </a>
+                            </span>
+                        
+                        
+                    
+                </span>
+                <span class="a-size-base-plus pc-help-post-feedback-container a-hidden">
+                    <i class="pc-icon pc-icon-done"></i><span class="a-letter-space"></span>
+                    Thanks for your feedback!
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+
+        <div id="pc_h_presignin_password_pre" class="tabcontent">
+            <h4 class="a-spacing-small a-spacing-top-base a-text-normal">
+                <p>Username and password</p>
+            </h4>
+
+            
+
+
+
+
+
+
+
+
+
+
+<div data-questionRefMarker="pc_h_presignin_password_userleft_q_pre" class="a-row a-expander-container a-spacing-small a-expander-inline-container pc-help-question pc-help-question-line">
+    <a data-csa-c-func-deps="aui-da-a-expander-toggle" data-csa-c-type="widget" data-csa-interaction-events="click" aria-expanded="false" role="button" href="javascript:void(0)" data-action="a-expander-toggle" class="a-expander-header a-declarative a-expander-inline-header a-span8 a-link-expander" data-a-expander-toggle="{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;&quot;, &quot;collapse_prompt&quot;:&quot;&quot;}"><i class="a-icon a-icon-expand"></i><span class="a-expander-prompt">
+        <div class="a-section">
+            <span class="a-size-base heading-color">
+                <p>The Amazon Payee Central registered user has left my company. How do I access Amazon Payee Central now?</p>
+            </span>
+        </div>
+    </span></a>
+    <div aria-expanded="false" class="a-expander-content a-expander-inline-content a-expander-inner" style="display:none">
+        <div class="a-row">
+            <div class="a-column a-span7 pc-help-answer-line">
+                <span class="a-size-base help-hyperlinks">
+                    <p>Contact your Amazon business contact and ask for a new invitation email.</p>
+                </span>
+                <hr aria-hidden="true" class="a-spacing-top-medium a-divider-normal"/>
+            </div>
+            <div class="a-column a-span4 a-push1 pc-help-question-feedback-container">
+                <span class="a-size-small pc-help-pre-feedback-container">
+                    Did this answer help resolve your question?
+                    <br/>
+
+                    <span class="help-hyperlinks">
+                        <a class="a-link-normal pc-help-question-feedback-yes" href="#">
+                            Yes
+                        </a><span class="a-letter-space"></span><span class="a-letter-space"></span><span class="a-letter-space"></span>
+                    </span>
+                    
+                        
+                            <span class="help-hyperlinks">
+                                <a class="a-link-normal pc-help-question-feedback-no-with-feedback" href="#">
+                                    No, I want to create a case
+                                </a>
+                            </span>
+                        
+                        
+                    
+                </span>
+                <span class="a-size-base-plus pc-help-post-feedback-container a-hidden">
+                    <i class="pc-icon pc-icon-done"></i><span class="a-letter-space"></span>
+                    Thanks for your feedback!
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+
+
+
+
+
+
+
+
+
+
+<div data-questionRefMarker="pc_h_presignin_password_error_q_pre" class="a-row a-expander-container a-spacing-small a-expander-inline-container pc-help-question pc-help-question-line">
+    <a data-csa-c-func-deps="aui-da-a-expander-toggle" data-csa-c-type="widget" data-csa-interaction-events="click" aria-expanded="false" role="button" href="javascript:void(0)" data-action="a-expander-toggle" class="a-expander-header a-declarative a-expander-inline-header a-span8 a-link-expander" data-a-expander-toggle="{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;&quot;, &quot;collapse_prompt&quot;:&quot;&quot;}"><i class="a-icon a-icon-expand"></i><span class="a-expander-prompt">
+        <div class="a-section">
+            <span class="a-size-base heading-color">
+                <p>When I try to sign in, I receive an error.</p>
+            </span>
+        </div>
+    </span></a>
+    <div aria-expanded="false" class="a-expander-content a-expander-inline-content a-expander-inner" style="display:none">
+        <div class="a-row">
+            <div class="a-column a-span7 pc-help-answer-line">
+                <span class="a-size-base help-hyperlinks">
+                    <p>You may be unable to sign in for the following reasons.<br /><br />• You’re using an incorrect email address. Use the email address where you received the email from amazon-payee-central@amazon.com.<br />• You may not have completed your email account registration. Select <strong>Create your Amazon account</strong> and register your account. You may not need to create a new account. If this email address is already associated with Amazon, such as Amazon.com, Kindle, or the app store, we will direct you to the Amazon credentials page. Here you can enter the same password for that account to sign in to Amazon Payee Central. <br />• If you haven’t logged in for longer than a year, contact your Amazon business contact to ask for reactivation.</p>
+                </span>
+                <hr aria-hidden="true" class="a-spacing-top-medium a-divider-normal"/>
+            </div>
+            <div class="a-column a-span4 a-push1 pc-help-question-feedback-container">
+                <span class="a-size-small pc-help-pre-feedback-container">
+                    Did this answer help resolve your question?
+                    <br/>
+
+                    <span class="help-hyperlinks">
+                        <a class="a-link-normal pc-help-question-feedback-yes" href="#">
+                            Yes
+                        </a><span class="a-letter-space"></span><span class="a-letter-space"></span><span class="a-letter-space"></span>
+                    </span>
+                    
+                        
+                            <span class="help-hyperlinks">
+                                <a class="a-link-normal pc-help-question-feedback-no-with-feedback" href="#">
+                                    No, I want to create a case
+                                </a>
+                            </span>
+                        
+                        
+                    
+                </span>
+                <span class="a-size-base-plus pc-help-post-feedback-container a-hidden">
+                    <i class="pc-icon pc-icon-done"></i><span class="a-letter-space"></span>
+                    Thanks for your feedback!
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+
+
+
+
+
+
+
+
+
+
+<div data-questionRefMarker="pc_h_presignin_password_email_q_pre" class="a-row a-expander-container a-spacing-small a-expander-inline-container pc-help-question pc-help-question-line">
+    <a data-csa-c-func-deps="aui-da-a-expander-toggle" data-csa-c-type="widget" data-csa-interaction-events="click" aria-expanded="false" role="button" href="javascript:void(0)" data-action="a-expander-toggle" class="a-expander-header a-declarative a-expander-inline-header a-span8 a-link-expander" data-a-expander-toggle="{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;&quot;, &quot;collapse_prompt&quot;:&quot;&quot;}"><i class="a-icon a-icon-expand"></i><span class="a-expander-prompt">
+        <div class="a-section">
+            <span class="a-size-base heading-color">
+                <p>Which email address and password should I use to sign in?</p>
+            </span>
+        </div>
+    </span></a>
+    <div aria-expanded="false" class="a-expander-content a-expander-inline-content a-expander-inner" style="display:none">
+        <div class="a-row">
+            <div class="a-column a-span7 pc-help-answer-line">
+                <span class="a-size-base help-hyperlinks">
+                    <p>If you have multiple email accounts, search for Amazon Payee Central in your email accounts. You would have received an invitation email from amazon-payee-central@amazon.com in one of those accounts. To sign in to Amazon Payee Central, use the email address that the invitation email was sent to.<br /><br />Next, select the <strong>Amazon Payee Central link</strong> in the invitation email, which takes you to the Amazon Payee Central sign-in page. Then, enter the email address where you received the invitation.<br /><br />If this email address is already associated with Amazon, such as Amazon.com, Kindle, or the app store, you will be directed to the Amazon credentials page. Here you can enter the same password for that account to sign in to Amazon Payee Central.<br /><br />If the email address isn’t associated with Amazon, you will be directed to the <strong>Create Account</strong> page. Input your name and a password to sign in to Amazon Payee Central.</p>
+                </span>
+                <hr aria-hidden="true" class="a-spacing-top-medium a-divider-normal"/>
+            </div>
+            <div class="a-column a-span4 a-push1 pc-help-question-feedback-container">
+                <span class="a-size-small pc-help-pre-feedback-container">
+                    Did this answer help resolve your question?
+                    <br/>
+
+                    <span class="help-hyperlinks">
+                        <a class="a-link-normal pc-help-question-feedback-yes" href="#">
+                            Yes
+                        </a><span class="a-letter-space"></span><span class="a-letter-space"></span><span class="a-letter-space"></span>
+                    </span>
+                    
+                        
+                            <span class="help-hyperlinks">
+                                <a class="a-link-normal pc-help-question-feedback-no-with-feedback" href="#">
+                                    No, I want to create a case
+                                </a>
+                            </span>
+                        
+                        
+                    
+                </span>
+                <span class="a-size-base-plus pc-help-post-feedback-container a-hidden">
+                    <i class="pc-icon pc-icon-done"></i><span class="a-letter-space"></span>
+                    Thanks for your feedback!
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+
+
+
+
+
+
+
+
+
+
+<div data-questionRefMarker="pc_h_presignin_password_change_q_pre" class="a-row a-expander-container a-spacing-small a-expander-inline-container pc-help-question pc-help-question-line">
+    <a data-csa-c-func-deps="aui-da-a-expander-toggle" data-csa-c-type="widget" data-csa-interaction-events="click" aria-expanded="false" role="button" href="javascript:void(0)" data-action="a-expander-toggle" class="a-expander-header a-declarative a-expander-inline-header a-span8 a-link-expander" data-a-expander-toggle="{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;&quot;, &quot;collapse_prompt&quot;:&quot;&quot;}"><i class="a-icon a-icon-expand"></i><span class="a-expander-prompt">
+        <div class="a-section">
+            <span class="a-size-base heading-color">
+                <p>How do I change my password?</p>
+            </span>
+        </div>
+    </span></a>
+    <div aria-expanded="false" class="a-expander-content a-expander-inline-content a-expander-inner" style="display:none">
+        <div class="a-row">
+            <div class="a-column a-span7 pc-help-answer-line">
+                <span class="a-size-base help-hyperlinks">
+                    <p>You can change your existing password using the <strong>Forgot your password</strong> link on the Amazon Payee Central sign-in page.<br /><br />To change the password, enter your registered email address, and enter the characters shown in the image. Then, select <strong>Continue</strong>. You will receive an email from Amazon Password Assistance. To reset your password, follow the instructions in the email. If you don’t see the email, remember to check your junk or spam folders. If you don’t receive the email, contact <a href="https://www.amazon.com/gp/help/customer/account-issues/ref=ap_cs_forgot_pwd?ie=UTF8">Amazon Customer Service</a> or your Amazon business contact.<br /><br />You may need to enter a one-time password (OTP) and then you will be prompted to enter a new password.</p>
+                </span>
+                <hr aria-hidden="true" class="a-spacing-top-medium a-divider-normal"/>
+            </div>
+            <div class="a-column a-span4 a-push1 pc-help-question-feedback-container">
+                <span class="a-size-small pc-help-pre-feedback-container">
+                    Did this answer help resolve your question?
+                    <br/>
+
+                    <span class="help-hyperlinks">
+                        <a class="a-link-normal pc-help-question-feedback-yes" href="#">
+                            Yes
+                        </a><span class="a-letter-space"></span><span class="a-letter-space"></span><span class="a-letter-space"></span>
+                    </span>
+                    
+                        
+                            <span class="help-hyperlinks">
+                                <a class="a-link-normal pc-help-question-feedback-no-with-feedback" href="#">
+                                    No, I want to create a case
+                                </a>
+                            </span>
+                        
+                        
+                    
+                </span>
+                <span class="a-size-base-plus pc-help-post-feedback-container a-hidden">
+                    <i class="pc-icon pc-icon-done"></i><span class="a-letter-space"></span>
+                    Thanks for your feedback!
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+
+
+
+
+
+
+
+
+
+
+<div data-questionRefMarker="pc_h_presignin_password_browser_q_pre" class="a-row a-expander-container a-spacing-small a-expander-inline-container pc-help-question pc-help-question-line">
+    <a data-csa-c-func-deps="aui-da-a-expander-toggle" data-csa-c-type="widget" data-csa-interaction-events="click" aria-expanded="false" role="button" href="javascript:void(0)" data-action="a-expander-toggle" class="a-expander-header a-declarative a-expander-inline-header a-span8 a-link-expander" data-a-expander-toggle="{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;&quot;, &quot;collapse_prompt&quot;:&quot;&quot;}"><i class="a-icon a-icon-expand"></i><span class="a-expander-prompt">
+        <div class="a-section">
+            <span class="a-size-base heading-color">
+                <p>Which browsers are supported?</p>
+            </span>
+        </div>
+    </span></a>
+    <div aria-expanded="false" class="a-expander-content a-expander-inline-content a-expander-inner" style="display:none">
+        <div class="a-row">
+            <div class="a-column a-span7 pc-help-answer-line">
+                <span class="a-size-base help-hyperlinks">
+                    <p>For the best experience on Amazon Payee Central, use the current version of Google Chrome or Mozilla Firefox.</p>
+                </span>
+                <hr aria-hidden="true" class="a-spacing-top-medium a-divider-normal"/>
+            </div>
+            <div class="a-column a-span4 a-push1 pc-help-question-feedback-container">
+                <span class="a-size-small pc-help-pre-feedback-container">
+                    Did this answer help resolve your question?
+                    <br/>
+
+                    <span class="help-hyperlinks">
+                        <a class="a-link-normal pc-help-question-feedback-yes" href="#">
+                            Yes
+                        </a><span class="a-letter-space"></span><span class="a-letter-space"></span><span class="a-letter-space"></span>
+                    </span>
+                    
+                        
+                            <span class="help-hyperlinks">
+                                <a class="a-link-normal pc-help-question-feedback-no-with-feedback" href="#">
+                                    No, I want to create a case
+                                </a>
+                            </span>
+                        
+                        
+                    
+                </span>
+                <span class="a-size-base-plus pc-help-post-feedback-container a-hidden">
+                    <i class="pc-icon pc-icon-done"></i><span class="a-letter-space"></span>
+                    Thanks for your feedback!
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+
+
+
+
+
+
+
+
+
+
+<div data-questionRefMarker="pc_h_presignin_password_activation_q_pre" class="a-row a-expander-container a-spacing-small a-expander-inline-container pc-help-question pc-help-question-line">
+    <a data-csa-c-func-deps="aui-da-a-expander-toggle" data-csa-c-type="widget" data-csa-interaction-events="click" aria-expanded="false" role="button" href="javascript:void(0)" data-action="a-expander-toggle" class="a-expander-header a-declarative a-expander-inline-header a-span8 a-link-expander" data-a-expander-toggle="{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;&quot;, &quot;collapse_prompt&quot;:&quot;&quot;}"><i class="a-icon a-icon-expand"></i><span class="a-expander-prompt">
+        <div class="a-section">
+            <span class="a-size-base heading-color">
+                <p>What’s an activation code, and how do I find it?</p>
+            </span>
+        </div>
+    </span></a>
+    <div aria-expanded="false" class="a-expander-content a-expander-inline-content a-expander-inner" style="display:none">
+        <div class="a-row">
+            <div class="a-column a-span7 pc-help-answer-line">
+                <span class="a-size-base help-hyperlinks">
+                    <p>We need an activation code to safeguard your account. It’s a one-time requirement when you set up your account on Amazon Payee Central.<br /><br />Search your email inbox for an invitation email from amazon-payee-central@amazon.com. The activation code is in the invitation email. This code isn’t a password or one-time password.</p>
+                </span>
+                <hr aria-hidden="true" class="a-spacing-top-medium a-divider-normal"/>
+            </div>
+            <div class="a-column a-span4 a-push1 pc-help-question-feedback-container">
+                <span class="a-size-small pc-help-pre-feedback-container">
+                    Did this answer help resolve your question?
+                    <br/>
+
+                    <span class="help-hyperlinks">
+                        <a class="a-link-normal pc-help-question-feedback-yes" href="#">
+                            Yes
+                        </a><span class="a-letter-space"></span><span class="a-letter-space"></span><span class="a-letter-space"></span>
+                    </span>
+                    
+                        
+                            <span class="help-hyperlinks">
+                                <a class="a-link-normal pc-help-question-feedback-no-with-feedback" href="#">
+                                    No, I want to create a case
+                                </a>
+                            </span>
+                        
+                        
+                    
+                </span>
+                <span class="a-size-base-plus pc-help-post-feedback-container a-hidden">
+                    <i class="pc-icon pc-icon-done"></i><span class="a-letter-space"></span>
+                    Thanks for your feedback!
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+
+        <div id="pc_h_presignin_otp_pre" class="tabcontent">
+            <h4 class="a-spacing-small a-spacing-top-base a-text-normal">
+                <p>One-time password</p>
+            </h4>
+            
+
+
+
+
+
+
+
+
+
+
+<div data-questionRefMarker="pc_h_presignin_otp_why_q_pre" class="a-row a-expander-container a-spacing-small a-expander-inline-container pc-help-question pc-help-question-line">
+    <a data-csa-c-func-deps="aui-da-a-expander-toggle" data-csa-c-type="widget" data-csa-interaction-events="click" aria-expanded="false" role="button" href="javascript:void(0)" data-action="a-expander-toggle" class="a-expander-header a-declarative a-expander-inline-header a-span8 a-link-expander" data-a-expander-toggle="{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;&quot;, &quot;collapse_prompt&quot;:&quot;&quot;}"><i class="a-icon a-icon-expand"></i><span class="a-expander-prompt">
+        <div class="a-section">
+            <span class="a-size-base heading-color">
+                <p>Why do I need a one-time password?</p>
+            </span>
+        </div>
+    </span></a>
+    <div aria-expanded="false" class="a-expander-content a-expander-inline-content a-expander-inner" style="display:none">
+        <div class="a-row">
+            <div class="a-column a-span7 pc-help-answer-line">
+                <span class="a-size-base help-hyperlinks">
+                    <p>For security reasons, to access the Users or Accounts tabs, you need to enter a one-time password (OTP).</p>
+                </span>
+                <hr aria-hidden="true" class="a-spacing-top-medium a-divider-normal"/>
+            </div>
+            <div class="a-column a-span4 a-push1 pc-help-question-feedback-container">
+                <span class="a-size-small pc-help-pre-feedback-container">
+                    Did this answer help resolve your question?
+                    <br/>
+
+                    <span class="help-hyperlinks">
+                        <a class="a-link-normal pc-help-question-feedback-yes" href="#">
+                            Yes
+                        </a><span class="a-letter-space"></span><span class="a-letter-space"></span><span class="a-letter-space"></span>
+                    </span>
+                    
+                        
+                            <span class="help-hyperlinks">
+                                <a class="a-link-normal pc-help-question-feedback-no-with-feedback" href="#">
+                                    No, I want to create a case
+                                </a>
+                            </span>
+                        
+                        
+                    
+                </span>
+                <span class="a-size-base-plus pc-help-post-feedback-container a-hidden">
+                    <i class="pc-icon pc-icon-done"></i><span class="a-letter-space"></span>
+                    Thanks for your feedback!
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+
+
+
+
+
+
+
+
+
+
+<div data-questionRefMarker="pc_h_presignin_otp_how_q_pre" class="a-row a-expander-container a-spacing-small a-expander-inline-container pc-help-question pc-help-question-line">
+    <a data-csa-c-func-deps="aui-da-a-expander-toggle" data-csa-c-type="widget" data-csa-interaction-events="click" aria-expanded="false" role="button" href="javascript:void(0)" data-action="a-expander-toggle" class="a-expander-header a-declarative a-expander-inline-header a-span8 a-link-expander" data-a-expander-toggle="{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;&quot;, &quot;collapse_prompt&quot;:&quot;&quot;}"><i class="a-icon a-icon-expand"></i><span class="a-expander-prompt">
+        <div class="a-section">
+            <span class="a-size-base heading-color">
+                <p>How do I get a one-time password?</p>
+            </span>
+        </div>
+    </span></a>
+    <div aria-expanded="false" class="a-expander-content a-expander-inline-content a-expander-inner" style="display:none">
+        <div class="a-row">
+            <div class="a-column a-span7 pc-help-answer-line">
+                <span class="a-size-base help-hyperlinks">
+                    <p>When you select either the Users tab or the Accounts tab, Amazon Payee Central automatically sends the one-time password (OTP) to the email address associated with your user access. Look for the email in your email inbox, and copy the six-digit password.<br /><br />Go back to Amazon Payee Central, and paste the six-digit password in the <strong>Enter OTP</strong> field, then select <strong>Verify</strong>.<br /><br />The OTP is only valid for 20 minutes. If you use an OTP issued more than 20 minutes before, Amazon Payee Central won’t give you access.<br /><br />After five unsuccessful OTP submissions, Amazon Payee Central will lock you out and you will need to contact Amazon to regain access. Contact us by going to the Help Page and selecting <strong>Create Case</strong> at the bottom of the page.</p>
+                </span>
+                <hr aria-hidden="true" class="a-spacing-top-medium a-divider-normal"/>
+            </div>
+            <div class="a-column a-span4 a-push1 pc-help-question-feedback-container">
+                <span class="a-size-small pc-help-pre-feedback-container">
+                    Did this answer help resolve your question?
+                    <br/>
+
+                    <span class="help-hyperlinks">
+                        <a class="a-link-normal pc-help-question-feedback-yes" href="#">
+                            Yes
+                        </a><span class="a-letter-space"></span><span class="a-letter-space"></span><span class="a-letter-space"></span>
+                    </span>
+                    
+                        
+                            <span class="help-hyperlinks">
+                                <a class="a-link-normal pc-help-question-feedback-no-with-feedback" href="#">
+                                    No, I want to create a case
+                                </a>
+                            </span>
+                        
+                        
+                    
+                </span>
+                <span class="a-size-base-plus pc-help-post-feedback-container a-hidden">
+                    <i class="pc-icon pc-icon-done"></i><span class="a-letter-space"></span>
+                    Thanks for your feedback!
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+
+
+
+
+
+
+
+
+
+
+<div data-questionRefMarker="pc_h_presignin_otp_secure_q_pre" class="a-row a-expander-container a-spacing-small a-expander-inline-container pc-help-question pc-help-question-line">
+    <a data-csa-c-func-deps="aui-da-a-expander-toggle" data-csa-c-type="widget" data-csa-interaction-events="click" aria-expanded="false" role="button" href="javascript:void(0)" data-action="a-expander-toggle" class="a-expander-header a-declarative a-expander-inline-header a-span8 a-link-expander" data-a-expander-toggle="{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;&quot;, &quot;collapse_prompt&quot;:&quot;&quot;}"><i class="a-icon a-icon-expand"></i><span class="a-expander-prompt">
+        <div class="a-section">
+            <span class="a-size-base heading-color">
+                <p>Is my information secure?</p>
+            </span>
+        </div>
+    </span></a>
+    <div aria-expanded="false" class="a-expander-content a-expander-inline-content a-expander-inner" style="display:none">
+        <div class="a-row">
+            <div class="a-column a-span7 pc-help-answer-line">
+                <span class="a-size-base help-hyperlinks">
+                    <p>Yes, we securely store the information you share in our payment system.</p>
+                </span>
+                <hr aria-hidden="true" class="a-spacing-top-medium a-divider-normal"/>
+            </div>
+            <div class="a-column a-span4 a-push1 pc-help-question-feedback-container">
+                <span class="a-size-small pc-help-pre-feedback-container">
+                    Did this answer help resolve your question?
+                    <br/>
+
+                    <span class="help-hyperlinks">
+                        <a class="a-link-normal pc-help-question-feedback-yes" href="#">
+                            Yes
+                        </a><span class="a-letter-space"></span><span class="a-letter-space"></span><span class="a-letter-space"></span>
+                    </span>
+                    
+                        
+                            <span class="help-hyperlinks">
+                                <a class="a-link-normal pc-help-question-feedback-no-with-feedback" href="#">
+                                    No, I want to create a case
+                                </a>
+                            </span>
+                        
+                        
+                    
+                </span>
+                <span class="a-size-base-plus pc-help-post-feedback-container a-hidden">
+                    <i class="pc-icon pc-icon-done"></i><span class="a-letter-space"></span>
+                    Thanks for your feedback!
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+
+
+
+
+
+
+
+
+
+
+<div data-questionRefMarker="pc_h_presignin_otp_delay_q_pre" class="a-row a-expander-container a-spacing-small a-expander-inline-container pc-help-question pc-help-question-line">
+    <a data-csa-c-func-deps="aui-da-a-expander-toggle" data-csa-c-type="widget" data-csa-interaction-events="click" aria-expanded="false" role="button" href="javascript:void(0)" data-action="a-expander-toggle" class="a-expander-header a-declarative a-expander-inline-header a-span8 a-link-expander" data-a-expander-toggle="{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;&quot;, &quot;collapse_prompt&quot;:&quot;&quot;}"><i class="a-icon a-icon-expand"></i><span class="a-expander-prompt">
+        <div class="a-section">
+            <span class="a-size-base heading-color">
+                <p>Why is there a delay in receiving the emails with the one-time password or verification code?</p>
+            </span>
+        </div>
+    </span></a>
+    <div aria-expanded="false" class="a-expander-content a-expander-inline-content a-expander-inner" style="display:none">
+        <div class="a-row">
+            <div class="a-column a-span7 pc-help-answer-line">
+                <span class="a-size-base help-hyperlinks">
+                    <p>You may have a delay in receiving the email with the one-time password (OTP) for the following reasons:<br /><br />• The email may have gone to the junk or spam folders in your email. Check these folders.<br />• The email may have been blocked. Contact your IT department or internet service provider, and check if the email was blocked there.<br />• If you have multiple email addresses, you might be using an incorrect email address. Use the email address to which the invitation was sent through Amazon Payee Central.<br /><br />If you need more help, contact us by going to the Help Page and selecting <strong>Create Case</strong> at the bottom of the page.</p>
+                </span>
+                <hr aria-hidden="true" class="a-spacing-top-medium a-divider-normal"/>
+            </div>
+            <div class="a-column a-span4 a-push1 pc-help-question-feedback-container">
+                <span class="a-size-small pc-help-pre-feedback-container">
+                    Did this answer help resolve your question?
+                    <br/>
+
+                    <span class="help-hyperlinks">
+                        <a class="a-link-normal pc-help-question-feedback-yes" href="#">
+                            Yes
+                        </a><span class="a-letter-space"></span><span class="a-letter-space"></span><span class="a-letter-space"></span>
+                    </span>
+                    
+                        
+                            <span class="help-hyperlinks">
+                                <a class="a-link-normal pc-help-question-feedback-no-with-feedback" href="#">
+                                    No, I want to create a case
+                                </a>
+                            </span>
+                        
+                        
+                    
+                </span>
+                <span class="a-size-base-plus pc-help-post-feedback-container a-hidden">
+                    <i class="pc-icon pc-icon-done"></i><span class="a-letter-space"></span>
+                    Thanks for your feedback!
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+
+        <div id="pc_h_presignin_invite_pre" class="tabcontent">
+            <h3 class="a-spacing-small a-spacing-top-base a-text-normal">
+                <p>Invitation</p>
+            </h3>
+            
+
+
+
+
+
+
+
+
+
+
+<div data-questionRefMarker="pc_h_presignin_invite_get_q_pre" class="a-row a-expander-container a-spacing-small a-expander-inline-container pc-help-question pc-help-question-line">
+    <a data-csa-c-func-deps="aui-da-a-expander-toggle" data-csa-c-type="widget" data-csa-interaction-events="click" aria-expanded="false" role="button" href="javascript:void(0)" data-action="a-expander-toggle" class="a-expander-header a-declarative a-expander-inline-header a-span8 a-link-expander" data-a-expander-toggle="{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;&quot;, &quot;collapse_prompt&quot;:&quot;&quot;}"><i class="a-icon a-icon-expand"></i><span class="a-expander-prompt">
+        <div class="a-section">
+            <span class="a-size-base heading-color">
+                <p>I don't have an Amazon Payee Central account. How can my company sign up to use Amazon Payee Central?</p>
+            </span>
+        </div>
+    </span></a>
+    <div aria-expanded="false" class="a-expander-content a-expander-inline-content a-expander-inner" style="display:none">
+        <div class="a-row">
+            <div class="a-column a-span7 pc-help-answer-line">
+                <span class="a-size-base help-hyperlinks">
+                    <p>If your company isn’t registered with Amazon Payee Central, contact your Amazon business contact for an invitation to set up your account.<br /><br />If your company has an active Amazon Payee Central account and you need access, contact the person at your company who has administrative access. This is usually someone in your Accounts Receivable or Finance department.<br /><br />If you’re unable to sign in to Amazon Payee Central because you can’t reset your password, contact your Amazon business contact.</p>
+                </span>
+                <hr aria-hidden="true" class="a-spacing-top-medium a-divider-normal"/>
+            </div>
+            <div class="a-column a-span4 a-push1 pc-help-question-feedback-container">
+                <span class="a-size-small pc-help-pre-feedback-container">
+                    Did this answer help resolve your question?
+                    <br/>
+
+                    <span class="help-hyperlinks">
+                        <a class="a-link-normal pc-help-question-feedback-yes" href="#">
+                            Yes
+                        </a><span class="a-letter-space"></span><span class="a-letter-space"></span><span class="a-letter-space"></span>
+                    </span>
+                    
+                        
+                            <span class="help-hyperlinks">
+                                <a class="a-link-normal pc-help-question-feedback-no-with-feedback" href="#">
+                                    No, I want to create a case
+                                </a>
+                            </span>
+                        
+                        
+                    
+                </span>
+                <span class="a-size-base-plus pc-help-post-feedback-container a-hidden">
+                    <i class="pc-icon pc-icon-done"></i><span class="a-letter-space"></span>
+                    Thanks for your feedback!
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+
+
+
+
+
+
+
+
+
+
+<div data-questionRefMarker="pc_h_presignin_invite_email_q_pre" class="a-row a-expander-container a-spacing-small a-expander-inline-container pc-help-question pc-help-question-line">
+    <a data-csa-c-func-deps="aui-da-a-expander-toggle" data-csa-c-type="widget" data-csa-interaction-events="click" aria-expanded="false" role="button" href="javascript:void(0)" data-action="a-expander-toggle" class="a-expander-header a-declarative a-expander-inline-header a-span8 a-link-expander" data-a-expander-toggle="{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;&quot;, &quot;collapse_prompt&quot;:&quot;&quot;}"><i class="a-icon a-icon-expand"></i><span class="a-expander-prompt">
+        <div class="a-section">
+            <span class="a-size-base heading-color">
+                <p>How do I find the invitation email?</p>
+            </span>
+        </div>
+    </span></a>
+    <div aria-expanded="false" class="a-expander-content a-expander-inline-content a-expander-inner" style="display:none">
+        <div class="a-row">
+            <div class="a-column a-span7 pc-help-answer-line">
+                <span class="a-size-base help-hyperlinks">
+                    <p>Once you’ve been invited to use Amazon Payee Central by your Amazon contact, you will receive an invitation email from amazon-payee-central@amazon.com. If you don’t see the email, check your junk or spam folders.</p>
+                </span>
+                <hr aria-hidden="true" class="a-spacing-top-medium a-divider-normal"/>
+            </div>
+            <div class="a-column a-span4 a-push1 pc-help-question-feedback-container">
+                <span class="a-size-small pc-help-pre-feedback-container">
+                    Did this answer help resolve your question?
+                    <br/>
+
+                    <span class="help-hyperlinks">
+                        <a class="a-link-normal pc-help-question-feedback-yes" href="#">
+                            Yes
+                        </a><span class="a-letter-space"></span><span class="a-letter-space"></span><span class="a-letter-space"></span>
+                    </span>
+                    
+                        
+                            <span class="help-hyperlinks">
+                                <a class="a-link-normal pc-help-question-feedback-no-with-feedback" href="#">
+                                    No, I want to create a case
+                                </a>
+                            </span>
+                        
+                        
+                    
+                </span>
+                <span class="a-size-base-plus pc-help-post-feedback-container a-hidden">
+                    <i class="pc-icon pc-icon-done"></i><span class="a-letter-space"></span>
+                    Thanks for your feedback!
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+
+        <div id="pc_h_presignin_safety_pre" class="tabcontent">
+            <h4 class="a-spacing-small a-spacing-top-base a-text-normal">
+                <p>Safety and sustainability</p>
+            </h4>
+            
+
+
+
+
+
+
+
+
+
+
+<div data-questionRefMarker="pc_h_presignin_safety_screen_q_pre" class="a-row a-expander-container a-spacing-small a-expander-inline-container pc-help-question pc-help-question-line">
+    <a data-csa-c-func-deps="aui-da-a-expander-toggle" data-csa-c-type="widget" data-csa-interaction-events="click" aria-expanded="false" role="button" href="javascript:void(0)" data-action="a-expander-toggle" class="a-expander-header a-declarative a-expander-inline-header a-span8 a-link-expander" data-a-expander-toggle="{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;&quot;, &quot;collapse_prompt&quot;:&quot;&quot;}"><i class="a-icon a-icon-expand"></i><span class="a-expander-prompt">
+        <div class="a-section">
+            <span class="a-size-base heading-color">
+                <p>I have been asked to participate in Amazon’s third-party assessment screenings for sustainability and safety. What is the purpose of the screening?</p>
+            </span>
+        </div>
+    </span></a>
+    <div aria-expanded="false" class="a-expander-content a-expander-inline-content a-expander-inner" style="display:none">
+        <div class="a-row">
+            <div class="a-column a-span7 pc-help-answer-line">
+                <span class="a-size-base help-hyperlinks">
+                    <p>At Amazon, we’re committed to sustainability and social responsibility - it's good for business, the planet, our customers, and our communities. In alignment with these expectations, we launched a sustainable procurement initiative to manage social and environmental performance in our supply chain. Our assessment vendors are EcoVadis and Avetta.<br /><br />EcoVadis screenings track activity in four separate areas: Environment, Labor and Human Rights, Ethics, and Sustainable Procurement.<br /><br />Avetta screenings track commitments to and records on workplace safety. These screenings are only required for vendors who operate on Amazon properties.<br /><br />For further questions about EcoVadis: procurement-sustainability@amazon.com<br />For further questions about Avetta: eu-whs-contract-risk@amazon.com</p>
+                </span>
+                <hr aria-hidden="true" class="a-spacing-top-medium a-divider-normal"/>
+            </div>
+            <div class="a-column a-span4 a-push1 pc-help-question-feedback-container">
+                <span class="a-size-small pc-help-pre-feedback-container">
+                    Did this answer help resolve your question?
+                    <br/>
+
+                    <span class="help-hyperlinks">
+                        <a class="a-link-normal pc-help-question-feedback-yes" href="#">
+                            Yes
+                        </a><span class="a-letter-space"></span><span class="a-letter-space"></span><span class="a-letter-space"></span>
+                    </span>
+                    
+                        
+                            <span class="help-hyperlinks">
+                                <a class="a-link-normal pc-help-question-feedback-no-with-feedback" href="#">
+                                    No, I want to create a case
+                                </a>
+                            </span>
+                        
+                        
+                    
+                </span>
+                <span class="a-size-base-plus pc-help-post-feedback-container a-hidden">
+                    <i class="pc-icon pc-icon-done"></i><span class="a-letter-space"></span>
+                    Thanks for your feedback!
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+
+
+
+
+
+
+
+
+
+
+<div data-questionRefMarker="pc_h_presignin_safety_need_q_pre" class="a-row a-expander-container a-spacing-small a-expander-inline-container pc-help-question pc-help-question-line">
+    <a data-csa-c-func-deps="aui-da-a-expander-toggle" data-csa-c-type="widget" data-csa-interaction-events="click" aria-expanded="false" role="button" href="javascript:void(0)" data-action="a-expander-toggle" class="a-expander-header a-declarative a-expander-inline-header a-span8 a-link-expander" data-a-expander-toggle="{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;&quot;, &quot;collapse_prompt&quot;:&quot;&quot;}"><i class="a-icon a-icon-expand"></i><span class="a-expander-prompt">
+        <div class="a-section">
+            <span class="a-size-base heading-color">
+                <p>How will I know if I need to take an EcoVadis or Avetta screening?</p>
+            </span>
+        </div>
+    </span></a>
+    <div aria-expanded="false" class="a-expander-content a-expander-inline-content a-expander-inner" style="display:none">
+        <div class="a-row">
+            <div class="a-column a-span7 pc-help-answer-line">
+                <span class="a-size-base help-hyperlinks">
+                    <p>You will receive invitation emails from EcoVadis or Avetta to begin this process and we ask you to respond as soon as possible. Please forward the assessment invites to the person responsible for safety and sustainability in your business.<br /><br />Avetta screenings are only applicable to vendors who will have a physical presence on Amazon facilities. If you have been contacted for such a screening but will not be physically present on Amazon facilities, please alert your Amazon procurement contact.<br /><br />For further questions about EcoVadis: procurement-sustainability@amazon.com<br />For further questions about Avetta: eu-whs-contract-risk@amazon.com</p>
+                </span>
+                <hr aria-hidden="true" class="a-spacing-top-medium a-divider-normal"/>
+            </div>
+            <div class="a-column a-span4 a-push1 pc-help-question-feedback-container">
+                <span class="a-size-small pc-help-pre-feedback-container">
+                    Did this answer help resolve your question?
+                    <br/>
+
+                    <span class="help-hyperlinks">
+                        <a class="a-link-normal pc-help-question-feedback-yes" href="#">
+                            Yes
+                        </a><span class="a-letter-space"></span><span class="a-letter-space"></span><span class="a-letter-space"></span>
+                    </span>
+                    
+                        
+                            <span class="help-hyperlinks">
+                                <a class="a-link-normal pc-help-question-feedback-no-with-feedback" href="#">
+                                    No, I want to create a case
+                                </a>
+                            </span>
+                        
+                        
+                    
+                </span>
+                <span class="a-size-base-plus pc-help-post-feedback-container a-hidden">
+                    <i class="pc-icon pc-icon-done"></i><span class="a-letter-space"></span>
+                    Thanks for your feedback!
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+
+
+
+
+
+
+
+
+
+
+<div data-questionRefMarker="pc_h_presignin_safety_mandatory_q_pre" class="a-row a-expander-container a-spacing-small a-expander-inline-container pc-help-question pc-help-question-line">
+    <a data-csa-c-func-deps="aui-da-a-expander-toggle" data-csa-c-type="widget" data-csa-interaction-events="click" aria-expanded="false" role="button" href="javascript:void(0)" data-action="a-expander-toggle" class="a-expander-header a-declarative a-expander-inline-header a-span8 a-link-expander" data-a-expander-toggle="{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;&quot;, &quot;collapse_prompt&quot;:&quot;&quot;}"><i class="a-icon a-icon-expand"></i><span class="a-expander-prompt">
+        <div class="a-section">
+            <span class="a-size-base heading-color">
+                <p>Are EcoVadis and Avetta screenings mandatory?</p>
+            </span>
+        </div>
+    </span></a>
+    <div aria-expanded="false" class="a-expander-content a-expander-inline-content a-expander-inner" style="display:none">
+        <div class="a-row">
+            <div class="a-column a-span7 pc-help-answer-line">
+                <span class="a-size-base help-hyperlinks">
+                    <p>Sustainability and social responsibility scores are an essential part of Amazon’s vendor management. Safety prequalification, onboarding, and onsite management is equally vital. Your participation in these programs is mandatory. <br /><br />You may be exempt if your entity is a nonprofit or a government-linked organization. If your entity does fall under one of these two categories, please alert your Amazon procurement contact for further guidance. <br /><br />Your refusal to participate may affect your standing with Amazon. <br /><br />For further questions about EcoVadis: procurement-sustainability@amazon.com<br />For further questions about Avetta: eu-whs-contract-risk@amazon.com</p>
+                </span>
+                <hr aria-hidden="true" class="a-spacing-top-medium a-divider-normal"/>
+            </div>
+            <div class="a-column a-span4 a-push1 pc-help-question-feedback-container">
+                <span class="a-size-small pc-help-pre-feedback-container">
+                    Did this answer help resolve your question?
+                    <br/>
+
+                    <span class="help-hyperlinks">
+                        <a class="a-link-normal pc-help-question-feedback-yes" href="#">
+                            Yes
+                        </a><span class="a-letter-space"></span><span class="a-letter-space"></span><span class="a-letter-space"></span>
+                    </span>
+                    
+                        
+                            <span class="help-hyperlinks">
+                                <a class="a-link-normal pc-help-question-feedback-no-with-feedback" href="#">
+                                    No, I want to create a case
+                                </a>
+                            </span>
+                        
+                        
+                    
+                </span>
+                <span class="a-size-base-plus pc-help-post-feedback-container a-hidden">
+                    <i class="pc-icon pc-icon-done"></i><span class="a-letter-space"></span>
+                    Thanks for your feedback!
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+
+
+
+
+
+
+
+
+
+
+<div data-questionRefMarker="pc_h_presignin_safety_cost_q_pre" class="a-row a-expander-container a-spacing-small a-expander-inline-container pc-help-question pc-help-question-line">
+    <a data-csa-c-func-deps="aui-da-a-expander-toggle" data-csa-c-type="widget" data-csa-interaction-events="click" aria-expanded="false" role="button" href="javascript:void(0)" data-action="a-expander-toggle" class="a-expander-header a-declarative a-expander-inline-header a-span8 a-link-expander" data-a-expander-toggle="{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;&quot;, &quot;collapse_prompt&quot;:&quot;&quot;}"><i class="a-icon a-icon-expand"></i><span class="a-expander-prompt">
+        <div class="a-section">
+            <span class="a-size-base heading-color">
+                <p>What is the cost assumed by an EcoVadis and Avetta screening?</p>
+            </span>
+        </div>
+    </span></a>
+    <div aria-expanded="false" class="a-expander-content a-expander-inline-content a-expander-inner" style="display:none">
+        <div class="a-row">
+            <div class="a-column a-span7 pc-help-answer-line">
+                <span class="a-size-base help-hyperlinks">
+                    <p>Pricing details for EcoVadis: https://ecovadis.com/plans-pricing/ <br />Pricing details for Avetta: emearegistrations@avetta.com or 0808 189 0089<br /><br />Amazon believes that these collaborative platforms will increase transparency, drive improvement, and streamline the safety prequalification process and sustainability reporting for both you and us. It will also allow you to share your scorecard with other customers, improve future business, and mitigate risks.</p>
+                </span>
+                <hr aria-hidden="true" class="a-spacing-top-medium a-divider-normal"/>
+            </div>
+            <div class="a-column a-span4 a-push1 pc-help-question-feedback-container">
+                <span class="a-size-small pc-help-pre-feedback-container">
+                    Did this answer help resolve your question?
+                    <br/>
+
+                    <span class="help-hyperlinks">
+                        <a class="a-link-normal pc-help-question-feedback-yes" href="#">
+                            Yes
+                        </a><span class="a-letter-space"></span><span class="a-letter-space"></span><span class="a-letter-space"></span>
+                    </span>
+                    
+                        
+                            <span class="help-hyperlinks">
+                                <a class="a-link-normal pc-help-question-feedback-no-with-feedback" href="#">
+                                    No, I want to create a case
+                                </a>
+                            </span>
+                        
+                        
+                    
+                </span>
+                <span class="a-size-base-plus pc-help-post-feedback-container a-hidden">
+                    <i class="pc-icon pc-icon-done"></i><span class="a-letter-space"></span>
+                    Thanks for your feedback!
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+
+
+
+
+
+
+
+
+
+
+<div data-questionRefMarker="pc_h_presignin_safety_info_q_pre" class="a-row a-expander-container a-spacing-small a-expander-inline-container pc-help-question pc-help-question-line">
+    <a data-csa-c-func-deps="aui-da-a-expander-toggle" data-csa-c-type="widget" data-csa-interaction-events="click" aria-expanded="false" role="button" href="javascript:void(0)" data-action="a-expander-toggle" class="a-expander-header a-declarative a-expander-inline-header a-span8 a-link-expander" data-a-expander-toggle="{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;&quot;, &quot;collapse_prompt&quot;:&quot;&quot;}"><i class="a-icon a-icon-expand"></i><span class="a-expander-prompt">
+        <div class="a-section">
+            <span class="a-size-base heading-color">
+                <p>What information do I need to provide during an EcoVadis or Avetta screening?</p>
+            </span>
+        </div>
+    </span></a>
+    <div aria-expanded="false" class="a-expander-content a-expander-inline-content a-expander-inner" style="display:none">
+        <div class="a-row">
+            <div class="a-column a-span7 pc-help-answer-line">
+                <span class="a-size-base help-hyperlinks">
+                    <p>EcoVadis questions vary based on several factors including your company size, industry, and location. For instance, under the “Labor and Human Rights” section, you could be asked if you have implemented a number of policies ranging from child labor to general working conditions. Under the “Environment” section, you could be asked if you report on water use or chemical waste. <br /><br />Avetta questions focus on past safety performance and general questions about your insurance, safety management system, and any other local requirements.</p>
+                </span>
+                <hr aria-hidden="true" class="a-spacing-top-medium a-divider-normal"/>
+            </div>
+            <div class="a-column a-span4 a-push1 pc-help-question-feedback-container">
+                <span class="a-size-small pc-help-pre-feedback-container">
+                    Did this answer help resolve your question?
+                    <br/>
+
+                    <span class="help-hyperlinks">
+                        <a class="a-link-normal pc-help-question-feedback-yes" href="#">
+                            Yes
+                        </a><span class="a-letter-space"></span><span class="a-letter-space"></span><span class="a-letter-space"></span>
+                    </span>
+                    
+                        
+                            <span class="help-hyperlinks">
+                                <a class="a-link-normal pc-help-question-feedback-no-with-feedback" href="#">
+                                    No, I want to create a case
+                                </a>
+                            </span>
+                        
+                        
+                    
+                </span>
+                <span class="a-size-base-plus pc-help-post-feedback-container a-hidden">
+                    <i class="pc-icon pc-icon-done"></i><span class="a-letter-space"></span>
+                    Thanks for your feedback!
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+
+
+
+
+
+
+
+
+
+
+<div data-questionRefMarker="pc_h_presignin_safety_docs_q_pre" class="a-row a-expander-container a-spacing-small a-expander-inline-container pc-help-question pc-help-question-line">
+    <a data-csa-c-func-deps="aui-da-a-expander-toggle" data-csa-c-type="widget" data-csa-interaction-events="click" aria-expanded="false" role="button" href="javascript:void(0)" data-action="a-expander-toggle" class="a-expander-header a-declarative a-expander-inline-header a-span8 a-link-expander" data-a-expander-toggle="{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;&quot;, &quot;collapse_prompt&quot;:&quot;&quot;}"><i class="a-icon a-icon-expand"></i><span class="a-expander-prompt">
+        <div class="a-section">
+            <span class="a-size-base heading-color">
+                <p>Which documents should I prepare for an EcoVadis or Avetta screening?</p>
+            </span>
+        </div>
+    </span></a>
+    <div aria-expanded="false" class="a-expander-content a-expander-inline-content a-expander-inner" style="display:none">
+        <div class="a-row">
+            <div class="a-column a-span7 pc-help-answer-line">
+                <span class="a-size-base help-hyperlinks">
+                    <p>For EcoVadis, Amazon recommends that you provide optional documentation to increase your scores. Scores are weighted against vendors in your industry, and the more transparent you choose to be in your sustainability efforts, the better your standing at Amazon.<br /><br />The following is a list of documents you could share with EcoVadis to improve your scores.<br />• Sustainability management procedures<br />• Sustainability reports<br />• Social audit reports<br />• HSE policies<br />• Code of ethics/conduct<br />• Employee handbooks<br />• Certificates (ISO14001, OHSAS18001, among others)<br />• UNGC communication on progress<br />• Annual reports with integrated sustainability section<br /><br />Avetta registration requires a risk assessment, subcontractor usage, ISO certifications, and evidence about your safety management systems and procedures.</p>
+                </span>
+                <hr aria-hidden="true" class="a-spacing-top-medium a-divider-normal"/>
+            </div>
+            <div class="a-column a-span4 a-push1 pc-help-question-feedback-container">
+                <span class="a-size-small pc-help-pre-feedback-container">
+                    Did this answer help resolve your question?
+                    <br/>
+
+                    <span class="help-hyperlinks">
+                        <a class="a-link-normal pc-help-question-feedback-yes" href="#">
+                            Yes
+                        </a><span class="a-letter-space"></span><span class="a-letter-space"></span><span class="a-letter-space"></span>
+                    </span>
+                    
+                        
+                            <span class="help-hyperlinks">
+                                <a class="a-link-normal pc-help-question-feedback-no-with-feedback" href="#">
+                                    No, I want to create a case
+                                </a>
+                            </span>
+                        
+                        
+                    
+                </span>
+                <span class="a-size-base-plus pc-help-post-feedback-container a-hidden">
+                    <i class="pc-icon pc-icon-done"></i><span class="a-letter-space"></span>
+                    Thanks for your feedback!
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+
+    <div class="a-row">
+        <div class="a-column a-span7 a-spacing-top-medium">
+            <hr aria-hidden="true" class="a-spacing-top-micro a-divider-normal"/>
+            <span class="help-hyperlinks">
+                <p>Can’t find an answer to your question? Contact us by <a href='/CaseManagement/Unauth' target="_blank">creating a case</a>. </p>
+            </span>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("defaultOpen").click();
+    </script>
+</div>
+
+<script type="text/javascript">
+    P.when("HelpModule", "ready").execute(function (HelpModule) {
+        HelpModule.init();
+    });
+</script>
+
+      </div>
+
+   </div>
+
+   <div class="pre-login-footer">
+      
+
+<!-- Common Footer used by all jsp pages -->
+<div class="a-divider a-divider-section"><div class="a-divider-inner"></div></div>
+<div class="a-section a-spacing-micro a-text-center">
+<ul class="a-unordered-list a-list-link a-horizontal pc-footer-menu a-size-mini">
+	<li><span class="a-list-item"><a class="a-link-normal" target="_blank" rel="noopener" href="/privacyNotice"> Privacy Notice </a></span></li>
+	<li><span class="a-list-item"><a class="a-link-normal" target="_blank" rel="noopener" href="/conditionsOfUse"> Conditions of Use </a></span></li>		
+</ul>
+</div>
+<div class="a-section a-text-center pc-copyright">
+	<span class="a-size-mini">© 1996-2023, Amazon.com, Inc or its affiliates</span>
+</div>
+
+
+   </div>
+</html>

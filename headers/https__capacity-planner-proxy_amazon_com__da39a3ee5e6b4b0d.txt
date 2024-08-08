@@ -1,0 +1,8 @@
+200 
+Vary: accept-encoding
+Date: Thu, 08 Aug 2024 09:11:30 GMT
+Server: Server
+Retry-Count: 0
+Set-Cookie: JSESSIONID=D5257E1B36247B52AA2C97BEEDF4F10C; Path=/; HttpOnly
+Content-Type: text/html;charset=ISO-8859-1
+Keep-Alive: timeout=60

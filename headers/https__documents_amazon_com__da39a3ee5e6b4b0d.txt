@@ -1,0 +1,15 @@
+200 OK
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Via: 1.1 773f6821b053a13ecc63d604feb07cb4.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: rSwd27dWVCPW1S1qeUHDybLQ18M_KfNWh3pLk3IT1fCCjPGLQwxMRg==
+Server: Server
+Accept-Ranges: bytes
+Last-Modified: Wed, 31 Jul 2024 00:33:26 GMT
+X-Amz-Cf-Pop: SFO53-P5
+X-Amz-Rid: 4WM5HHWAXCBQVXZZXJYM
+Vary: Content-Type,Accept-Encoding,User-Agent
+Date: Thu, 08 Aug 2024 09:10:20 GMT
+Etag: "f2-61e803e0dc180-gzip"
+Content-Type: text/html
+X-Cache: Miss from cloudfront
+Retry-Count: 0

@@ -1,0 +1,15 @@
+200 OK
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding
+Content-Type: text/html;charset=UTF-8
+X-Powered-By: Brightspot
+X-Amz-Cf-Id: -AR653CuTs4rGSjXFSh9tONC0Zn3aIeSTb1gyHb2WH7amjS8ARtCJg==
+Age: 160
+Date: Thu, 08 Aug 2024 09:10:29 GMT
+X-Envoy-Upstream-Service-Time: 96
+X-Amz-Cf-Pop: SFO53-P2 SFO20-C1
+X-Cache: Hit from cloudfront
+X-Envoy-Decorator-Operation: brightspot-cms-verify.buy.svc.cluster.local:80/*
+Via: 1.1 bfad77da64cd65a36fcbbe44acb655e8.cloudfront.net (CloudFront), 1.1 dfd0a9d31e7c22e1ecdaa3c92763b966.cloudfront.net (CloudFront)
+Retry-Count: 0
+Server: istio-envoy

@@ -1,0 +1,20 @@
+200 OK
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+Content-Type: text/html
+Date: Wed, 07 Aug 2024 12:11:03 GMT
+X-Amz-Server-Side-Encryption: AES256
+Server: AmazonS3
+Vary: Accept-Encoding
+X-Amz-Cf-Id: ZsYsLZHRv9shyLp49YPy6Sf1_-PW54llqomi0733NiAcD4hM0SgF2Q==
+Last-Modified: Wed, 31 Jul 2024 23:13:14 GMT
+X-Amz-Version-Id: e_MHliIQwM6BPbPYO1BB6FhTRb0J6AOW
+Age: 75531
+X-Cache: Hit from cloudfront
+Etag: W/"b6f8f6d558fd1b587dde924bed3fa9b0"
+Via: 1.1 f282b9a77ad86b4ae9156d7da0578294.cloudfront.net (CloudFront)
+X-Xss-Protection: 1; mode=block
+Retry-Count: 0
+Cache-Control: no-cache
+Strict-Transport-Security: max-age=47304000; includeSubdomains
+X-Amz-Cf-Pop: SFO53-P3

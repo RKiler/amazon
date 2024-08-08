@@ -1,0 +1,11 @@
+200 OK
+Content-Type: text/html
+X-Amz-Rid: FH58T4YJ0ZVCPKGP353W
+Vary: Content-Type,Accept-Encoding,User-Agent
+Etag: "467-61ef25046cc80-gzip"
+Accept-Ranges: bytes
+Date: Thu, 08 Aug 2024 09:09:51 GMT
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Retry-Count: 0
+Last-Modified: Mon, 05 Aug 2024 16:38:58 GMT
+Server: Server

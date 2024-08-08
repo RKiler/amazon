@@ -1,0 +1,17 @@
+200 OK
+Accept-Ranges: bytes
+Date: Thu, 08 Aug 2024 09:11:40 GMT
+Content-Length: 2
+X-Amz-Version-Id: DUu5bbug9DBS2tAOYTLL1hoPWMMviBkW
+Via: 1.1 c8c3180933886633be93f042334d6e12.cloudfront.net (CloudFront)
+Last-Modified: Thu, 02 May 2024 16:34:15 GMT
+Etag: "d751713988987e9331980363e24189ce"
+Vary: accept-encoding
+X-Cache: RefreshHit from cloudfront
+X-Amz-Cf-Id: xRP4R2vlUzuOKzxK9OmkNSIyeIsRPfMiymHWw4nvm9FON2j8rFYinQ==
+Server: AmazonS3
+Cache-Control: max-age=0
+X-Amz-Cf-Pop: SFO53-P1
+Retry-Count: 0
+Content-Type: binary/octet-stream
+X-Amz-Server-Side-Encryption: AES256

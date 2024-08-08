@@ -1,0 +1,8 @@
+403 Forbidden
+Content-Type: text/html; charset=utf-8
+Date: Thu, 08 Aug 2024 09:11:34 GMT
+Server: AmazonS3
+Content-Length: 303
+Retry-Count: 0
+X-Amz-Request-Id: HP261VZSK5FTRJHQ
+X-Amz-Id-2: Ile4yWNuKjlLAocl6xeCIZivV+vhDt+1rnmLbi5fKzrzoyG2YGIZKo4BO5XTpPXt9t8U609oguM=

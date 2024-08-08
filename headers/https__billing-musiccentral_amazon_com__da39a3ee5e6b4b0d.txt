@@ -1,0 +1,19 @@
+200 OK
+X-Amz-Request-Id: F3KJSQXB39HMBKQ1
+X-Amz-Version-Id: 9kRn7AV3KiiXSaenvCl_L6zs9J94I88q
+Server: AmazonS3
+Date: Thu, 08 Aug 2024 08:57:57 GMT
+Via: 1.1 1187ac5bbeaea0b3199ef80f73171c54.cloudfront.net (CloudFront)
+X-Amz-Id-2: scEvZ/3TPYR2iFVV/ruopvQpO/GrpcCK5igmts5j4ce8zNYK3kDNVZJR56EcQy/qK5xGbj1i9SQ=
+Last-Modified: Fri, 02 Aug 2024 20:50:04 GMT
+X-Amz-Server-Side-Encryption: AES256
+Vary: Accept-Encoding
+Age: 767
+Retry-Count: 0
+X-Cache: Hit from cloudfront
+X-Amz-Cf-Pop: SFO53-P3
+X-Amz-Cf-Id: 1pX28e6dwRh_UeY_US42dpbybH97YvhJaCq5V_h2H3upmc0tPcL3PQ==
+Content-Length: 940
+Accept-Ranges: bytes
+Etag: "d235ac1397bacce13f9668b7675ec366"
+Content-Type: text/html

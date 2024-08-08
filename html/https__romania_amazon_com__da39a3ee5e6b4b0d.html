@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html ng-app="adcrApp">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge; chrome=1" />
+    <meta http-equiv="X-Frame-Options" content="DENY" />
+    <meta charset="utf-8">
+
+    <title>Amazon Development Center Romania</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Amazon Development Center in Romania works on developing new and innovative web site features to help Amazon's customers find and discover anything they want to buy online, along with building tools and technologies that enable Amazon Retail and other Amazon web sites to merchandise effectively across multiple channels">
+    <meta name="author" content="Amazon Development Center Romania">
+    <meta name="robots" content="index, follow" />
+
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="canonical" href="http://romania.amazon.com/" />
+
+    <!--jQuery-->
+    <script src="libs/jquery.min.js"></script>
+
+    <!--Bootstrap CSS-->
+    <link type="text/css" rel="stylesheet" href="libs/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="libs/font-awesome.min.css">
+    <!--AppStyles-->
+    <link type="text/css" rel="stylesheet" href="css/index.min.css">
+    <base href="/" />
+
+    <style>
+        html { display : none; }
+    </style>
+</head>
+<body>
+
+<nav-app></nav-app>
+
+<div class="main-content" ui-view></div>
+
+<!--GoogleApi-->
+<script src="app/gmaps.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAdgH8PdkSltf9feGruf0in4OB4vihbhmo&callback=initMap" async defer></script>
+
+<footer-app></footer-app>
+
+<!--WebApp Vendor libraries-->
+<script src="app/vendor.min.js"></script>
+
+<!--WebApp-->
+<script src="app/index.min.js"></script>
+
+
+<script>
+    if (self === top) {
+        document.documentElement.style.display = 'block';
+    } else {
+        top.location = self.location;
+    }
+</script>
+
+
+</body>
+</html>

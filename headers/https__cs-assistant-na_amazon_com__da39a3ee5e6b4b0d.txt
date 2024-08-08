@@ -1,0 +1,15 @@
+200 OK
+Content-Security-Policy: frame-ancestors 'self' https://prod.aviary.cs.amazon.dev https://onebox.aviary.cs.amazon.dev https://cs-assistant-na.amazon.com https://cs-assistant-eu.amazon.com https://cs-assistant-fe.amazon.com https://prod.cs-assistant.cs.a2z.org.cn https://cs-assistant-na-preprod.iad.xcorp.amazon.com https://cs-assistant-eu-preprod.dub.xcorp.amazon.com https://cs-assistant-fe-preprod.pdx.xcorp.amazon.com https://gamma.cs-assistant.cs.a2z.org.cn https://gamma.aviary.cs.amazon.dev https://beta.aviary.cs.amazon.dev https://local.aviary.cs.amazon.dev https://qa.aviary.cs.amazon.dev http://local-development.testing.aviary.cs.amazon.dev http://beta-development.testing.aviary.cs.amazon.dev http://gamma-development.testing.aviary.cs.amazon.dev http://prod-development.testing.aviary.cs.amazon.dev https://local-release.testing.aviary.cs.amazon.dev https://beta-release.testing.aviary.cs.amazon.dev https://gamma-release.testing.aviary.cs.amazon.dev https://prod-release.testing.aviary.cs.amazon.dev
+Vary: Content-Type,Accept-Encoding,User-Agent
+Content-Language: en-US
+Content-Security-Policy-Report-Only: default-src https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com; script-src https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com 'unsafe-inline' 'unsafe-eval'; style-src https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com 'unsafe-inline'; report-uri /1/batch/2/OE/mid=ATVPDKIKX0DER:sid=123-456-7890:rid=73V1NCV47QD4QTGCPT65:sn=cs-assistant-na.amazon.com
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Retry-Count: 0
+Date: Thu, 08 Aug 2024 09:11:58 GMT
+Content-Type: text/html;charset=UTF-8
+X-Amz-Rid: 73V1NCV47QD4QTGCPT65
+Set-Cookie: JSESSIONID=BD308C98102B02ECEE1147D7E874FEDB; Path=/; Secure; HttpOnly
+X-Content-Type-Options: nosniff
+Server: Server

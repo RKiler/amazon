@@ -1,0 +1,24 @@
+200 OK
+Content-Type: text/html
+X-Amz-Id-2: w/Peyq/c/V5EALiUNMw5WdtX1Fz0immJ5FuCHtqxtZFOPJoM6nCTcLEzu7BXscWOuEHpl2ag9t0=
+Via: 1.1 b8fa286a637a91a7f38c0cbf622153e6.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: SFO53-P4
+Referrer-Policy: same-origin
+Content-Security-Policy: default-src 'none'; font-src data:; img-src 'self' https://console.aws.amazon.com; script-src 'self'; style-src 'self'; object-src 'none'; frame-ancestors 'none'; form-action *; upgrade-insecure-requests;
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Etag: "47f1ca963800903a3da34b50de6faaa4"
+X-Amz-Version-Id: vBf_53RVmjnnsjySy1b3p3GuRCsEMpDK
+X-Amz-Cf-Id: cG1fhjNsPx3nUHkHnGpygO-3smoP-lPXxj7MspgS4GXmO4gzj3VEiw==
+X-Frame-Options: DENY
+X-Amz-Request-Id: V85GQK7BJNN8AB8V
+Date: Wed, 07 Aug 2024 10:47:42 GMT
+Last-Modified: Mon, 22 Jul 2024 21:00:33 GMT
+X-Cache: Hit from cloudfront
+Age: 80640
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Length: 505
+X-Amz-Server-Side-Encryption: AES256
+Accept-Ranges: bytes
+Server: AmazonS3
+Retry-Count: 0

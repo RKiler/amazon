@@ -1,0 +1,24 @@
+200 OK
+Content-Type: text/html
+X-Amz-Id-2: 1GoA94symVR1qXdLN4kVkUbtWC0xxFePz3lDSZMsbTkEmak0Lj620nTB1mz1zUb5oFmhS1PSKnc=
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Cf-Id: Msx9VAf2VO3WVbbPjK8rs_9_-M_cLE8uJARXohgqbbS7mDrtrubZzQ==
+Referrer-Policy: same-origin
+Content-Security-Policy: default-src 'self' https://beta.prelude.amazon.com; img-src 'self' https://internal-cdn.amazon.com https://cdn.prod.badgephotos.side.amazon.dev data:; script-src 'self'; style-src 'unsafe-inline' https://beta.prelude.amazon.com; object-src 'none'; connect-src 'self' https://is-it-down.amazon.com https://midway-auth.amazon.com; font-src data: https://d1qze0i78vhibv.cloudfront.net; frame-src 'self' https://*.amazon.com
+Last-Modified: Mon, 05 Aug 2024 18:36:15 GMT
+Etag: W/"85dd0b96d2eb886fb5f02534c9e9a3ea"
+Cache-Control: no-cache
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+X-Content-Type-Options: nosniff
+X-Amz-Cf-Pop: SFO53-P1
+Retry-Count: 0
+Server: AmazonS3
+X-Frame-Options: DENY
+X-Robots-Tag: none
+X-Xss-Protection: 1; mode=block
+X-Cache: Hit from cloudfront
+Age: 224924
+X-Amz-Request-Id: 1HJZ7J1E0SM98WY0
+Date: Mon, 05 Aug 2024 18:43:02 GMT
+Via: 1.1 f20c2924343ce57c71ac85e5ceb39250.cloudfront.net (CloudFront)

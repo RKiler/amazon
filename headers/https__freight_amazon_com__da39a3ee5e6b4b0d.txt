@@ -1,0 +1,19 @@
+200 OK
+Vary: origin,access-control-request-method,access-control-request-headers,accept-encoding,Content-Type,Accept-Encoding,User-Agent
+X-Cache: Miss from cloudfront
+Content-Type: text/html;charset=UTF-8
+Server: Server
+Strict-Transport-Security: max-age=31536000
+Content-Language: en-US
+X-Amz-Cf-Id: IuEIf3TUN-heWMQbef83ownEK8GBDAL4UFKgoIk1EwN2IqFg8uBgEg==
+Date: Thu, 08 Aug 2024 09:10:30 GMT
+Cache-Control: private, no-cache, no-store, must-revalidate
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src 'self' data: blob: 'unsafe-inline' 'unsafe-eval' https://*.ssl-images-amazon.com https://*.here.com https://*.hereapi.com https://*.media-amazon.com https://*.cloudfront.net https://assets.adobedtm.com https://dpm.demdex.net https://amazonfreightpartner.demdex.net https://amazonfreight.data.adobedc.net https://cm.everesttech.net https://munchkin.marketo.net https://*.mktoresp.com https://amazonfreight.tt.omtrdc.net https://js.driftt.com https://*.amazon.com https://*.amazon.co.uk https://*.amazon.de https://*.payments-amazon.com https://amazonpayments.s3.amazonaws.com https://*.amazon-adsystem.com https://*.cloudfront.freight.amazon.dev https://*.6sc.co https://*.6sense.com; report-uri /browser-report/csp
+X-Amz-Cf-Pop: SFO53-C1
+X-Frame-Options: sameorigin
+X-Xss-Protection: 1; mode=block
+Retry-Count: 0
+X-Amz-Rid: EJERQC2T122FC1H980YB
+Set-Cookie: sess-id-usship=143-3539832-7716605; Domain=.amazon.com; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/; Secure sess-id-time-usship=2082787201l; Domain=.amazon.com; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/; Secure
+Via: 1.1 bce4acc3004a5b5cf4c212614309e1b0.cloudfront.net (CloudFront)

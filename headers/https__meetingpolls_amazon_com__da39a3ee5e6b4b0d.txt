@@ -1,0 +1,16 @@
+200 You must provide a valid poll token.
+Content-Type: text/html
+Cache-Control: no-cache
+Strict-Transport-Security: max-age=47304000; includeSubDomains
+X-Xss-Protection: 1; mode=block
+Content-Security-Policy: frame-ancestors 'none'
+Server: CloudFront
+X-Amz-Cf-Pop: SFO53-C1
+X-Amz-Cf-Id: 1XWvSd-88f3f-96PH0ToVcS91U1TLsa3iC8MslxktPVp_nU6R0XXqA==
+Retry-Count: 0
+Content-Length: 203
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+X-Cache: LambdaGeneratedResponse from cloudfront
+Via: 1.1 649e92b251b584632a2d3462342d816a.cloudfront.net (CloudFront)
+Date: Thu, 08 Aug 2024 09:12:33 GMT

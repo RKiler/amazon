@@ -1,0 +1,17 @@
+200 OK
+X-Amz-Server-Side-Encryption: AES256
+Date: Thu, 08 Aug 2024 09:08:37 GMT
+Via: 1.1 8737c23b0b0fc96ccfb222abb7ac4aa6.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 0xQz21vKl8cIMBk_O-dIgCNcCkh0DKyC1yB9sTEdYaMupp-KWvJA_g==
+Accept-Ranges: bytes
+Cache-Control: public, max-age=30, stale-if-error=604800, stale-while-revalidate=60
+Etag: "f5370b245a446a4e0bc87771451ac2d1"
+X-Cache: RefreshHit from cloudfront
+Retry-Count: 0
+Content-Type: text/html; charset=utf-8
+Last-Modified: Tue, 30 Jul 2024 18:38:06 GMT
+Content-Length: 749
+Server: AmazonS3
+Vary: Accept-Encoding
+X-Amz-Cf-Pop: SFO53-P6
+Age: 88

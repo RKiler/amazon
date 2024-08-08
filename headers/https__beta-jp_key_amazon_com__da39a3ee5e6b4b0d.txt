@@ -1,0 +1,17 @@
+200 OK
+Cache-Control: no-cache
+Retry-Count: 0
+Last-Modified: Thu, 08 Aug 2024 08:58:08 GMT
+X-Amz-Server-Side-Encryption: AES256
+Date: Thu, 08 Aug 2024 09:13:11 GMT
+X-Amz-Cf-Pop: SFO53-P5
+X-Amz-Cf-Id: xczwdOROwj7eHy5ZzDq34Yje9H6YP5LcTN-gUtuJCzj5nEdSMZVTIQ==
+Content-Type: text/html
+Accept-Ranges: bytes
+X-Cache: RefreshHit from cloudfront
+Via: 1.1 8cd8685b0adba2bf9ff8d080d6463d56.cloudfront.net (CloudFront)
+Content-Length: 935
+X-Amz-Version-Id: ImjiZOEsDAKsXw11blu5Y7YKs1ZfC5JI
+Etag: "17207afa3289d325c2972e3551fd5c41"
+Server: AmazonS3
+Vary: Accept-Encoding

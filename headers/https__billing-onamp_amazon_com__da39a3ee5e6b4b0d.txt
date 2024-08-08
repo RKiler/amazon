@@ -1,0 +1,19 @@
+200 OK
+Etag: "d235ac1397bacce13f9668b7675ec366"
+Content-Type: text/html
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Cf-Pop: SFO53-P3
+X-Amz-Id-2: scEvZ/3TPYR2iFVV/ruopvQpO/GrpcCK5igmts5j4ce8zNYK3kDNVZJR56EcQy/qK5xGbj1i9SQ=
+Last-Modified: Fri, 02 Aug 2024 20:50:04 GMT
+X-Amz-Version-Id: 9kRn7AV3KiiXSaenvCl_L6zs9J94I88q
+Date: Thu, 08 Aug 2024 08:57:57 GMT
+Content-Length: 940
+Accept-Ranges: bytes
+Server: AmazonS3
+Vary: Accept-Encoding
+X-Cache: Hit from cloudfront
+Via: 1.1 ec526ab870606989164910e71d52c78a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: H0_ZPmdbS6S-ZF_y-JmTZRIZJR4PxlQRiuEe8_71BqlsUyHvT4vJXw==
+Age: 880
+X-Amz-Request-Id: F3KJSQXB39HMBKQ1
+Retry-Count: 0

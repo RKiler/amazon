@@ -1,0 +1,67 @@
+<!doctype html><html lang="en"><head><link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png"><link rel="manifest" href="/images/site.webmanifest"><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>Employee Documents Portal</title><script>var initTimestamp = new Date().getTime();</script><meta name="importmap-type" content="systemjs-importmap"/><script rel="preload" type="systemjs-importmap">{
+      "imports": {
+        "react": "/static/react@17.0.2/react.production.min.js",
+        "react-dom": "/static/react-dom@17.0.2/react-dom.production.min.js",
+        "single-spa": "/static/single-spa@5.9.4/single-spa.min.js"
+      }
+    }</script><script rel="preload" type="systemjs-importmap" src="/importmap.json"></script><script rel="preload" type="systemjs-importmap" src="https://documents.docs.amazon.com/importmap.json"></script><script rel="preload" src="/static/systemjs@6.8.3/system.min.js"></script><script rel="preload" src="/static/systemjs@6.8.3/extras/amd.min.js"></script><style>body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    div#single-spa-application\:documents {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      min-height: 450px;
+    }
+    div#single-spa-application\:documents:empty{
+      flex-grow: unset;
+      display: unset;
+      flex-direction: unset;
+      min-height: unset;
+    }
+    div#single-spa-application\:documents #StencilReactMainWithSkipLink {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+   }</style></head><body><script>// Cookies are not required for localhost, and will throw an error since the request is not over https
+    if (!"docs.amazon.com".includes('localhost')) {
+      // Hook to send auth cookie with requests when loading from micro-frontends
+      System.shouldFetch = function (url) {
+        if (url.startsWith('https://documents.docs.amazon.com')) {
+          return true;
+        }
+        return false;
+      };
+
+      System.fetch = function (url, options) {
+        if (url.startsWith('https://documents.docs.amazon.com')) {
+          if (options.headers === undefined) {
+            options.headers = {};
+          }
+          options['credentials'] = 'include';
+          options.headers['cookie'] = document.cookie;
+        }
+        return window.fetch(url, options);
+      };
+    }
+
+    try {
+      var adminImportMap = document.createElement('script');
+      adminImportMap.setAttribute('type', 'systemjs-importmap');
+      adminImportMap.setAttribute('src', 'https://admin.docs.amazon.com/importmap.json');
+      document.head.appendChild(adminImportMap);
+    } catch (e) {
+      console.log(e);
+    }
+
+    System.import('@amzn/edm-portal/root-config');
+    System.import('@amzn/edm-portal/utils');
+    System.import('@amzn/edm-portal/nav');
+    System.import('@amzn/edm-portal/support');
+    System.import('single-spa');
+    System.import('react-dom');
+    System.import('react');
+    System.import('@amzn/edm-portal/documents');</script><import-map-overrides-full show-when-local-storage="devtools" dev-libs></import-map-overrides-full><div id="navbar"></div></body></html>

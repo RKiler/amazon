@@ -1,0 +1,254 @@
+
+
+
+
+<!doctype html>
+<html>
+<head>
+    
+        
+            <title data-react-helmet="true">Amazon Luna Cloud Gaming</title>
+        
+        
+    
+
+    
+    <script>
+(function(b,a,c,d){if((b=b.AmazonUIPageJS||b.P)&&b.when&&b.register){c=[];for(a=a.currentScript;a;a=a.parentElement)a.id&&c.push(a.id);return b.log("A copy of P has already been loaded on this page.","FATAL",c.join(" "))}})(window,document,Date);(function(a,b,c,d){"use strict";a._pSetI=function(){return null}})(window,document,Date);(function(d,G,I,J){"use strict";d._sw=function(){var p;return function(w,e,u,z,h,A,q,k,x,B){p||(p=!0,B.execute("RetailPageServiceWorker",function(){function y(a,b){g.controller&&a?(a={feature:"retail_service_worker_messaging",command:a},b&&(a.data=b),g.controller.postMessage(a)):a&&h("sw:sw_message_no_ctrl",1)}function p(a){var b=a.data;if(b&&"retail_service_worker_messaging"===b.feature&&b.command&&b.data){var c=b.data;a=d.ue;var f=d.ueLogError;switch(b.command){case "log_counter":a&&k(a.count)&&
+c.name&&a.count(c.name,0===c.value?0:c.value||1);break;case "log_tag":a&&k(a.tag)&&c.tag&&(a.tag(c.tag),b=d.uex,a.isl&&k(b)&&b("at"));break;case "log_error":f&&k(f)&&c.message&&f({message:c.message,logLevel:c.level||"ERROR",attribution:c.attribution||"RetailServiceWorker"});break;case "log_weblab_trigger":if(!c.weblab||!c.treatment)break;a&&k(a.trigger)?a.trigger(c.weblab,c.treatment):(h("sw:wt:miss"),h("sw:wt:miss:"+c.weblab+":"+c.treatment));break;default:h("sw:unsupported_message_command",1)}}}
+function v(a,b){return"sw:"+(b||"")+":"+a+":"}function C(){l.forEach(function(a){q(a)})}function n(a){return a.capabilities.isAmazonApp&&a.capabilities.android}function D(a,b,c){if(b)if(b.mshop&&n(a))a=v(c,"mshop_and"),b=b.mshop.action,l.push(a+"supported"),b(a,c);else if(b.browser){a=u(/Chrome/i)&&!u(/Edge/i)&&!u(/OPR/i)&&!a.capabilities.isAmazonApp&&!u(new RegExp(z+"bwv"+z+"b"));var f=b.browser;b=v(c,"browser");a?(a=f.action,l.push(b+"supported"),a(b,c)):l.push(b+"unsupported")}}function E(a,b,
+c){a&&l.push(v("register",c)+"unsupported");b&&l.push(v("unregister",c)+"unsupported");C()}try{var g=navigator.serviceWorker}catch(a){q("sw:nav_err")}(function(){if(g){var a=function(){y("page_loaded",{rid:d.ue_id,mid:d.ue_mid,pty:d.ue_pty,sid:d.ue_sid,spty:d.ue_spty,furl:d.ue_furl})};x(g,"message",p);y("client_messaging_ready");B.when("load").execute(a);x(g,"controllerchange",function(){y("client_messaging_ready");"complete"===G.readyState&&a()})}})();var l=[],m=function(a,b){var c=d.uex,f=d.uet;
+a=e(":","aui","sw",a);"ld"===b&&k(c)?c("ld",a,{wb:1}):k(f)&&f(b,a,{wb:1})},H=function(a,b,c){function f(a){b&&k(b.failure)&&b.failure(a)}function F(){l=setTimeout(function(){q(e(":","sw:"+r,t.TIMED_OUT));f({ok:!1,statusCode:t.TIMED_OUT,done:!1});m(r,"ld")},c||4E3)}var t={NO_CONTROLLER:"no_ctrl",TIMED_OUT:"timed_out",UNSUPPORTED_BROWSER:"unsupported_browser",UNEXPECTED_RESPONSE:"unexpected_response"},r=e(":",a.feature,a.command),l,n=!0;if("MessageChannel"in d&&g&&"controller"in g)if(g.controller){var p=
+new MessageChannel;p.port1.onmessage=function(c){(c=c.data)&&c.feature===a.feature&&c.command===a.command?(n&&(m(r,"cf"),n=!1),m(r,"af"),clearTimeout(l),c.done||F(),c.ok?b&&k(b.success)&&b.success(c):f(c),c.done&&m(r,"ld")):h(e(":","sw:"+r,t.UNEXPECTED_RESPONSE),1)};F();m(r,"bb");g.controller.postMessage(a,[p.port2])}else q(e(":","sw:"+a.feature,t.NO_CONTROLLER)),f({ok:!1,statusCode:t.NO_CONTROLLER,done:!0});else q(e(":","sw:"+a.feature,t.UNSUPPORTED_BROWSER)),f({ok:!1,statusCode:t.UNSUPPORTED_BROWSER,
+done:!0})};(function(){g?(m("ctrl_changed","bb"),g.addEventListener("controllerchange",function(){q("sw:ctrl_changed");m("ctrl_changed","ld")})):h(e(":","sw:ctrl_changed","sw_unsupp"),1)})();(function(){var a=function(){m(b,"ld");var a=d.uex;H({feature:"page_proxy",command:"request_feature_tags"},{success:function(b){b=b.data;Array.isArray(b)&&b.forEach(function(a){"string"===typeof a?q(e(":","sw:ppft",a)):h(e(":","sw:ppft","invalid_tag"),1)});h(e(":","sw:ppft","success"),1);A&&A.isl&&k(a)&&a("at")},
+failure:function(a){h(e(":","sw:ppft","error:"+(a.statusCode||"ppft_error")),1)}})};if("requestIdleCallback"in d){var b=e(":","ppft","callback_ricb");d.requestIdleCallback(a,{timeout:1E3})}else b=e(":","ppft","callback_timeout"),setTimeout(a,0);m(b,"bb")})();(function(a){var b=a.reg,c=a.unreg;g&&g.getRegistrations?(w.when("A").execute(function(b){if((a.reg.mshop||a.unreg.mshop)&&"function"===typeof n&&n(b)){var f=a.reg.mshop?"T1":"C",e=d.ue;e&&e.trigger?e.trigger("MSHOP_SW_CLIENT_446196",f):h("sw:mshop:wt:failed")}D(b,
+c,"unregister")}),x(d,"load",function(){w.when("A").execute(function(a){D(a,b,"register");C()})})):(E(b&&b.browser,c&&c.browser,"browser"),w.when("A").execute(function(a){"function"===typeof n&&n(a)&&E(b&&b.mshop,c&&c.mshop,"mshop_and")}))})({reg:{},unreg:{}})}))}}()})(window,document,Date);(function(c,e,I,B){"use strict";c._pd=function(){var a,u;return function(C,f,h,k,b,D,v,E,F){function w(d){try{return d()}catch(J){return!1}}function l(){if(m){var d={w:c.innerWidth||b.clientWidth,h:c.innerHeight||b.clientHeight};5<Math.abs(d.w-q.w)||50<d.h-q.h?(q=d,n=4,(d=a.mobile||a.tablet?450<d.w&&d.w>d.h:1250<=d.w)?k(b,"a-ws"):b.className=v(b,"a-ws")):0<n&&(n--,x=setTimeout(l,16))}}function G(d){(m=d===B?!m:!!d)&&l()}function H(){return m}if(!u){u=!0;var r=function(){var d=["O","ms","Moz","Webkit"],
+c=e.createElement("div");return{testGradients:function(){return!0},test:function(a){var b=a.charAt(0).toUpperCase()+a.substr(1);a=(d.join(b+" ")+b+" "+a).split(" ");for(b=a.length;b--;)if(""===c.style[a[b]])return!0;return!1},testTransform3d:function(){return!0}}}(),y=b.className,z=/(^| )a-mobile( |$)/.test(y),A=/(^| )a-tablet( |$)/.test(y);a={audio:function(){return!!e.createElement("audio").canPlayType},video:function(){return!!e.createElement("video").canPlayType},canvas:function(){return!!e.createElement("canvas").getContext},
+svg:function(){return!!e.createElementNS&&!!e.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect},offline:function(){return navigator.hasOwnProperty&&navigator.hasOwnProperty("onLine")&&navigator.onLine},dragDrop:function(){return"draggable"in e.createElement("span")},geolocation:function(){return!!navigator.geolocation},history:function(){return!(!c.history||!c.history.pushState)},webworker:function(){return!!c.Worker},autofocus:function(){return"autofocus"in e.createElement("input")},
+inputPlaceholder:function(){return"placeholder"in e.createElement("input")},textareaPlaceholder:function(){return"placeholder"in e.createElement("textarea")},localStorage:function(){return"localStorage"in c&&null!==c.localStorage},orientation:function(){return"orientation"in c},touch:function(){return"ontouchend"in e},gradients:function(){return r.testGradients()},hires:function(){var a=c.devicePixelRatio&&1.5<=c.devicePixelRatio||c.matchMedia&&c.matchMedia("(min-resolution:144dpi)").matches;E("hiRes"+
+(z?"Mobile":A?"Tablet":"Desktop"),a?1:0);return a},transform3d:function(){return r.testTransform3d()},touchScrolling:function(){return f(/Windowshop|android|OS ([5-9]|[1-9][0-9]+)(_[0-9]{1,2})+ like Mac OS X|SOFTWARE=([5-9]|[1-9][0-9]+)(.[0-9]{1,2})+.*DEVICE=iPhone|Chrome|Silk|Firefox|Trident.+?; Touch/i)},ios:function(){return f(/OS [1-9][0-9]*(_[0-9]*)+ like Mac OS X/i)&&!f(/trident|Edge/i)},android:function(){return f(/android.([1-9]|[L-Z])/i)&&!f(/trident|Edge/i)},mobile:function(){return z},
+tablet:function(){return A},rtl:function(){return"rtl"===b.dir}};for(var g in a)a.hasOwnProperty(g)&&(a[g]=w(a[g]));for(var t="textShadow textStroke boxShadow borderRadius borderImage opacity transform transition".split(" "),p=0;p<t.length;p++)a[t[p]]=w(function(){return r.test(t[p])});var m=!0,x=0,q={w:0,h:0},n=4;l();h(c,"resize",function(){clearTimeout(x);n=4;l()});b.className=v(b,"a-no-js");k(b,"a-js");!f(/OS [1-8](_[0-9]*)+ like Mac OS X/i)||c.navigator.standalone||f(/safari/i)||k(b,"a-ember");
+h=[];for(g in a)a.hasOwnProperty(g)&&a[g]&&h.push("a-"+g.replace(/([A-Z])/g,function(a){return"-"+a.toLowerCase()}));k(b,h.join(" "));b.setAttribute("data-aui-build-date",F);C.register("p-detect",function(){return{capabilities:a,localStorage:a.localStorage&&D,toggleResponsiveGrid:G,responsiveGridEnabled:H}});return a||{}}}}()})(window,document,Date);(function(g,l,C,D){function E(a){n&&n.tag&&n.tag(p(":","aui",a))}function m(a,b){n&&n.count&&n.count("aui:"+a,0===b?0:b||(n.count("aui:"+a)||0)+1)}function F(a){try{return a.test(navigator.userAgent)}catch(b){return!1}}function G(a){return"function"===typeof a}function u(a,b,c){a.addEventListener?a.addEventListener(b,c,!1):a.attachEvent&&a.attachEvent("on"+b,c)}function p(a,b,c,f){b=b&&c?b+a+c:b||c;return f?p(a,b,f):b}function y(a,b,c){try{Object.defineProperty(a,b,{value:c,writable:!1})}catch(f){a[b]=
+c}return c}function O(a,b){a.className=P(a,b)+" "+b}function P(a,b){return(" "+a.className+" ").split(" "+b+" ").join(" ").replace(/^ | $/g,"")}function ca(a,b,c){var f=c=a.length,e=function(){f--||(H.push(b),I||(q?q.set(z):setTimeout(z,0),I=!0))};for(e();c--;)Q[a[c]]?e():(v[a[c]]=v[a[c]]||[]).push(e)}function da(a,b,c,f,e){var d=l.createElement(a?"script":"link");u(d,"error",f);e&&u(d,"load",e);a?(d.type="text/javascript",d.async=!0,c&&/AUIClients|images[/]I/.test(b)&&d.setAttribute("crossorigin",
+"anonymous"),d.src=b):(d.rel="stylesheet",d.href=b);l.getElementsByTagName("head")[0].appendChild(d)}function R(a,b){return function(c,f){function e(){da(b,c,d,function(b){J?m("resource_unload"):d?(d=!1,m("resource_retry"),e()):(m("resource_error"),a.log("Asset failed to load: "+c));b&&b.stopPropagation?b.stopPropagation():g.event&&(g.event.cancelBubble=!0)},f)}if(S[c])return!1;S[c]=!0;m("resource_count");var d=!0;return!e()}}function ea(a,b,c){for(var f={name:a,guard:function(c){return b.guardFatal(a,
+c)},guardTime:function(a){return b.guardTime(a)},logError:function(c,d,e){b.logError(c,d,e,a)}},e=[],d=0;d<c.length;d++)A.hasOwnProperty(c[d])&&(e[d]=K.hasOwnProperty(c[d])?K[c[d]](A[c[d]],f):A[c[d]]);return e}function w(a,b,c,f,e){return function(d,k){function n(){var a=null;f?a=k:G(k)&&(q.start=r(),a=k.apply(g,ea(d,h,l)),q.end=r());if(b){A[d]=a;a=d;for(Q[a]=!0;(v[a]||[]).length;)v[a].shift()();delete v[a]}q.done=!0}var h=e||this;G(d)&&(k=d,d=D);b&&(d=d?d.replace(T,""):"__NONAME__",L.hasOwnProperty(d)&&
+h.error(p(", reregistered by ",p(" by ",d+" already registered",L[d]),h.attribution),d),L[d]=h.attribution);for(var l=[],m=0;m<a.length;m++)l[m]=a[m].replace(T,"");var q=x[d||"anon"+ ++fa]={depend:l,registered:r(),namespace:h.namespace};d&&ha.hasOwnProperty(d);c?n():ca(l,h.guardFatal(d,n),d);return{decorate:function(a){K[d]=h.guardFatal(d,a)}}}}function U(a){return function(){var b=Array.prototype.slice.call(arguments);return{execute:w(b,!1,a,!1,this),register:w(b,!0,a,!1,this)}}}function M(a,b){return function(c,
+f){f||(f=c,c=D);var e=this.attribution;return function(){h.push(b||{attribution:e,name:c,logLevel:a});var d=f.apply(this,arguments);h.pop();return d}}}function B(a,b){this.load={js:R(this,!0),css:R(this)};y(this,"namespace",b);y(this,"attribution",a)}function V(){l.body?k.trigger("a-bodyBegin"):setTimeout(V,20)}"use strict";var t=C.now=C.now||function(){return+new C},r=function(a){return a&&a.now?a.now.bind(a):t}(g.performance),ia=r(),ha={},n=g.ue;E();E("aui_build_date:3.24.5-2024-06-26");var W={getItem:function(a){try{return g.localStorage.getItem(a)}catch(b){}},
+setItem:function(a,b){try{return g.localStorage.setItem(a,b)}catch(c){}}},q=g._pSetI(),H=[],ja=[],I=!1,ka=navigator.scheduling&&"function"===typeof navigator.scheduling.isInputPending;var z=function(){for(var a=q?q.set(z):setTimeout(z,0),b=t();ja.length||H.length;)if(H.shift()(),q&&ka){if(150<t()-b&&!navigator.scheduling.isInputPending()||50<t()-b&&navigator.scheduling.isInputPending())return}else if(50<t()-b)return;q?q.clear(a):clearTimeout(a);I=!1};var Q={},v={},S={},J=!1;u(g,"beforeunload",function(){J=
+!0;setTimeout(function(){J=!1},1E4)});var T=/^prv:/,L={},A={},K={},x={},fa=0,X=String.fromCharCode(92),h=[],Y=!0,Z=g.onerror;g.onerror=function(a,b,c,f,e){e&&"object"===typeof e||(e=Error(a,b,c),e.columnNumber=f,e.stack=b||c||f?p(X,e.message,"at "+p(":",b,c,f)):D);var d=h.pop()||{};e.attribution=p(":",e.attribution||d.attribution,d.name);e.logLevel=d.logLevel;e.attribution&&console&&console.log&&console.log([e.logLevel||"ERROR",a,"thrown by",e.attribution].join(" "));h=[];Z&&(d=[].slice.call(arguments),
+d[4]=e,Z.apply(g,d))};B.prototype={logError:function(a,b,c,f){b={message:b,logLevel:c||"ERROR",attribution:p(":",this.attribution,f)};if(g.ueLogError)return g.ueLogError(a||b,a?b:null),!0;console&&console.error&&(console.log(b),console.error(a));return!1},error:function(a,b,c,f){a=Error(p(":",f,a,c));a.attribution=p(":",this.attribution,b);throw a;},guardError:M(),guardFatal:M("FATAL"),guardCurrent:function(a){var b=h[h.length-1];return b?M(b.logLevel,b).call(this,a):a},guardTime:function(a){var b=
+h[h.length-1],c=b&&b.name;return c&&c in x?function(){var b=r(),e=a.apply(this,arguments);x[c].async=(x[c].async||0)+r()-b;return e}:a},log:function(a,b,c){return this.logError(null,a,b,c)},declare:w([],!0,!0,!0),register:w([],!0),execute:w([]),AUI_BUILD_DATE:"3.24.5-2024-06-26",when:U(),now:U(!0),trigger:function(a,b,c){var f=t();this.declare(a,{data:b,pageElapsedTime:f-(g.aPageStart||NaN),triggerTime:f});c&&c.instrument&&N.when("prv:a-logTrigger").execute(function(b){b(a)})},handleTriggers:function(){this.log("handleTriggers deprecated")},
+attributeErrors:function(a){return new B(a)},_namespace:function(a,b){return new B(a,b)},setPriority:function(a){Y?Y=!1:this.log("setPriority only accept the first call.")}};var k=y(g,"AmazonUIPageJS",new B);var N=k._namespace("PageJS","AmazonUI");N.declare("prv:p-debug",x);k.declare("p-recorder-events",[]);k.declare("p-recorder-stop",function(){});y(g,"P",k);V();if(l.addEventListener){var aa;l.addEventListener("DOMContentLoaded",aa=function(){k.trigger("a-domready");l.removeEventListener("DOMContentLoaded",
+aa,!1)},!1)}var ba=l.documentElement,la=g._pd(k,F,u,O,ba,W,P,m,"3.24.5-2024-06-26");F(/UCBrowser/i)||la.localStorage&&O(ba,W.getItem("a-font-class"));k.declare("a-event-revised-handling",!1);g._sw(N,p,F,X,m,n,E,G,u,k);k.declare("a-fix-event-off",!1);m("pagejs:pkgExecTime",r()-ia)})(window,document,Date);
+</script>
+
+
+    <!-- Hreflang Tags -->
+    
+        
+            <link rel="alternate" hreflang="es-ES" href="https://luna.amazon.es/home" data-react-helmet="true">
+        
+            <link rel="alternate" hreflang="nl-NL" href="https://luna.amazon.nl/home" data-react-helmet="true">
+        
+            <link rel="alternate" hreflang="de-DE" href="https://luna.amazon.de/home" data-react-helmet="true">
+        
+            <link rel="alternate" hreflang="it-IT" href="https://luna.amazon.it/home" data-react-helmet="true">
+        
+            <link rel="alternate" hreflang="pl-PL" href="https://luna.amazon.pl/home" data-react-helmet="true">
+        
+            <link rel="alternate" hreflang="en-US" href="https://luna.amazon.com/home" data-react-helmet="true">
+        
+            <link rel="alternate" hreflang="fr-FR" href="https://luna.amazon.fr/home" data-react-helmet="true">
+        
+            <link rel="alternate" hreflang="en-GB" href="https://luna.amazon.co.uk/home" data-react-helmet="true">
+        
+            <link rel="alternate" hreflang="x-default" href="https://luna.amazon.com/home" data-react-helmet="true">
+        
+            <link rel="alternate" hreflang="en-CA" href="https://luna.amazon.ca/home" data-react-helmet="true">
+        
+    
+
+    <!-- Canonical url -->
+    <link rel="canonical" href="https://luna.amazon.com/home" data-react-helmet="true">
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Amazon Luna Cloud Gaming" data-react-helmet="true">
+    <meta name="description" content="Amazon Luna is a cloud gaming platform developed and operated by Amazon. Play great games on devices you already own." data-react-helmet="true">
+
+    <!-- Structured Data -->
+    
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://luna.amazon.com/web/" data-react-helmet="true">
+    <meta property="og:title" content="Amazon Luna Cloud Gaming" data-react-helmet="true">
+    <meta property="og:description" content="Amazon Luna is a cloud gaming platform developed and operated by Amazon. Play great games on devices you already own." data-react-helmet="true">
+    <meta property="og:image" content="https://m.media-amazon.com/images/G/01/T/TC05316420/A07531864/brand/landing-meta-image._CB403759455_.png" data-react-helmet="true">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://luna.amazon.com/web/" data-react-helmet="true">
+    <meta name="twitter:title" content="Amazon Luna Cloud Gaming" data-react-helmet="true">
+    <meta name="twitter:description" content="Amazon Luna is a cloud gaming platform developed and operated by Amazon. Play great games on devices you already own." data-react-helmet="true">
+    <meta name="twitter:image" content="https://m.media-amazon.com/images/G/01/T/TC05316420/A07531864/brand/landing-meta-image._CB403759455_.png" data-react-helmet="true">
+    <meta name="twitter:image:alt" content="https://m.media-amazon.com/images/G/01/T/TC05316420/A07531864/brand/landing-meta-image._CB403759455_.png" data-react-helmet="true">
+    <meta name="twitter:site" content="@amazonluna">
+    <meta name="twitter:creator" content="@amazonluna">
+
+    
+        <meta name="google-site-verification" content="2RNFuCKU3VJpqmA5i8Ec2haeLDG4SGspJsGjj8VASRA" />
+    
+    <link rel="shortcut icon" href="https://m.media-amazon.com/images/G/01/T/TC05316420/A07531864/brand/Round_Icon_128x128.png">
+    <link rel="stylesheet" type="text/css" href="https://m.media-amazon.com/images/S/sash/ftQMcSzac4WQUaY.css" />
+<link rel="stylesheet" type="text/css" href="https://m.media-amazon.com/images/S/sash/DpCG$TMvRee71qd.css" />
+
+    <script type="text/javascript">
+        window.P && window.P.register('sp.load.js');
+        function callNative(message){
+            nativeClient.message(message);
+        }
+    </script>
+    <style type="text/css">
+        html, body {
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/cO2zI2bSBJqIOgG.js?name=runtime"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/eh$s9SFZ$zaq3ap.js?name=app-e9b9654e"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/4RLlyecXKU4tKvZ.js?name=app-dce83437"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/oeUr14Exzb9e9Qc.js?name=app-d31a35db"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/elMAVnhv$WHiale.js?name=app-c41feb9a"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/oJOQPlzc3Ejq30O.js?name=app-51b5dad3"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/oxWSTyHHpnh4s9p.js?name=app-c1fca5a7"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/wTYyAS-TZk-dPc0.js?name=app-f62b4e24"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/0ZFGyVPymjX6DF-.js?name=app-6fd744e6"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/e3BIy8xClsBnnaf.js?name=app-644d012f"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/x6LV44cujd65hky.js?name=app-a3083e9c"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/jm5Zl83j7tKNO9g.js?name=app-63d7d145"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/rvJpw9lJBUYnXrT.js?name=app-ddf422b9"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/X3LtEyUdzf3jC-k.js?name=app-bc241ba2"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/ferHna3ihVeBGQN.js?name=app-ce7362e5"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/sxMw2W5RkUYji6B.js?name=app-a59c4147"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/U6o4H0Sm6c3PuVG.js?name=app-bc6dc015"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/fzbB6RU9PFP71ld.js?name=app-b559ca9f"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/-fFFKtHSL2t4q4Q.js?name=app-4a85777a"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/5QKuLAECdN99EV$.js?name=app-ab727054"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/Yn7YurTmv-LNOwA.js?name=app-cf6c831b"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/Eec38RYPcvN08WN.js?name=app-d6b6ff21"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/gCf0P7i2jsuDVBo.js?name=app-176bfbda"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/7VQF8UaIi426vBb.js?name=app-a1e33b6f"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/SLk6WziSb-IBDq8.js?name=app-5d2a6036"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/Yj$dpxJRKW9uf-Z.js?name=app-7413f8ad"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/Pkh1vh85agQkS4G.js?name=app-82d1cdcf"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/pJPoGsvD8HviCc0.js?name=app-63a43790"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/-1mVurcfRD49KEV.js?name=app-e3cbcd47"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/FvRjbItboX54E3f.js?name=app-1fca8d73"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/hQQPA8SdMOOM35p.js?name=app-8ea98b9d"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/R9aE-FYC7k1QLBT.js?name=app-3f6503e6"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/uns$r-hztgAfD1Y.js?name=app-4095329a"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/OQi6L6TPW7F4uAM.js?name=app-d6c89614"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/F5zGiQO5Aop1lC6.js?name=app-c636ca79"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/-ta8zyjwC-VBiZT.js?name=app-d817c822"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/gQYtf2mjkuipL0G.js?name=app-c9acd2ab"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/6VK0gX6RkpzOYkV.js?name=app-dcab6fb1"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/YKsZncUD98wjhU$.js?name=app-be2e8c93"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/$4IxLIu1L-2PWse.js?name=app-156dc7cb"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/iJRn579uqdJwnhi.js?name=app-f3166c1d"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/G3cWH$VadyyIAPb.js?name=app-fb37e7e7"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/0wat-sIRTSgivsj.js?name=app-13f8a33a"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/ebNOUIwMZPO7xgi.js?name=app-9783f090"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/ayb7eBpXzilfJi1.js?name=vendor-44cf278e"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/BV2LBWID4xY4ey9.js?name=vendor-34b14772"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/RnqHIAkFS7qhLYx.js?name=vendor-3069f868"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/XYhorn0-HqWMGZ2.js?name=vendor-b1fd06a7"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/drNHAw19Z8JpUXm.js?name=vendor-cb1f6782"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/5joPDPSRVSPQz-y.js?name=vendor-9fb3301e"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/P6Hq7BhwRDoE067.js?name=vendor-ecdd1138"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/9NpCkZvIx6Tr6jr.js?name=vendor-6b033f20"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/4cmC9o2ZZfogKUH.js?name=vendor-cdd60c62"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/iC7bae4OZgYSYLx.js?name=vendor-49d0a293"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/M$LKBwbO7vKvEiG.js?name=vendor-3ef0a243"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/LBpg4YpZUqfIqFI.js?name=vendor-536eaa00"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/acKliHvrA1iGpIR.js?name=vendor-8c374fdd"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/U9w$oBQEs9ou0Z$.js?name=vendor-bb3d84b5"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/pGkeElMAHMQ1XCl.js?name=vendor-32266432"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/eE4SqX3K0IY0xFa.js?name=vendor-b90ea302"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/FHmqbbgxKrAyQoY.js?name=vendor-951280df"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/RJ7f3opFUqLr3bd.js?name=vendor-c579f026"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/ILL3D2EUDR7qJza.js?name=vendor-f1e5d281"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/pnRfNJ5Dhb7KaTX.js?name=vendor-fcd58341"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/tAHVZpehzKKnIeO.js?name=vendor-f82e0cd2"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/ez1-To5Eu210o7i.js?name=vendor-a4590e3f"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/ejMocbEY2SMKpxP.js?name=vendor-78622f30"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/YEAU6L9-Mps1zmj.js?name=vendor-5ff75147"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/k-fLN-FEhjEWp1a.js?name=vendor-0bc0478e"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/0Xe8$YyHl6nVGvw.js?name=vendor-028d74f9"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/aGkelbPd0kpVRso.js?name=vendor-0e5d714b"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/XlVjnz3PoIq6s6Z.js?name=vendor-79c2c40f"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/0U4HKANnKBhspte.js?name=vendor-5a94f17d"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/tPQcYU9qSpFJDTE.js?name=vendor-386b9151"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/7jRw3ncu7Duxz$-.js?name=vendor-2a46b080"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/OhM6Gx1exeMO7bn.js?name=vendor-557f4003"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/UdDv0-3KLV7pX45.js?name=vendor-e5bca7e4"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/emOnsNlxy9JawRo.js?name=vendor-4afbb465"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/ZiOHbRtTZkk05fg.js?name=vendor-f6222845"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/CuNVYJrLCkoCs3X.js?name=vendor-d74c5780"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/59nyXdntVPvk$t0.js?name=vendor-3e1298d7"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/1PN6Z4o76cvTL-H.js?name=vendor-f1819489"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/1MMNnMrgFvVL$bp.js?name=vendor-9c7128ca"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/9QXT1OaqzZ21nmw.js?name=vendor-52cbc79a"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/5-joCwHoh7wYEGa.js?name=vendor-5397d65f"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/osN7MvgY75egrIl.js?name=vendor-feb91331"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/uO0KIl$Wsapv9IT.js?name=vendor-52ef38c8"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/2bWsx4Jla8cXkgZ.js?name=vendor-f10dceb2"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/R7jckBrQkh1SzRp.js?name=vendor-866ab763"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/hICih5Pl-xlh1RO.js?name=vendor-548e2614"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/UPPfrjdjf3wtGMa.js?name=vendor-a5ce148e"></script>
+<script type="text/javascript" src="https://m.media-amazon.com/images/S/sash/NYMENOfSw3kZfaG.js?name=index"></script>
+
+<script>
+    const isIOS = ['iPad Simulator', 'iPhone Simulator', 'iPod Simulator','iPad', 'iPhone', 'iPod'].includes(navigator.platform)
+        || (navigator.userAgent && navigator.userAgent.includes("Mac") && "ontouchend" in document);
+    const isMac = window.webkit && !isIOS;
+    const isWindows = typeof CefSharp !== 'undefined';
+    const isSamsungTV = window.tizen;
+    const isLGTV = (new URLSearchParams(window.location.search).get('isLGTV')) === 'true';
+
+    if (!(isMac ? !isWindows : isWindows)) {
+        var configuration = {
+            basePath: "/",
+            clientId: "clientId",
+            cor: "",
+            customerId: "",
+            deviceContext: {
+                appName: "Amazon Luna Web Client",
+                appVersion: "-",
+                deviceModel: navigator.userAgent,
+                deviceSerial: "",
+                deviceType: "browser"
+            },
+            featureScheme: "WEB_V1",
+            ipAddress: "137.184.236.3",
+            isInternal: false,
+            isNAWS: true,
+            locale: "en_US",
+            marketplace: "ATVPDKIKX0DER",
+            platform: "web",
+            sessionId: "138-0061430-0380473",
+            stage: "Prod",
+            vapidPublicKey: "BCZVI1kevXJ67jyzDHc3uNs6xPtXKXXLCjBXzRqgaGvhE7weshkx38CoNBHwXwobOWQBmwgOTaS8y2h-qAqXnUw"
+        };
+
+        if (isSamsungTV || isLGTV) {
+            configuration.platform = "smart_tv_web";
+        }
+        window.tempo.initialize(configuration);
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+200 OK
+Server: AmazonS3
+Via: 1.1 dec8fa38a453902521b941c7cd70d33c.cloudfront.net (CloudFront)
+Age: 85007
+Retry-Count: 0
+Content-Type: text/html; charset=utf-8
+Date: Wed, 07 Aug 2024 09:34:06 GMT
+Etag: W/"e8636356145e94ec4789b6d157810783"
+X-Amz-Version-Id: UY1lD7tqemLoXbZMa9LYGKtQiTCa_MNF
+X-Amz-Cf-Id: 9sFZOz4wi04-xtfFTgItFEyN_jmMt_bzRA9ewTEwGNc0_UrRwrhU0Q==
+Vary: Accept-Encoding
+X-Cache: Hit from cloudfront
+Last-Modified: Mon, 05 Aug 2024 19:28:05 GMT
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Cf-Pop: SFO5-C3

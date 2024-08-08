@@ -1,0 +1,15 @@
+200 OK
+X-Content-Type-Options: nosniff
+Set-Cookie: session-id=146-0383934-9931922; Domain=.amazon.com; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/; Secure; SameSite=Lax session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/; Secure; SameSite=Lax XSRF-TOKEN=hHzp2l+JOVl9LaWPqqJnZMfqRR15pElj8BZmYQU605ZTAAAAAGa0jAE2ODEwNDdhYS01YTQwLTRjZmItOThjMy0wNDEyOTZlMmJiM2E=; Path=/; Max-Age=3600; Expires=Thu, 08 Aug 2024 10:12:33 GMT; Secure; SameSite=strict
+Strict-Transport-Security: max-age=47304000; includeSubDomains
+Cache-Control: no-cache
+Retry-Count: 0
+Content-Language: en-US
+Server: Server
+Content-Type: text/html;charset=UTF-8
+X-Xss-Protection: 1; mode=block
+X-Amz-Rid: 2G5J3XVZWVZJQZRG61MQ
+Content-Security-Policy-Report-Only: default-src https://amazon.com https://*.amazon.com https://author.amazon.com https://author-media-us-prod.s3.amazonaws.com https://amzn-author-mms-media-prod.s3.amazonaws.com https://mamsmediaassetrawbucketprod.s3.amazonaws.com https://unagi-na.amazon.com https://*.ssl-images-amazon.com https://*.media-amazon.com https://*.amazon-adsystem.com; script-src 'unsafe-inline' 'unsafe-eval' https://*.amazon.com https://author.amazon.com https://d8aa01cdolqj7.cloudfront.net https://*.ssl-images-amazon.com https://*.media-amazon.com https://*.amazon-adsystem.com; style-src 'unsafe-inline' https://*.amazon.com https://author.amazon.com https://d8aa01cdolqj7.cloudfront.net; img-src blob: data: https://*.amazon.com https://author.amazon.com https://author-media-us-prod.s3.amazonaws.com https://amzn-author-mms-media-prod.s3.amazonaws.com https://mamsmediaassetrawbucketprod.s3.amazonaws.com https://d8aa01cdolqj7.cloudfront.net https://*.ssl-images-amazon.com https://*.media-amazon.com; font-src data: https://*.amazon.com https://author.amazon.com https://d8aa01cdolqj7.cloudfront.net; report-uri /csp-report
+Date: Thu, 08 Aug 2024 09:12:33 GMT
+X-Frame-Options: SAMEORIGIN
+Vary: origin,access-control-request-method,access-control-request-headers,accept-encoding,Content-Type,Accept-Encoding,User-Agent

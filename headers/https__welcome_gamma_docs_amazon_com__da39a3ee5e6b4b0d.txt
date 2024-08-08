@@ -1,0 +1,17 @@
+200 OK
+X-Amz-Cf-Id: zkXHypK30ZnGuoKT4Ml0g1LupkyWW_ZVV9g-KKQeMKvb8hAWXomX5A==
+X-Amz-Cf-Pop: SFO5-P2
+Age: 139
+Retry-Count: 0
+Last-Modified: Tue, 06 Aug 2024 20:44:25 GMT
+Cache-Control: public, max-age=300, s-maxage=600, stale-while-revalidate=3600
+X-Cache: Hit from cloudfront
+Vary: Accept-Encoding
+Date: Thu, 08 Aug 2024 09:09:56 GMT
+Etag: W/"3013ba76ed780f8511da91c0f9efc56a"
+X-Amz-Server-Side-Encryption: AES256
+Server: AmazonS3
+Via: 1.1 e943d5f0cbb0d255d29da0ddf6639ba8.cloudfront.net (CloudFront)
+Set-Cookie: 
+Content-Type: text/html; charset=utf-8
+X-Amz-Version-Id: cE0hQ_QomTzwJ0GS6fAbOSrDzQSUC50Q

@@ -1,0 +1,10 @@
+200 OK
+Set-Cookie: JSESSIONID=2CCBBED664A1B884976639AE1B33ED3A; Path=/; Secure; HttpOnly
+Server: Server
+Retry-Count: 0
+X-Frame-Options: SAMEORIGIN
+X-Ua-Compatible: IE=edge
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Content-Type: text/html;charset=ISO-8859-1
+Content-Length: 2856
+Date: Thu, 08 Aug 2024 09:10:15 GMT

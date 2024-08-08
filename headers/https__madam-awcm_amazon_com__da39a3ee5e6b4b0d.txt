@@ -1,0 +1,10 @@
+200 OK
+Content-Type: text/plain; charset=UTF-8
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Content-Security-Policy: default-src 'self'; font-src 'self' data:; script-src 'self'; style-src 'self'; object-src 'none';
+Awcm-Host: madam-awcm-3.ant.amazon.com
+Retry-Count: 0
+Content-Length: 2
+X-Frame-Options: sameorigin
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1;mode=block

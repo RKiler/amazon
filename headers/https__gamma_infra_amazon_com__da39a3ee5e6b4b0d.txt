@@ -1,0 +1,18 @@
+200 OK
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Content-Security-Policy: default-src 'self'; base-uri 'none'; object-src 'none'; frame-ancestors 'none'; script-src 'self' https://d1h0g5bcvey2ou.cloudfront.net 'nonce-GBSp5+h7cRRnvQj5YnCdxy3aVBk/+fJz8FWYhMO888GCYjXyw1pyGlPjjcEYQMZ+'; connect-src 'self' https://cognito-idp.us-west-2.amazonaws.com https://scm-hw-eng-clientv2-gamma.auth.us-west-2.amazoncognito.com https://unagi-na.amazon.com/ https://jtvtvtjdxd.execute-api.us-west-2.amazonaws.com/prod/v1/log https://qk6042mct2.execute-api.us-west-2.amazonaws.com/Prod https://scm-ui-scos-ux-fileupload-prod-us-west-2-3.s3.us-west-2.amazonaws.com https://scm-ui-scos-ux-filedownload-prod-us-west-2-3.s3.us-west-2.amazonaws.com https://d1h0g5bcvey2ou.cloudfront.net https://sentryio.ocean-wave.aws.a2z.com https://is-it-down.amazon.com https://sctopologysvc-configuration-beta-us-west-2--1-e7d74ab0.s3.us-west-2.amazonaws.com https://sctopologysvc-computedvalues-beta-us-west-2--1-e7d74ab0.s3.us-west-2.amazonaws.com https://aws-scos-vendorcomm-us-west-2-342450130795-beta.s3-us-west-2.amazonaws.com https://aws-scos-offers-gamma.s3.us-west-2.amazonaws.com https://aws-scos-offers-for-review-gamma.s3.us-west-2.amazonaws.com https://scosfiledepotservice-inf-fileuploadbucket00216c55-1v69t9m6efztl.s3.us-west-2.amazonaws.com https://scosfiledepotservice-inf-filevalidationresultbuck-utp846rkio55.s3.us-west-2.amazonaws.com https://offer-computation-report-output-prod-cell-3.s3.us-west-2.amazonaws.com https://fp-scmfp-fulfillment-planner-runs-us-west-2-gamma.s3.us-west-2.amazonaws.com https://pi-scmpi-planner-insights-us-west-2-gamma.s3.us-west-2.amazonaws.com https://anomaly-detection-output-us-west-2-beta-528369671483.s3.us-west-2.amazonaws.com https://045318700327-aws-inf-g.seshsvc.us-west-2.ocean-wave.aws.a2z.com https://midway-auth.amazon.com/; style-src 'self' https://d1h0g5bcvey2ou.cloudfront.net; manifest-src 'self' https://d1h0g5bcvey2ou.cloudfront.net; img-src 'self' https://internal-cdn.amazon.com https://d1h0g5bcvey2ou.cloudfront.net; font-src 'self' data: ;
+X-Amz-Apigw-Id: cLrTlGE9PHcEMjQ=
+X-Content-Type-Options: nosniff
+X-Cache: Miss from cloudfront
+Content-Type: text/html
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: DENY
+Date: Thu, 08 Aug 2024 09:12:54 GMT
+Cache-Control: no-store, no-cache
+X-Amz-Cf-Pop: SFO5-P2
+Content-Length: 5773
+X-Amzn-Requestid: 74d60cb5-a004-40e4-980a-8460a11afae2
+Via: 1.1 332ef4544bd8b531e8f11abaa4197c08.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 3IWXTYwhp2o4C759KbrqiugaZMLb17A-fSoIv9rmvdhg3M9DZlkcNA==
+Retry-Count: 0
+X-Amzn-Trace-Id: Root=1-66b48c16-74f01b771edd9b1b0704d683

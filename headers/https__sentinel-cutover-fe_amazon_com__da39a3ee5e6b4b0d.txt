@@ -1,0 +1,15 @@
+200 OK
+X-Amz-Rid: Z0P1600YQR11V2W94F38
+Accept-Ranges: bytes
+X-Amz-Cf-Id: k8q_Pjer7eZ6ZWIC55r01H7XxvUuc-ObNAGEBs5KHMgj2JThNpus9g==
+Retry-Count: 0
+Date: Thu, 08 Aug 2024 09:10:27 GMT
+X-Cache: Miss from cloudfront
+Via: 1.1 f7597cc90ba7218b20a85a0785996e1c.cloudfront.net (CloudFront)
+Content-Type: text/html
+Etag: "f2-61ef25046cc80-gzip"
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Last-Modified: Mon, 05 Aug 2024 16:38:58 GMT
+Vary: Content-Type,Accept-Encoding,User-Agent
+X-Amz-Cf-Pop: SFO5-P1
+Server: Server

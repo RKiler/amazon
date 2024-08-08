@@ -1,0 +1,18 @@
+200 OK
+Content-Type: text/html;charset=UTF-8
+X-Xss-Protection: 1; mode=block
+X-Amz-Cf-Pop: SFO53-P4
+X-Content-Type-Options: nosniff
+X-Amz-Cf-Id: 7UXT4cGf-EkwPsFtjxIKXEWgPs52ul4Ej3NtTEVirENT7VxYWadeXg==
+Retry-Count: 0
+X-Amz-Rid: W79MM0SSSZ0QBHZVSXN5
+Set-Cookie: session-id=145-7608452-4590556; Domain=.amazon.com; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/; Secure session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/; Secure session-id=145-7608452-4590556; Secure
+Content-Language: en-US
+Content-Security-Policy-Report-Only: default-src https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com; script-src https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com 'unsafe-inline' 'unsafe-eval'; style-src https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com 'unsafe-inline'; report-uri /1/batch/2/OE/mid=ATVPDKIKX0DER:sid=145-7608452-4590556:rid=W79MM0SSSZ0QBHZVSXN5:sn=musiccentral.amazon.com
+Date: Thu, 08 Aug 2024 09:13:31 GMT
+X-Frame-Options: SAMEORIGIN
+Vary: Origin,Content-Type,Accept-Encoding,User-Agent
+Via: 1.1 cb388bd211d74501b42f8d7e6127d4ac.cloudfront.net (CloudFront)
+Server: Server
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+X-Cache: Miss from cloudfront

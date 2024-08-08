@@ -1,0 +1,10 @@
+200 OK
+X-Amz-Rid: JW1MRPC4SNA6HPT4DZJ9
+Vary: Content-Type,Accept-Encoding,User-Agent
+Server: Server
+Date: Thu, 08 Aug 2024 09:13:19 GMT
+Content-Length: 7
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Content-Type: text/plain
+Retry-Count: 0
+X-Amzn-Requestid: 0a15bbce-f847-459b-9f54-f1f23014274a

@@ -1,0 +1,10 @@
+200 OK
+Content-Length: 7
+X-Amz-Rid: KQM20M6SR31XP308F851
+Vary: Content-Type,Accept-Encoding,User-Agent
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Server: Server
+Date: Thu, 08 Aug 2024 09:11:50 GMT
+Content-Type: text/plain
+Retry-Count: 0
+X-Amzn-Requestid: 3beaaadc-d3b7-4a09-9383-315d20f94f68

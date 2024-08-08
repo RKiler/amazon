@@ -1,0 +1,13 @@
+200 OK
+Set-Cookie: session-id-eu=258-3681071-8083742; Domain=.amazon.com; Expires=Tue, 01-Jan-2036 08:00:01 GMT; Path=/ session-id-time-eu=2082787201l; Domain=.amazon.com; Expires=Tue, 01-Jan-2036 08:00:01 GMT; Path=/
+X-Content-Type-Options: nosniff
+Date: Thu, 08 Aug 2024 09:12:37 GMT
+Content-Language: en-GB
+Content-Security-Policy: frame-ancestors 'self' https://*.amazon.com:* https://*.amazon.dev:*
+Content-Type: text/html;charset=UTF-8
+X-Amz-Rid: 5XDFRB6E9187DZEKH1M2
+X-Xss-Protection: 1; mode=block
+Vary: accept-encoding,Content-Type,Accept-Encoding,User-Agent
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Retry-Count: 0
+Server: Server

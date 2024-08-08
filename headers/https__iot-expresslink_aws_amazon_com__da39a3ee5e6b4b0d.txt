@@ -1,0 +1,17 @@
+200 OK
+Etag: "ba5af20e915556531c354b03bb77825a"
+X-Amz-Version-Id: YJkwnzNLTUfBuTSl1X.X91PdcibQYa3O
+Content-Length: 828
+X-Amz-Server-Side-Encryption: AES256
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: xJ9JNbzVikUOl8hs7KLZIeXDsfY7pgC2Dn6hGQTbvN1j_Bk-7PGMIA==
+Age: 86274
+Retry-Count: 0
+Content-Type: text/html
+Last-Modified: Tue, 09 Apr 2024 09:01:34 GMT
+X-Cache: Hit from cloudfront
+Date: Wed, 07 Aug 2024 09:13:42 GMT
+Via: 1.1 9e2f847ffc5e44974bd7f01a7603f72c.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: SFO5-C3
+Content-Security-Policy: default-src 'self' https://*.google-analytics.com/ https://*.googletagmanager.com/ 'sha256-e1m4QgikBU6NFuP10+kddv8CdcG5nQFQdf0VX+VV6yA=' 'sha256-7/P5fCqiT19766ey/VDaq+WtksR6lgwExA7bvgs4q1U=' 'sha256-UTTM8tXU4h8WpT8xpfMf2/Xw1S+qNdS+fXPV7J75k3Q=' ; script-src-elem 'self' https://*.google-analytics.com/ https://*.googletagmanager.com/ 'sha256-yt+SNVxRkIi6H6yb7ndFuZM1esMX9esg3UpRHaTsyVk=' 'sha256-e1m4QgikBU6NFuP10+kddv8CdcG5nQFQdf0VX+VV6yA=' 'sha256-7/P5fCqiT19766ey/VDaq+WtksR6lgwExA7bvgs4q1U=' 'sha256-4hdW1H01T/dlIBPjCkirQ0A2oKee5j8ZsTrTSrNv8wI=' 'sha256-wb5w0WwGRyRco2etY3chbIn2rh5yN/M0FWwazuXvpcs=' 'sha256-z1BWx6xYdMvTnKhBdjcLpeXTmT3uXXwIvKh4zfbkt50=' 'sha256-UTTM8tXU4h8WpT8xpfMf2/Xw1S+qNdS+fXPV7J75k3Q=' ; style-src 'self' 'unsafe-inline'; upgrade-insecure-requests;object-src 'self'; base-uri 'self'; font-src 'self' data:; connect-src 'self' https://*.google-analytics.com/ wss://ar7j3j2k3h31j-ats.iot.us-west-2.amazonaws.com/ wss://quickconnect.data.beta.us-west-2.freertos.amazonaws.com/ wss://quickconnect.data.gamma.us-west-2.freertos.amazonaws.com/ wss://abf5598rk566j-ats.iot.us-west-2.amazonaws.com wss://*.quickconnect.data.freertos.us-west-2.amazonaws.com/ wss://no-credentials-available https://*.ats.iot.us-west-2.amazonaws.com https://cognito-identity.us-west-2.amazonaws.com/ https://cognito-idp.us-west-2.amazonaws.com/ https://kqi2n1el1j.execute-api.us-west-2.amazonaws.com/alpha-expresslink/getToken https://api.mapbox.com/*https://maps.geo.us-west-2.amazonaws.com/*;

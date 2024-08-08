@@ -1,0 +1,22 @@
+200 OK
+Via: 1.1 0e5fad4fbda422b5e31318b5a1ff65b0.cloudfront.net (CloudFront)
+X-Amz-Server-Side-Encryption: AES256
+Strict-Transport-Security: max-age= 63072000; includeSubdomains; preload
+X-Cache: Miss from cloudfront
+X-Xss-Protection: 1; mode=block
+Referrer-Policy: same-origin
+X-Amz-Cf-Pop: SFO53-P4
+Content-Type: text/html; charset=utf-8
+Content-Length: 646
+X-Frame-Options: DENY
+Retry-Count: 0
+Date: Thu, 08 Aug 2024 09:12:50 GMT
+X-Content-Type-Options: nosniff
+X-Amz-Cf-Id: TI5BZRvz4KljjmTh-QAUcZdJug6rEuLHI6kHccfYOyPlai1Dx8uTAA==
+Last-Modified: Wed, 12 Jun 2024 18:24:18 GMT
+Etag: "6e53b0315b2ca0d43e0e1ed6d3c125e4"
+Cache-Control: no-cache, no-store, must-revalidate, max-age=0
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Id-2: kbnt2CUSHZE9kzNyb6mm5Surcx/Pd+ey21W2cFCKCM29Ekqtm1KErYyrItk3VeN5kjT1J0Vl1zk=
+X-Amz-Request-Id: A3D756NQYYKDJPJS

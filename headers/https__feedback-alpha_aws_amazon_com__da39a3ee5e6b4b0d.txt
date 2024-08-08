@@ -1,0 +1,15 @@
+200 OK
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Cf-Id: 2bhtoAdO9gT-Cr9HJAyQzJ7yoy3PAD4DvPEwdVXrQONGPwnLApZTsw==
+Retry-Count: 0
+Date: Thu, 08 Aug 2024 00:45:41 GMT
+Last-Modified: Thu, 08 Aug 2024 00:45:11 GMT
+Etag: W/"924b9fd089dbca36e8e55b7accd9b44f"
+Vary: Accept-Encoding
+Content-Type: text/html
+X-Amz-Cf-Pop: SFO5-C1
+Age: 30338
+X-Amz-Version-Id: aL4B.y6c7OOc7zNyNBGXxhNa93sTTJ7i
+Server: AmazonS3
+X-Cache: Hit from cloudfront
+Via: 1.1 b37bef2041652ba1d4a26e5e191fdc70.cloudfront.net (CloudFront)

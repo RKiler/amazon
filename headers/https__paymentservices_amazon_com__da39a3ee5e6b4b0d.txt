@@ -1,0 +1,13 @@
+200 OK
+X-Amz-Rid: 82QFGNT9E4B9ESD415M5
+X-Content-Type-Options: nosniff
+Date: Thu, 08 Aug 2024 09:10:09 GMT
+X-Xss-Protection: 1; mode=block
+Strict-Transport-Security: max-age=47304000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+Content-Language: en-US
+Content-Type: text/html;charset=UTF-8
+Set-Cookie: aps-web-session-id=258-8093904-5570037; Domain=.paymentservices.amazon.com; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/; Secure session-id-time=2082787201l; Domain=.paymentservices.amazon.com; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/; Secure lc-acbuk=en_US; Domain=.amazon.com; Expires=Fri, 08 Aug 2025 09:10:09 GMT; Path=/; Secure
+Retry-Count: 0
+Server: Server
+Vary: accept-encoding,Content-Type,Accept-Encoding,User-Agent

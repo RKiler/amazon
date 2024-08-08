@@ -1,0 +1,18 @@
+200 OK
+Date: Thu, 08 Aug 2024 09:13:23 GMT
+Via: 1.1 9b3fc559d946648abd0005d8a170b26c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: V9EUnGs8oKZ31hMGL7FbGozQh721JhhaJpuJGa3YzIOWp6e899aA2Q==
+Retry-Count: 0
+X-Amzn-Trace-Id: Root=1-66b48c33-6b5c83eb797c3b274ab89052
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Amz-Apigw-Id: cLrYDGnpvHcEBiw=
+X-Amz-Cf-Pop: SFO53-P5
+Content-Security-Policy: default-src 'self'; base-uri 'none'; object-src 'none'; frame-ancestors 'none'; script-src 'self' https://d3uu1k9yxntlhs.cloudfront.net 'nonce-GzBlcyzCT9hMsGLl4mpVznQ8NilpNAXhQuz94+E/28BUFWeaUq/4a2jRn00CNL4Z'; connect-src 'self' https://cognito-idp.us-west-2.amazonaws.com https://scm-hw-eng-clientv2-alpha.auth.us-west-2.amazoncognito.com https://unagi-na.amazon.com/ https://8yr22nlwu0.execute-api.us-west-2.amazonaws.com/prod/v1/log https://h7l1ydbnek.execute-api.us-west-2.amazonaws.com/Prod https://scm-ui-scos-ux-fileupload-prod-us-west-2-1.s3.us-west-2.amazonaws.com https://scm-ui-scos-ux-filedownload-prod-us-west-2-1.s3.us-west-2.amazonaws.com https://d3uu1k9yxntlhs.cloudfront.net https://sentryio.ocean-wave.aws.a2z.com https://is-it-down.amazon.com https://sctopologysvc-configuration-alpha-us-west-2--1-e64f2410.s3.us-west-2.amazonaws.com https://sctopologysvc-computedvalues-alpha-us-west-2--1-e64f2410.s3.us-west-2.amazonaws.com https://aws-scos-vendorcomm-us-west-2-401662440175-alpha.s3-us-west-2.amazonaws.com https://aws-scos-offers-alpha.s3.us-west-2.amazonaws.com https://aws-scos-offers-for-review-alpha.s3.us-west-2.amazonaws.com https://scosfiledepotservice-inf-fileuploadbucket00216c55-15qpb589hclqt.s3.us-west-2.amazonaws.com https://scosfiledepotservice-inf-filevalidationresultbuck-1v9ejkke5lxcc.s3.us-west-2.amazonaws.com https://offer-computation-report-output-prod-cell-1.s3.us-west-2.amazonaws.com https://fp-scmfp-fulfillment-planner-runs-us-west-2-alpha.s3.us-west-2.amazonaws.com https://pi-scmpi-planner-insights-us-west-2-alpha.s3.us-west-2.amazonaws.com https://anomaly-detection-output-us-west-2-alpha-952003184597.s3.us-west-2.amazonaws.com https://869252440663-aws-inf-a.seshsvc.us-west-2.ocean-wave.aws.a2z.com https://midway-auth.amazon.com/; style-src 'self' https://d3uu1k9yxntlhs.cloudfront.net; manifest-src 'self' https://d3uu1k9yxntlhs.cloudfront.net; img-src 'self' https://internal-cdn.amazon.com https://d3uu1k9yxntlhs.cloudfront.net; font-src 'self' data: ;
+Cache-Control: no-store, no-cache
+Content-Type: text/html
+Content-Length: 5918
+X-Amzn-Requestid: 505ac9b2-4151-47ff-a3b2-e37edcbb09bc
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+X-Cache: Miss from cloudfront

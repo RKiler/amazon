@@ -1,0 +1,13 @@
+200 OK
+Server: Server
+Content-Type: text/html;charset=utf-8
+Content-Language: en-US
+X-Amz-Rid: HQF5MZ37PYSQD6RAQ7ZD
+Set-Cookie: session-id=138-9066985-0561134; Domain=.amazon.com; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/; Secure session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/; Secure appstore-devportal-locale=en_US; Domain=.amazon.com; Path=/; Secure
+X-Xss-Protection: 1; mode=block 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Date: Thu, 08 Aug 2024 09:09:58 GMT
+X-Content-Type-Options: nosniff nosniff
+Vary: accept-encoding,Content-Type,Accept-Encoding,User-Agent
+Retry-Count: 0

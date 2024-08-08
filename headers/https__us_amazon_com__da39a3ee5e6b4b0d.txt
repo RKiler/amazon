@@ -1,0 +1,13 @@
+200 OK
+Date: Thu, 08 Aug 2024 09:12:30 GMT
+Vary: Content-Type,Accept-Encoding,User-Agent
+Content-Type: text/html
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Via: 1.1 04e6cfc6f03b8f5e6f5459aacc86b372.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: SFO5-P2
+X-Amz-Cf-Id: Vj6KLBRs1XO78J1rhK0m9d6a_EH6E0X9KiWS_n8mycyD5nGyE0CurA==
+X-Amz-Rid: ANVP5B1KESVVANVNVASQ
+X-Cache: Miss from cloudfront
+Alt-Svc: h3=":443"; ma=86400
+Server: Server
+Retry-Count: 0

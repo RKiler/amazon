@@ -1,0 +1,17 @@
+200 OK
+X-Amz-Cf-Id: 0fTXjUF0K03lELwamklqmAT9mTwBd36TwBoNOHglD31B3SCx0-B2Mg==
+Date: Thu, 08 Aug 2024 09:12:29 GMT
+Content-Language: en-US
+X-Amz-Rid: Q809PZ0ZCYG2CX8D9TBX
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Vary: accept-encoding,Accept-Encoding
+X-Cache: Miss from cloudfront
+Content-Type: text/html;charset=UTF-8
+Retry-Count: 0
+Set-Cookie: session-id=141-0297581-7081257; Domain=.amazon.com; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/; Secure session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/; Secure
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Amz-Cf-Pop: SFO53-P1
+Server: Server
+X-Xss-Protection: 1; mode=block
+Via: 1.1 c1ff362c1118e059b545627964cd2e64.cloudfront.net (CloudFront)

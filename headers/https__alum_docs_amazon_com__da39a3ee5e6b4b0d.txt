@@ -1,0 +1,17 @@
+200 OK
+X-Amz-Version-Id: fEJwOLxCfYOJCPXnDrHTHX21pjIgjOu5
+Age: 492
+Date: Thu, 08 Aug 2024 09:03:12 GMT
+Set-Cookie: 
+Etag: W/"5d8116fed4538de57b19f6e059d27012"
+X-Cache: Hit from cloudfront
+Via: 1.1 c4f3ed9d980b0f0938aa71b835d9bf96.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: SFO53-C1
+Content-Type: text/html; charset=utf-8
+Last-Modified: Tue, 23 Jul 2024 17:39:57 GMT
+Server: AmazonS3
+X-Amz-Cf-Id: R6Amj2_3ywzq0iuuKAdfCy_JXrfQniAG5VFCytuZm_YP8zURsZtxbQ==
+X-Amz-Server-Side-Encryption: AES256
+Cache-Control: public, max-age=300, s-maxage=600, stale-while-revalidate=3600
+Vary: Accept-Encoding
+Retry-Count: 0

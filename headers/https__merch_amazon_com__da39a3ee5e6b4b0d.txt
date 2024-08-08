@@ -1,0 +1,10 @@
+200 OK
+Content-Type: text/html;charset=UTF-8
+Set-Cookie: merch-language=en_US; Path=/; Secure; SameSite=Strict JSESSIONID=CD34F1CBE8F3D7C57346F5C81CB3D85A; Path=/; Secure; HttpOnly; SameSite=Strict
+Content-Language: en-US
+Server: Server
+Date: Thu, 08 Aug 2024 09:10:51 GMT
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Retry-Count: 0
+X-Amz-Rid: 9XEAMSCC0GS7Q6WJ32AS
+Vary: accept-encoding,Content-Type,Accept-Encoding,User-Agent

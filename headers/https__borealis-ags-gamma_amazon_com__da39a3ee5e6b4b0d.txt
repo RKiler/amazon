@@ -1,0 +1,10 @@
+200 OK
+Date: Thu, 08 Aug 2024 09:10:58 GMT
+Content-Length: 7
+Retry-Count: 0
+X-Amz-Rid: EWYRJFH62TXWBX9SRKS6
+X-Amzn-Requestid: 86dc992b-8fd7-4f4a-ae93-c272ca6d5d46
+Vary: Content-Type,Accept-Encoding,User-Agent
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Server: Server
+Content-Type: text/plain

@@ -1,0 +1,171 @@
+
+
+
+<html>
+<head>
+<title>CapacityPlannerProxy</title>
+
+<style>
+pre {
+ background-color:#EEEEEE;
+ font-size:11px;
+ padding:10px;
+}
+
+html, body {
+ height:100%;
+ font-size: 12px;
+}
+
+body {
+ color:#59595B;
+ font-family:Arial,Helvetica,sans-serif;
+ list-style-type: square;
+}
+
+a {
+ color:#146EB4;
+ text-decoration:none;
+}
+
+a:hover, a:active, a.active {
+ color:#E47911;
+}
+
+a:hover {
+ text-decoration:underline;
+}
+
+h1, h2 {
+ color:#E47911;
+ font-size:18px;
+ font-weight:normal;
+ margin:0 0 9px;
+ padding:0;
+}
+
+h1 {
+ border-bottom:1px solid #59595B;
+ margin:19px 0 2px;
+ padding-bottom:3px;
+}
+
+img {
+ border:0 none;
+}
+
+label {
+ font-weight:bold;
+}
+
+#footer, #push {
+ height:49px;
+ padding-top: 10px;
+}
+#footer {
+ clear:both;
+ text-align:center;
+ width:100%;
+}
+
+#footer .logo {
+margin-bottom:7px;
+}
+
+#footer .disclaimer {
+ background-color:#59595B;
+ clear:right;
+ color:white;
+ font-size:9px;
+ height:18px;
+ padding-top:8px;
+ text-align:center;
+ width:100%;
+}
+
+
+#page {
+ height:auto !important;
+ margin-left: 10px;
+ margin-bottom: 10px;
+ min-height:100%;
+}
+
+h2.subtitle {
+        color: #59595B;
+        font-size: 16px;
+        border-bottom: 1px solid #59595B;
+        font-weight: bold;
+}
+
+h1.title {
+        border-bottom-style: none;
+        margin-bottom: 1em;
+}
+
+</style>
+</head>
+<body>
+<div id="page">
+<center>
+<h1 class='title'>Welcome Guest!<br> This is your new Apache Tomcat Website CapacityPlannerProxy</h1>
+</center>
+<div id="started">
+<h2 class='subtitle'>Getting Started</h2>
+<br>
+<strong>What is included in my new Tomcat website?</strong>
+<ul>
+ <li>Apache Tomcat 7.0</li>
+ <li>JSP precompilation with JSTL included</li>
+ <li>SSL configured and enabled with automatic redirection</li>
+ <li>Kerberos authentication configured and enabled</li>
+ <li>Basic Snitch/SYMON website monitoring configured and enabled to e-mail you alarms</li>
+ <li>Logs and metrics publishing to PMET configured and enabled</li>
+</ul>
+<strong>If you want to jumpstart your workspace you can cut and paste the following commands:</strong>
+<pre>
+mkdir -p /workplace/Guest/CapacityPlannerProxy
+brazil ws --create --root /workplace/Guest/CapacityPlannerProxy --name Guest-CapacityPlannerProxy
+cd /workplace/Guest/CapacityPlannerProxy
+brazil ws --use --package CapacityPlannerProxyWebsiteContent --branch mainline
+brazil ws --attachEnvironment --alias CapacityPlannerProxy
+</pre>
+<br>
+<strong>To build and release changes:</strong><br>
+<i>Octane projects are built through <a href="https://w.amazon.com/?BrazilBuildSystem/Concepts/VersionSets">Version Sets</a> and deployed through <a href="https://w.amazon.com/?Apollo/Docs/VersionFilters">Version Filters</a>.</i>
+<ol>
+    <li><a href="https://build.amazon.com">Build changes into your version set</a>.
+    <li><a href="https://apollo.amazon.com/environments/CapacityPlannerProxy/-/stages/Alpha">Deploy your version filter</a>.
+</ol>
+<br><br>
+<h2 class='subtitle'>Your Website's Packages</h2>
+<br>
+<strong>CapacityPlannerProxyWebsiteContent</strong><br>
+<i>This package contains the root webapp and Tomcat platform for your website</i>
+<ul>
+<li>Java source code: <code>src/</code></li>
+<li>Unit tests: <code>tst/</code></li>
+<li>Webapp static content and JSPs: <code>webapp/</code></li>
+<li>Webapp configuration: <code>webapp/{META-INF,WEB-INF}/</code></li>
+<li>Process Manager configuration: <code>brazil-config/override/OctaneProcessManagerOverrides.cfg</code></li>
+<li>Monitoring configuration: <code>monitoring/OctaneTomcatWebsite.cfg</code></li>
+</ul>
+<br><br>
+<h2 class='subtitle'>Help</h2>
+<br>
+<strong>Documentation</strong>
+<ul>
+  <li><a href="https://w.amazon.com/?Octane/Tomcat" target="_blank" rel="noopener noreferrer">Octane Tomcat Documentation</a></li>
+  <li><a href="https://w.amazon.com/?Octane/General/FAQ" target="_blank" rel="noopener noreferrer">Octane FAQ</a></li>
+  <li><a href="https://w.amazon.com/?TOMCAT/SlimCat" target="_blank" rel="noopener noreferrer">Amazon's SlimCat Documentation</a></li>
+  <li><a href="https://w.amazon.com/?TOMCAT" target="_blank" rel="noopener noreferrer">Tomcat at Amazon</a></li>
+  <li><a href="http://tomcat.apache.org/tomcat-7.0-doc" target="_blank" rel="noopener noreferrer">Apache Tomcat 7.0 Documentation</a></li>
+</ul>
+<strong>Other questions? Please file <a href="https://issues.amazon.com/folders/553399c7-b057-4c53-aece-5cd19f8e5278" target="_blank" rel="noopener noreferrer">a issue with the Octane Team</a> if you have any questions or run into any problems.</strong>
+<br><br>
+<br><br>
+</div>
+</div>
+</body>
+</html>
+

@@ -1,0 +1,14 @@
+200 OK
+Server: AmazonS3
+Vary: Accept-Encoding
+X-Cache: Miss from cloudfront
+Content-Type: text/html; charset=utf-8
+Retry-Count: 0
+Date: Thu, 08 Aug 2024 09:10:36 GMT
+Cache-Control: no-cache, no-store, must-revalidate, max-age=0
+Etag: W/"a679c3f90da1ede16fabc8be6e88e164"
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Cf-Pop: SFO5-C1
+Last-Modified: Wed, 07 Aug 2024 17:04:39 GMT
+Via: 1.1 fa899decf29a8515a5481334de6baf5c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: hLY0KnSJFQDkXFjClgxAtwopXvfnUOFSmzOwzWupI3D8PNmH5mZgnA==

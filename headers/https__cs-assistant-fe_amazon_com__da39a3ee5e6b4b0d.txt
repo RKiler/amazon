@@ -1,0 +1,15 @@
+200 OK
+Server: Server
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+Vary: Content-Type,Accept-Encoding,User-Agent
+Content-Type: text/html;charset=UTF-8
+X-Amz-Rid: TT0XPCZEN4S602DE4B64
+Content-Language: en-US
+Retry-Count: 0
+Content-Security-Policy: frame-ancestors 'self' https://prod.aviary.cs.amazon.dev https://onebox.aviary.cs.amazon.dev https://cs-assistant-na.amazon.com https://cs-assistant-eu.amazon.com https://cs-assistant-fe.amazon.com https://prod.cs-assistant.cs.a2z.org.cn https://cs-assistant-na-preprod.iad.xcorp.amazon.com https://cs-assistant-eu-preprod.dub.xcorp.amazon.com https://cs-assistant-fe-preprod.pdx.xcorp.amazon.com https://gamma.cs-assistant.cs.a2z.org.cn https://gamma.aviary.cs.amazon.dev https://beta.aviary.cs.amazon.dev https://local.aviary.cs.amazon.dev https://qa.aviary.cs.amazon.dev http://local-development.testing.aviary.cs.amazon.dev http://beta-development.testing.aviary.cs.amazon.dev http://gamma-development.testing.aviary.cs.amazon.dev http://prod-development.testing.aviary.cs.amazon.dev https://local-release.testing.aviary.cs.amazon.dev https://beta-release.testing.aviary.cs.amazon.dev https://gamma-release.testing.aviary.cs.amazon.dev https://prod-release.testing.aviary.cs.amazon.dev
+Content-Security-Policy-Report-Only: default-src https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com; script-src https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com 'unsafe-inline' 'unsafe-eval'; style-src https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com 'unsafe-inline'; report-uri /1/batch/2/OE/mid=A1VC38T7YXB528:sid=123-456-7890:rid=TT0XPCZEN4S602DE4B64:sn=cs-assistant-fe.amazon.com
+Date: Thu, 08 Aug 2024 09:12:12 GMT
+Set-Cookie: JSESSIONID=19628B05A4EBD2C910BA5BE22302F8DD; Path=/; Secure; HttpOnly

@@ -1,0 +1,11 @@
+200 OK
+X-Amz-Rid: RMHMFRVWG51F13KJ56K2
+X-Amz-Date: Thu, 08 Aug 2024 09:13:13 GMT
+Vary: Content-Type,Accept-Encoding,User-Agent
+Content-Type: text/plain
+Date: Thu, 08 Aug 2024 09:13:13 GMT
+Content-Length: 7
+Retry-Count: 0
+X-Amzn-Requestid: 7877fd0b-9b69-4d5b-8f15-846f4f43f74f
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Server: Server

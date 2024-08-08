@@ -1,0 +1,13 @@
+200 OK
+Content-Type: text/html;charset=utf-8
+Server: Server
+Cache-Control: no-cache
+X-Runtime: 0.015838
+Date: Thu, 08 Aug 2024 09:11:15 GMT
+X-Amz-Rid: KYAABEH79BC8TE2RJP9N
+Etag: W/"b83f3abd8a71147baddfc965d11cf1d5"
+X-Request-Id: e0649662-4243-482c-a115-b70ab12d1fae
+Retry-Count: 0
+Set-Cookie: amazon_creator_landing_page_pixel=invoked; path=/; expires=Mon, 08 Aug 2044 09:11:15 GMT; HttpOnly _betamax-rails-root_session=QVVKQ3E0aTNSR2V3R2FmTGZzZG5RcEFUUyt5c0pVM1M4RUZkSUg3NlQzMXptd3JaTjN4eElXMkVydnBNTU5Ra3dTOXdTMUhuYkRENzFjRE9UcUQ1bnNIWDlrOXc0Q2p0RE9admZEK1EyZHBXUEZlNUNwOGY5L3dFUytXSFlWSE5QUGlSbThYcXFhYUkvY1Y2bFVCVUJVTmpZOFgwYUZNWjZMOXZ1djJjaDZVcWNobTl1YVV3ZGg5UFNqNFJhSnRYZHRKYVdMNTVPTjIyWTM5N1VGaFJUWHllS0Y5Y3Fsb2VTSHBybFNvYUNHdUdkeTJsZ2pXUktPbUY5WHlOWnNWbFRLMjdMVmdJWXArS3pEbjk2SVB0RGdIODlGcjAxNGZpRnZTQkp1WEwzVnh2UGxkc1JOK3VwdHBKUmJRTU9ZR3FpQmtvRFJsc1BTMFBOMUFMbithRXl3PT0tLWV6Q1g1UmtBK0FHalRSREN5bUQ5UVE9PQ%3D%3D--75e216c24b8fc4cef379a6f3ed55dc02aa934648; path=/; expires=Thu, 08 Aug 2024 09:26:15 GMT; HttpOnly
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Content-Type,Accept-Encoding,User-Agent

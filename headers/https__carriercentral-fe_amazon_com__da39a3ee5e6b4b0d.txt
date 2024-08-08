@@ -1,0 +1,14 @@
+200 OK
+Retry-Count: 0
+X-Amz-Rid: 5485MPYJ91TX40SC9190
+Set-Cookie: session-id=356-8056343-2605947; Domain=.amazon.co.jp; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/ session-id-time=2082787201l; Domain=.amazon.co.jp; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/
+Vary: accept-encoding,Content-Type,Accept-Encoding,User-Agent
+Content-Type: text/html;charset=UTF-8
+X-Xss-Protection: 1; mode=block
+Content-Security-Policy-Report-Only: default-src https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com; script-src https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com 'unsafe-inline' 'unsafe-eval'; style-src https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com 'unsafe-inline'; report-uri /1/batch/2/OE/mid=A1VC38T7YXB528:sid=356-8056343-2605947:rid=5485MPYJ91TX40SC9190:sn=carriercentral-fe.amazon.com
+Server: Server
+Date: Thu, 08 Aug 2024 09:13:01 GMT
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Language: ja-JP
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload

@@ -1,0 +1,14 @@
+200 OK
+Content-Type: text/html;charset=UTF-8
+Retry-Count: 0
+Content-Language: en-US
+Content-Security-Policy: connect-src 'self' https://*.adobedc.net https://*.demdex.net https://cm.everesttech.net https://assets.adobedtm.com; default-src https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com https://*.2o7.net https://*.omtrdc.net; frame-src 'self' https://*.adobedc.net https://*.demdex.net https://cm.everesttech.net https://assets.adobedtm.com https://www.youtube.com https://youtube.com; img-src 'self' https://*.adobedc.net https://*.demdex.net https://cm.everesttech.net https://assets.adobedtm.com https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com https://*.ytimg.com data:; script-src 'self' https://*.adobedc.net https://*.demdex.net https://cm.everesttech.net https://assets.adobedtm.com https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com https://www.youtube.com https://youtube.com 'unsafe-inline' 'unsafe-eval'; style-src https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com 'unsafe-inline';
+X-Content-Type-Options: nosniff
+Date: Thu, 08 Aug 2024 09:10:33 GMT
+X-Amz-Rid: QGGSMJYT2WS61NGB0F6B
+Server: Server
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+Set-Cookie: JSESSIONID=DCD3A698C48FBFF21A834E71E6F8176B; Path=/; Secure; HttpOnly
+Vary: Content-Type,Accept-Encoding,User-Agent
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload

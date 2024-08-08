@@ -1,0 +1,17 @@
+200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Language: en-GB
+Expires: 0
+Retry-Count: 0
+Server: Server
+Pragma: no-cache
+X-Amzn-Cdn-Id: ak-2387bbd6
+X-Cache: NotCacheable from child
+X-Amz-Rid: 5QJQC1KQFW0FWKDP19JK
+Cache-Control: no-cache, no-store, must-revalidate
+Strict-Transport-Security: max-age=47474747;
+Date: Thu, 08 Aug 2024 09:11:03 GMT
+X-Content-Type-Options: nosniff nosniff
+Vary: Content-Type,Accept-Encoding,User-Agent
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: session-id-eu=258-9059161-7647719; Max-Age=31536000; Expires=Fri, 08 Aug 2025 09:11:03 GMT; Path=/; Domain=.amazon.com; Secure

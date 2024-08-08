@@ -1,0 +1,17 @@
+404 
+Server: Server
+Retry-Count: 0
+Date: Thu, 08 Aug 2024 09:12:17 GMT
+Vary: accept-encoding
+Set-Cookie: aws-ubid-main=825-2731188-7525232; Domain=.amazon.com; Max-Age=31536000; Path=/; Secure; HttpOnly; SameSite=None aws-userInfo-signed=""; Domain=.amazon.com; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/; Secure aws-at-main=""; Domain=.amazon.com; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/; Secure aws-x-main=""; Domain=.amazon.com; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/ aws-creds=""; Domain=signin.aws.amazon.com; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/; Secure; HttpOnly aws-userInfo-keyBase=""; Domain=signin.aws.amazon.com; Expires=Thu, 01 Jan 1970 00:00:10 GMT; Path=/; Secure
+X-Frame-Options: DENY
+Content-Type: text/html
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Content-Security-Policy: default-src 'none' https://aws.amazon.com https://*.signin.aws.amazon.com https://signin.aws.amazon.com https://*.analytics.console.aws.a2z.com 'nonce-raxwOr6ULfsYOwuHKIrGfg=='; script-src 'self' https://aws.amazon.com https://*.signin.aws.amazon.com https://signin.aws.amazon.com https://d1dgtfo2wk29o4.cloudfront.net/fwcim.js https://m.media-amazon.com https://l0.awsstatic.com https://images-na.ssl-images-amazon.com 'report-sample' https://cdn.us-east-1.threat-mitigation.aws.amazon.com 'nonce-raxwOr6ULfsYOwuHKIrGfg=='; style-src 'self' https://aws.amazon.com https://*.signin.aws.amazon.com https://signin.aws.amazon.com https://aws-signin-website-assets.s3.amazonaws.com https://l0.awsstatic.com https://images-na.ssl-images-amazon.com 'unsafe-inline'; font-src data:; img-src 'self' data: https://*.signin.aws.amazon.com https://signin.aws.amazon.com https://opfcaptcha-prod.s3.amazonaws.com https://amcs-captcha-prod-us-east-1.s3.amazonaws.com https://images-na.ssl-images-amazon.com https://d1.awsstatic.com https://internal-cdn.amazon.com https://media.amazonwebservices.com https://d36cz9buwru1tt.cloudfront.net https://d0.awsstatic.com; media-src 'self' https://*.signin.aws.amazon.com https://signin.aws.amazon.com https://media.amazonwebservices.com https://d36cz9buwru1tt.cloudfront.net https://opfcaptcha-prod.s3.amazonaws.com https://amcs-captcha-prod-us-east-1.s3.amazonaws.com; frame-src 'self' https://aws.amazon.com https://*.signin.aws.amazon.com https://signin.aws.amazon.com https://*.analytics.console.aws.a2z.com https://cdn.us-east-1.threat-mitigation.aws.amazon.com; report-uri /metrics/cspreport;
+Cache-Control: no-cache, no-store, must-revalidate
+X-Amzn-Requestid: X-Amzn-Trace-Id=Root=1-66b48bf1-191fcd931c30717c03c256a3;RequestId=fe734c4a-8787-40e4-b72c-75d074db3f9b
+X-Ua-Compatible: IE=Edge
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains

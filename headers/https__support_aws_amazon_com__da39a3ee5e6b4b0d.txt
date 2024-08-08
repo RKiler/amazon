@@ -1,0 +1,23 @@
+200 OK
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Content-Length: 637
+Date: Wed, 07 Aug 2024 16:17:41 GMT
+Content-Type: text/html; charset=utf-8
+X-Amz-Cf-Id: T-T5rmr_qinHyFOkCTjBq_Z4Uy1hF1OTWtgw81zPSccBxFZF--6y6A==
+X-Content-Type-Options: nosniff
+X-Cache: Hit from cloudfront
+Age: 60953
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: strict-origin-when-cross-origin
+Content-Security-Policy: default-src https://support.aws.amazon.com/ 'unsafe-eval'; upgrade-insecure-requests; connect-src https://support.aws.amazon.com/ https://api.support.aws.amazon.com/v1/contacts/ https://prod.log.shortbread.aws.dev/ https://prod.tools.shortbread.aws.dev/; font-src https://support.aws.amazon.com/ data:; style-src https://support.aws.amazon.com/ 'unsafe-inline'; img-src https://support.aws.amazon.com/ data:;
+Last-Modified: Tue, 06 Aug 2024 15:53:34 GMT
+Server: AmazonS3
+Etag: "786b532fbc95087a737f7d7cb9fc6e0a"
+Retry-Count: 0
+Vary: Accept-Encoding
+Via: 1.1 cc58556a6e846289f4d3105969536e4c.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: SFO53-C1
+X-Xss-Protection: 1; mode=block
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Version-Id: 1.5hWVBDZOYmSx5efH4qaMSaDUXymwKp
+Accept-Ranges: bytes

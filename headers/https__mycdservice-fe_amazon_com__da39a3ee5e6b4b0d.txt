@@ -1,0 +1,11 @@
+200 OK
+Content-Type: text/html
+Retry-Count: 0
+Vary: Content-Type,Accept-Encoding,User-Agent
+Last-Modified: Mon, 05 Aug 2024 16:38:58 GMT
+Etag: "f2-61ef25046cc80-gzip"
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Server: Server
+Date: Thu, 08 Aug 2024 09:11:53 GMT
+X-Amz-Rid: Y6JSNXGN80B9Z92HGRPP
+Accept-Ranges: bytes

@@ -1,0 +1,10 @@
+200 OK
+X-Ua-Compatible: IE=edge
+Set-Cookie: JSESSIONID=0366F47366C609844C810EF415B584B8; Path=/; Secure; HttpOnly
+Content-Type: text/html;charset=ISO-8859-1
+Date: Thu, 08 Aug 2024 09:10:16 GMT
+Server: Server
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Content-Length: 2851
+Retry-Count: 0

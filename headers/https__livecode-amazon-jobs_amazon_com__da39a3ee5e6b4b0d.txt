@@ -1,0 +1,14 @@
+200 OK
+Content-Security-Policy-Report-Only: default-src https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com; script-src https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com 'unsafe-inline' 'unsafe-eval'; style-src https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com 'unsafe-inline'; report-uri /1/batch/2/OE/mid=ATVPDKIKX0DER:sid=133-0494747-2520852:rid=0FVCMHZWH7VN0K98FRD1:sn=livecode-amazon-jobs.amazon.com
+Vary: accept-encoding,Content-Type,Accept-Encoding,User-Agent
+Content-Language: en-US
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Server: Server
+Content-Type: text/html;charset=UTF-8
+Set-Cookie: session-id=133-0494747-2520852; Domain=.amazon.com; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/; Secure session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/; Secure
+Date: Thu, 08 Aug 2024 09:12:41 GMT
+X-Amz-Rid: 0FVCMHZWH7VN0K98FRD1
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Retry-Count: 0

@@ -1,0 +1,21 @@
+200 OK
+Etag: W/"b481a82695ab1f40f82bf7f9f4d4bf14"
+Vary: accept-encoding Origin
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+X-Amz-Cf-Pop: SFO53-P1
+Retry-Count: 0
+Server: AmazonS3
+Via: 1.1 2718a06c621db725db5cdb17aa5d4ef6.cloudfront.net (CloudFront)
+Referrer-Policy: strict-origin-when-cross-origin
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Version-Id: JeD.jf4SLv4XfNem_7fuTD36wqvMLKrm
+Cache-Control: 3600
+X-Xss-Protection: 1; mode=block
+Content-Type: text/html
+Last-Modified: Fri, 21 Jun 2024 15:57:58 GMT
+Content-Security-Policy: default-src self https://*.media-amazon.com https://*.awsstatic.com https://*.aws.amazon.com; img-src self https://d2jzdts88nec9c.cloudfront.net https://d2e5hy6ocwdfvi.cloudfront.net https://*.media-amazon.com https://*.awsstatic.com https://*.amazonaws.com https://*.aws.amazon.com; script-src self; style-src self 'unsafe-inline' https://*.media-amazon.com https://*.awsstatic.com https://*.amazonaws.com https://*.aws.amazon.com; object-src self https://*.aws.amazon.com; font-src self https://*.media-amazon.com https://*.awsstatic.com https://*.amazonaws.com https://*.aws.amazon.com;
+X-Cache: RefreshHit from cloudfront
+X-Amz-Cf-Id: JYVgdlPoa1LU65TVoV-G3RJWZKsW5FAxk4w0OO5igGjperd80S8o-Q==
+Date: Thu, 08 Aug 2024 09:11:42 GMT

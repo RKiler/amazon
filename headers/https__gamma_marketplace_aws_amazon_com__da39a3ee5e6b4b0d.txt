@@ -1,0 +1,15 @@
+200 OK
+X-Content-Type-Options: nosniff
+Cache-Control: no-cache
+Date: Thu, 08 Aug 2024 09:12:14 GMT
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+X-Amz-Bucket-Region: us-east-1
+Server: AmazonS3
+X-Cache: Miss from cloudfront
+Via: 1.1 4b1b2807a9c2c54798a33790d79a55b2.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: SFO53-P6
+X-Amz-Cf-Id: m31WFgpIbXTemwZRJCCPM2dVkSKhirSwcOFIerayjbmmcwNquzju0A==
+Content-Type: application/xml
+Referrer-Policy: strict-origin-when-cross-origin
+Retry-Count: 0

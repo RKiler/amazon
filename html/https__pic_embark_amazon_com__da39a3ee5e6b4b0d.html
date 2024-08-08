@@ -1,0 +1,25 @@
+<!doctype html><html lang="en"><head><script>(function (n, i, v, r, s, c, x, z) {
+				x = window.AwsRumClient = { q: [], n: n, i: i, v: v, r: r, c: c };
+				window[n] = function (c, p) {
+					x.q.push({ c: c, p: p });
+				};
+				z = document.createElement('script');
+				z.async = true;
+				z.src = s;
+				document.head.insertBefore(z, document.head.getElementsByTagName('script')[0]);
+			})(
+				'cwr',
+				'23dec5bc-6f92-4d47-8497-1c777ea938cb',
+				'1.0.0',
+				'us-east-1',
+				'https://client.rum.us-east-1.amazonaws.com/1.12.0/cwr.js',
+				{
+					sessionSampleRate: 1,
+					guestRoleArn: 'arn:aws:iam::072162143660:role/pic-stand-along-prod-us-east-1-cloudwatch-rum-role',
+					identityPoolId: 'us-east-1:f0cd6c00-de6e-43d5-9802-cfdf440dbfb1',
+					endpoint: 'https://dataplane.rum.us-east-1.amazonaws.com',
+					telemetries: ['errors', 'performance', 'http'],
+					allowCookies: true,
+					enableXRay: false
+				}
+			);</script><meta name="viewport" content="width=device-width,initial-scale=1"/><meta charset="UTF-8"/><title>PIC Website</title></head><body><div id="root"></div><script src="/vendor.5db65654.chunk.min.js"></script><script src="/main.e2ac6c4d2bbfde132c97.js"></script></body></html>

@@ -1,0 +1,14 @@
+200 OK
+Date: Thu, 08 Aug 2024 09:11:18 GMT
+Content-Type: text/html;charset=UTF-8
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: default-src 'self'; img-src 'self';script-src 'self' 'sha256-J+Y4l+yfxXd4cYzH9LhXUSHSb7zZu2bgddfCumVZJMo=';object-src 'none';form-action 'none';frame-src 'none';style-src 'self' 'sha256-OU0LTytxyR8kjQ+DRjRCDKhUAKEeH7rb0D5nBWOzRlQ='
+Referrer-Policy: strict-origin
+X-Content-Type-Options: nosniff
+Set-Cookie: __cf_bm=p8x3H9awOZ8UtJRxMzR310r7Wyar2.ethNeUgybmkJM-1723108278-1.0.1.1-Q9E1d.MZN.mi2iED1VwKNzs9fh5pdPKxk5E6lhrgqIBY8YG7_JOmiM_o1iNrgrUuEakAgl2umzE7JjvfdxWjPQ; path=/; expires=Thu, 08-Aug-24 09:41:18 GMT; domain=.click.freight.amazon.com; HttpOnly; Secure
+Cf-Ray: 8afe60d688121601-SJC
+Retry-Count: 0
+Server: cloudflare
+X-Request-Id: b15011c9925afb82
+Cache-Control: private, no-cache, no-store, max-age=0
+Cf-Cache-Status: DYNAMIC

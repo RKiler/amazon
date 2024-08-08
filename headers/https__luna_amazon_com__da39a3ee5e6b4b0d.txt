@@ -1,0 +1,15 @@
+200 OK
+X-Amz-Platform-Attr: horizonte:5.3.1,spring:5.3.36,jdk:17.0.11,cpuarch:amd64
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Date: Thu, 08 Aug 2024 09:10:50 GMT
+Content-Type: text/html;charset=UTF-8
+Retry-Count: 0
+X-Amz-Rid: 9MGKAGZQ7WBCNEQSW5BA
+Set-Cookie: session-id=138-0061430-0380473; Domain=.amazon.com; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/; Secure session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/; Secure
+X-Xss-Protection: 1; mode=block
+Content-Security-Policy-Report-Only: default-src 'self' data: https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com wss://*.amazonaws.com https://*.amazonaws.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com https://player.twitch.tv local://* 'self' data:; frame-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com https://player.twitch.tv https://connect.ubisoft.com local://* 'self' data:; connect-src 'self' https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.a2z.com https://*.amazonaws.com wss://*.amazonaws.com; style-src 'self' 'unsafe-inline' https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com https://*.amazon-adsystem.com; img-src 'self' https://*.amazon.com https://*.media-amazon.com https://*.ssl-images-amazon.com http://*.amazonaws.com https://*.amazonaws.com https://*.jtvnw.net local://* 'self' data:; report-uri /api/cspReports
+X-Frame-Options: SAMEORIGIN
+Vary: origin,access-control-request-method,access-control-request-headers,accept-encoding,Content-Type,Accept-Encoding,User-Agent
+Server: Server
+Content-Language: en-US
+X-Content-Type-Options: nosniff

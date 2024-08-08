@@ -1,0 +1,21 @@
+200 OK
+Date: Thu, 08 Aug 2024 09:11:23 GMT
+X-Amz-Server-Side-Encryption: AES256
+Cache-Control: max-age=300
+Server: AmazonS3
+X-Cache: Miss from cloudfront
+X-Amz-Cf-Id: JbIqzNd3yLhXW1yPpu_PQ_NYZ6bLFfoh4wgaU6Mps53Bmm0fuVMmDg==
+Referrer-Policy: strict-origin-when-cross-origin
+Content-Length: 3289357
+Content-Security-Policy: upgrade-insecure-requests; default-src 'none'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; connect-src 'self' https://prod.log.shortbread.aws.dev https://prod.tools.shortbread.aws.dev; img-src 'self' data:; font-src 'self'; form-action 'none'
+Last-Modified: Thu, 08 Aug 2024 09:05:12 GMT
+Etag: "048d14306063322f2c33dafdca0aa0d8"
+Accept-Ranges: bytes
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000
+Vary: Origin
+Content-Type: text/html
+Via: 1.1 cb0b891eddf58d69d157d55977c68bce.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: SFO53-P2
+Retry-Count: 0

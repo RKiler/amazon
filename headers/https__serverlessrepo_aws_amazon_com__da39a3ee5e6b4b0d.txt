@@ -1,0 +1,13 @@
+200 OK
+Content-Type: text/html; charset=utf-8
+Server: AmazonS3
+X-Cache: Hit from cloudfront
+Last-Modified: Fri, 19 Jan 2024 22:00:27 GMT
+Etag: W/"063c4d1f77bc01fee94390a472e05b79"
+Via: 1.1 442d080ad536f368b087d8fa4ff33ee6.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: SFO5-P2
+Retry-Count: 0
+Date: Wed, 07 Aug 2024 09:28:21 GMT
+Vary: Accept-Encoding
+X-Amz-Cf-Id: -7yLkVLTmFGEdosLPTt4IEX6ZBcP-OcrZOVL5KnKe3VD-npyWoATpQ==
+Age: 85513

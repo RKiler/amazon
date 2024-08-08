@@ -1,0 +1,381 @@
+
+
+
+
+<!doctype html>
+
+
+    
+    
+<html>
+    
+
+    <head><script>var aPageStart = (new Date()).getTime();</script><meta charset="utf-8"/>
+        <title>キャリアセントラルへようこそ</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+<link rel="stylesheet" href="https://images-fe.ssl-images-amazon.com/images/I/11KpeNaLkYL._RC|01Gdis3QUIL.css,01lF2n-pPaL.css,41yeEjAOYIL.css,3137XxvMS8L.css,01IWMurvs8L.css,11GEPqXartL.css,01qPl4hxayL.css,01ITNc8rK9L.css,413Vvv3GONL.css,11TIuySqr6L.css,01Rw4F+QU6L.css,11j54vTBQxL.css,01pbKJp5dbL.css,01IdKcBuAdL.css,01y-XAlI+2L.css,21PrVsc9jNL.css,01oDR3IULNL.css,51qPa7JG96L.css,01XPHJk60-L.css,01dmkcyJuIL.css,01B9+-hVWxL.css,21Ol27dM9tL.css,11JRZ3s9niL.css,21wA+jAxKjL.css,11U8GXfhueL.css,218hqIz39PL.css,01F7oM-p7IL.css,316CD+csp-L.css,116t+WD27UL.css,11uWFHlOmWL.css,11v8YDG4ifL.css,11otOAnaYoL.css,01FwL+mJQOL.css,11NDsgnHEZL.css,21IftlwwJBL.css,116NcDlHDOL.css,012f1fcyibL.css,21w-O41p+SL.css,11XH+76vMZL.css,11hvENnYNUL.css,11FRI-QT39L.css,01890+Vwk8L.css,01864Lq457L.css,01cbS3UK11L.css,21F85am0yFL.css,016mfgi+D2L.css,01WslS8q5ML.css,111YFRAP2PL.css,016Sx2kF1+L.css_.css?AUIClients/AmazonUI#jp.not-trident" />
+<link rel="stylesheet" href="https://images-fe.ssl-images-amazon.com/images/I/01ScFMUQ4NL.css?AUIClients/MagicarpAuiAssets" />
+
+<link rel="stylesheet" href="https://images-na.ssl-images-amazon.com/images/G/01/magicarp/css/font-awesome.min.css">
+<script src="https://images-na.ssl-images-amazon.com/images/G/01/magicarp/js/jquery-3.2.1.min.js"></script>
+<script src="https://images-na.ssl-images-amazon.com/images/G/01/magicarp/js/angular.min.js"></script>
+<script src="https://images-na.ssl-images-amazon.com/images/G/01/magicarp/js/angular-cookies.min.js"></script>
+<script src="https://images-na.ssl-images-amazon.com/images/G/01/magicarp/js/angular-route.min.js"></script>
+<script src="https://images-na.ssl-images-amazon.com/images/G/01/magicarp/js/xlsx.full.min.js"></script>
+<script src="https://images-na.ssl-images-amazon.com/images/G/01/magicarp/js/jquery.blockUI.min.js"></script>
+<script src="/resources/js/AppController.js?version=4"></script>
+<script src="/resources/js/UtilService.js?version=3"></script>
+<script src="/resources/js/AppointmentService.js?version=6"></script>
+<script src="/resources/js/AccountService.js?version=5"></script>
+<script>
+(function(b,a,c,d){if((b=b.AmazonUIPageJS||b.P)&&b.when&&b.register){c=[];for(a=a.currentScript;a;a=a.parentElement)a.id&&c.push(a.id);return b.log("A copy of P has already been loaded on this page.","FATAL",c.join(" "))}})(window,document,Date);(function(a,b,c,d){"use strict";a._pSetI=function(){return null}})(window,document,Date);(function(d,G,I,J){"use strict";d._sw=function(){var p;return function(w,e,u,z,h,A,q,k,x,B){p||(p=!0,B.execute("RetailPageServiceWorker",function(){function y(a,b){g.controller&&a?(a={feature:"retail_service_worker_messaging",command:a},b&&(a.data=b),g.controller.postMessage(a)):a&&h("sw:sw_message_no_ctrl",1)}function p(a){var b=a.data;if(b&&"retail_service_worker_messaging"===b.feature&&b.command&&b.data){var c=b.data;a=d.ue;var f=d.ueLogError;switch(b.command){case "log_counter":a&&k(a.count)&&
+c.name&&a.count(c.name,0===c.value?0:c.value||1);break;case "log_tag":a&&k(a.tag)&&c.tag&&(a.tag(c.tag),b=d.uex,a.isl&&k(b)&&b("at"));break;case "log_error":f&&k(f)&&c.message&&f({message:c.message,logLevel:c.level||"ERROR",attribution:c.attribution||"RetailServiceWorker"});break;case "log_weblab_trigger":if(!c.weblab||!c.treatment)break;a&&k(a.trigger)?a.trigger(c.weblab,c.treatment):(h("sw:wt:miss"),h("sw:wt:miss:"+c.weblab+":"+c.treatment));break;default:h("sw:unsupported_message_command",1)}}}
+function v(a,b){return"sw:"+(b||"")+":"+a+":"}function C(){l.forEach(function(a){q(a)})}function n(a){return a.capabilities.isAmazonApp&&a.capabilities.android}function D(a,b,c){if(b)if(b.mshop&&n(a))a=v(c,"mshop_and"),b=b.mshop.action,l.push(a+"supported"),b(a,c);else if(b.browser){a=u(/Chrome/i)&&!u(/Edge/i)&&!u(/OPR/i)&&!a.capabilities.isAmazonApp&&!u(new RegExp(z+"bwv"+z+"b"));var f=b.browser;b=v(c,"browser");a?(a=f.action,l.push(b+"supported"),a(b,c)):l.push(b+"unsupported")}}function E(a,b,
+c){a&&l.push(v("register",c)+"unsupported");b&&l.push(v("unregister",c)+"unsupported");C()}try{var g=navigator.serviceWorker}catch(a){q("sw:nav_err")}(function(){if(g){var a=function(){y("page_loaded",{rid:d.ue_id,mid:d.ue_mid,pty:d.ue_pty,sid:d.ue_sid,spty:d.ue_spty,furl:d.ue_furl})};x(g,"message",p);y("client_messaging_ready");B.when("load").execute(a);x(g,"controllerchange",function(){y("client_messaging_ready");"complete"===G.readyState&&a()})}})();var l=[],m=function(a,b){var c=d.uex,f=d.uet;
+a=e(":","aui","sw",a);"ld"===b&&k(c)?c("ld",a,{wb:1}):k(f)&&f(b,a,{wb:1})},H=function(a,b,c){function f(a){b&&k(b.failure)&&b.failure(a)}function F(){l=setTimeout(function(){q(e(":","sw:"+r,t.TIMED_OUT));f({ok:!1,statusCode:t.TIMED_OUT,done:!1});m(r,"ld")},c||4E3)}var t={NO_CONTROLLER:"no_ctrl",TIMED_OUT:"timed_out",UNSUPPORTED_BROWSER:"unsupported_browser",UNEXPECTED_RESPONSE:"unexpected_response"},r=e(":",a.feature,a.command),l,n=!0;if("MessageChannel"in d&&g&&"controller"in g)if(g.controller){var p=
+new MessageChannel;p.port1.onmessage=function(c){(c=c.data)&&c.feature===a.feature&&c.command===a.command?(n&&(m(r,"cf"),n=!1),m(r,"af"),clearTimeout(l),c.done||F(),c.ok?b&&k(b.success)&&b.success(c):f(c),c.done&&m(r,"ld")):h(e(":","sw:"+r,t.UNEXPECTED_RESPONSE),1)};F();m(r,"bb");g.controller.postMessage(a,[p.port2])}else q(e(":","sw:"+a.feature,t.NO_CONTROLLER)),f({ok:!1,statusCode:t.NO_CONTROLLER,done:!0});else q(e(":","sw:"+a.feature,t.UNSUPPORTED_BROWSER)),f({ok:!1,statusCode:t.UNSUPPORTED_BROWSER,
+done:!0})};(function(){g?(m("ctrl_changed","bb"),g.addEventListener("controllerchange",function(){q("sw:ctrl_changed");m("ctrl_changed","ld")})):h(e(":","sw:ctrl_changed","sw_unsupp"),1)})();(function(){var a=function(){m(b,"ld");var a=d.uex;H({feature:"page_proxy",command:"request_feature_tags"},{success:function(b){b=b.data;Array.isArray(b)&&b.forEach(function(a){"string"===typeof a?q(e(":","sw:ppft",a)):h(e(":","sw:ppft","invalid_tag"),1)});h(e(":","sw:ppft","success"),1);A&&A.isl&&k(a)&&a("at")},
+failure:function(a){h(e(":","sw:ppft","error:"+(a.statusCode||"ppft_error")),1)}})};if("requestIdleCallback"in d){var b=e(":","ppft","callback_ricb");d.requestIdleCallback(a,{timeout:1E3})}else b=e(":","ppft","callback_timeout"),setTimeout(a,0);m(b,"bb")})();(function(a){var b=a.reg,c=a.unreg;g&&g.getRegistrations?(w.when("A").execute(function(b){if((a.reg.mshop||a.unreg.mshop)&&"function"===typeof n&&n(b)){var f=a.reg.mshop?"T1":"C",e=d.ue;e&&e.trigger?e.trigger("MSHOP_SW_CLIENT_446196",f):h("sw:mshop:wt:failed")}D(b,
+c,"unregister")}),x(d,"load",function(){w.when("A").execute(function(a){D(a,b,"register");C()})})):(E(b&&b.browser,c&&c.browser,"browser"),w.when("A").execute(function(a){"function"===typeof n&&n(a)&&E(b&&b.mshop,c&&c.mshop,"mshop_and")}))})({reg:{},unreg:{}})}))}}()})(window,document,Date);(function(c,e,I,B){"use strict";c._pd=function(){var a,u;return function(C,f,h,k,b,D,v,E,F){function w(d){try{return d()}catch(J){return!1}}function l(){if(m){var d={w:c.innerWidth||b.clientWidth,h:c.innerHeight||b.clientHeight};5<Math.abs(d.w-q.w)||50<d.h-q.h?(q=d,n=4,(d=a.mobile||a.tablet?450<d.w&&d.w>d.h:1250<=d.w)?k(b,"a-ws"):b.className=v(b,"a-ws")):0<n&&(n--,x=setTimeout(l,16))}}function G(d){(m=d===B?!m:!!d)&&l()}function H(){return m}if(!u){u=!0;var r=function(){var d=["O","ms","Moz","Webkit"],
+c=e.createElement("div");return{testGradients:function(){return!0},test:function(a){var b=a.charAt(0).toUpperCase()+a.substr(1);a=(d.join(b+" ")+b+" "+a).split(" ");for(b=a.length;b--;)if(""===c.style[a[b]])return!0;return!1},testTransform3d:function(){return!0}}}(),y=b.className,z=/(^| )a-mobile( |$)/.test(y),A=/(^| )a-tablet( |$)/.test(y);a={audio:function(){return!!e.createElement("audio").canPlayType},video:function(){return!!e.createElement("video").canPlayType},canvas:function(){return!!e.createElement("canvas").getContext},
+svg:function(){return!!e.createElementNS&&!!e.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect},offline:function(){return navigator.hasOwnProperty&&navigator.hasOwnProperty("onLine")&&navigator.onLine},dragDrop:function(){return"draggable"in e.createElement("span")},geolocation:function(){return!!navigator.geolocation},history:function(){return!(!c.history||!c.history.pushState)},webworker:function(){return!!c.Worker},autofocus:function(){return"autofocus"in e.createElement("input")},
+inputPlaceholder:function(){return"placeholder"in e.createElement("input")},textareaPlaceholder:function(){return"placeholder"in e.createElement("textarea")},localStorage:function(){return"localStorage"in c&&null!==c.localStorage},orientation:function(){return"orientation"in c},touch:function(){return"ontouchend"in e},gradients:function(){return r.testGradients()},hires:function(){var a=c.devicePixelRatio&&1.5<=c.devicePixelRatio||c.matchMedia&&c.matchMedia("(min-resolution:144dpi)").matches;E("hiRes"+
+(z?"Mobile":A?"Tablet":"Desktop"),a?1:0);return a},transform3d:function(){return r.testTransform3d()},touchScrolling:function(){return f(/Windowshop|android|OS ([5-9]|[1-9][0-9]+)(_[0-9]{1,2})+ like Mac OS X|SOFTWARE=([5-9]|[1-9][0-9]+)(.[0-9]{1,2})+.*DEVICE=iPhone|Chrome|Silk|Firefox|Trident.+?; Touch/i)},ios:function(){return f(/OS [1-9][0-9]*(_[0-9]*)+ like Mac OS X/i)&&!f(/trident|Edge/i)},android:function(){return f(/android.([1-9]|[L-Z])/i)&&!f(/trident|Edge/i)},mobile:function(){return z},
+tablet:function(){return A},rtl:function(){return"rtl"===b.dir}};for(var g in a)a.hasOwnProperty(g)&&(a[g]=w(a[g]));for(var t="textShadow textStroke boxShadow borderRadius borderImage opacity transform transition".split(" "),p=0;p<t.length;p++)a[t[p]]=w(function(){return r.test(t[p])});var m=!0,x=0,q={w:0,h:0},n=4;l();h(c,"resize",function(){clearTimeout(x);n=4;l()});b.className=v(b,"a-no-js");k(b,"a-js");!f(/OS [1-8](_[0-9]*)+ like Mac OS X/i)||c.navigator.standalone||f(/safari/i)||k(b,"a-ember");
+h=[];for(g in a)a.hasOwnProperty(g)&&a[g]&&h.push("a-"+g.replace(/([A-Z])/g,function(a){return"-"+a.toLowerCase()}));k(b,h.join(" "));b.setAttribute("data-aui-build-date",F);C.register("p-detect",function(){return{capabilities:a,localStorage:a.localStorage&&D,toggleResponsiveGrid:G,responsiveGridEnabled:H}});return a||{}}}}()})(window,document,Date);(function(g,l,C,D){function E(a){n&&n.tag&&n.tag(p(":","aui",a))}function m(a,b){n&&n.count&&n.count("aui:"+a,0===b?0:b||(n.count("aui:"+a)||0)+1)}function F(a){try{return a.test(navigator.userAgent)}catch(b){return!1}}function G(a){return"function"===typeof a}function u(a,b,c){a.addEventListener?a.addEventListener(b,c,!1):a.attachEvent&&a.attachEvent("on"+b,c)}function p(a,b,c,f){b=b&&c?b+a+c:b||c;return f?p(a,b,f):b}function y(a,b,c){try{Object.defineProperty(a,b,{value:c,writable:!1})}catch(f){a[b]=
+c}return c}function O(a,b){a.className=P(a,b)+" "+b}function P(a,b){return(" "+a.className+" ").split(" "+b+" ").join(" ").replace(/^ | $/g,"")}function ca(a,b,c){var f=c=a.length,e=function(){f--||(H.push(b),I||(q?q.set(z):setTimeout(z,0),I=!0))};for(e();c--;)Q[a[c]]?e():(v[a[c]]=v[a[c]]||[]).push(e)}function da(a,b,c,f,e){var d=l.createElement(a?"script":"link");u(d,"error",f);e&&u(d,"load",e);a?(d.type="text/javascript",d.async=!0,c&&/AUIClients|images[/]I/.test(b)&&d.setAttribute("crossorigin",
+"anonymous"),d.src=b):(d.rel="stylesheet",d.href=b);l.getElementsByTagName("head")[0].appendChild(d)}function R(a,b){return function(c,f){function e(){da(b,c,d,function(b){J?m("resource_unload"):d?(d=!1,m("resource_retry"),e()):(m("resource_error"),a.log("Asset failed to load: "+c));b&&b.stopPropagation?b.stopPropagation():g.event&&(g.event.cancelBubble=!0)},f)}if(S[c])return!1;S[c]=!0;m("resource_count");var d=!0;return!e()}}function ea(a,b,c){for(var f={name:a,guard:function(c){return b.guardFatal(a,
+c)},guardTime:function(a){return b.guardTime(a)},logError:function(c,d,e){b.logError(c,d,e,a)}},e=[],d=0;d<c.length;d++)A.hasOwnProperty(c[d])&&(e[d]=K.hasOwnProperty(c[d])?K[c[d]](A[c[d]],f):A[c[d]]);return e}function w(a,b,c,f,e){return function(d,k){function n(){var a=null;f?a=k:G(k)&&(q.start=r(),a=k.apply(g,ea(d,h,l)),q.end=r());if(b){A[d]=a;a=d;for(Q[a]=!0;(v[a]||[]).length;)v[a].shift()();delete v[a]}q.done=!0}var h=e||this;G(d)&&(k=d,d=D);b&&(d=d?d.replace(T,""):"__NONAME__",L.hasOwnProperty(d)&&
+h.error(p(", reregistered by ",p(" by ",d+" already registered",L[d]),h.attribution),d),L[d]=h.attribution);for(var l=[],m=0;m<a.length;m++)l[m]=a[m].replace(T,"");var q=x[d||"anon"+ ++fa]={depend:l,registered:r(),namespace:h.namespace};d&&ha.hasOwnProperty(d);c?n():ca(l,h.guardFatal(d,n),d);return{decorate:function(a){K[d]=h.guardFatal(d,a)}}}}function U(a){return function(){var b=Array.prototype.slice.call(arguments);return{execute:w(b,!1,a,!1,this),register:w(b,!0,a,!1,this)}}}function M(a,b){return function(c,
+f){f||(f=c,c=D);var e=this.attribution;return function(){h.push(b||{attribution:e,name:c,logLevel:a});var d=f.apply(this,arguments);h.pop();return d}}}function B(a,b){this.load={js:R(this,!0),css:R(this)};y(this,"namespace",b);y(this,"attribution",a)}function V(){l.body?k.trigger("a-bodyBegin"):setTimeout(V,20)}"use strict";var t=C.now=C.now||function(){return+new C},r=function(a){return a&&a.now?a.now.bind(a):t}(g.performance),ia=r(),ha={},n=g.ue;E();E("aui_build_date:3.24.6-2024-08-01");var W={getItem:function(a){try{return g.localStorage.getItem(a)}catch(b){}},
+setItem:function(a,b){try{return g.localStorage.setItem(a,b)}catch(c){}}},q=g._pSetI(),H=[],ja=[],I=!1,ka=navigator.scheduling&&"function"===typeof navigator.scheduling.isInputPending;var z=function(){for(var a=q?q.set(z):setTimeout(z,0),b=t();ja.length||H.length;)if(H.shift()(),q&&ka){if(150<t()-b&&!navigator.scheduling.isInputPending()||50<t()-b&&navigator.scheduling.isInputPending())return}else if(50<t()-b)return;q?q.clear(a):clearTimeout(a);I=!1};var Q={},v={},S={},J=!1;u(g,"beforeunload",function(){J=
+!0;setTimeout(function(){J=!1},1E4)});var T=/^prv:/,L={},A={},K={},x={},fa=0,X=String.fromCharCode(92),h=[],Y=!0,Z=g.onerror;g.onerror=function(a,b,c,f,e){e&&"object"===typeof e||(e=Error(a,b,c),e.columnNumber=f,e.stack=b||c||f?p(X,e.message,"at "+p(":",b,c,f)):D);var d=h.pop()||{};e.attribution=p(":",e.attribution||d.attribution,d.name);e.logLevel=d.logLevel;e.attribution&&console&&console.log&&console.log([e.logLevel||"ERROR",a,"thrown by",e.attribution].join(" "));h=[];Z&&(d=[].slice.call(arguments),
+d[4]=e,Z.apply(g,d))};B.prototype={logError:function(a,b,c,f){b={message:b,logLevel:c||"ERROR",attribution:p(":",this.attribution,f)};if(g.ueLogError)return g.ueLogError(a||b,a?b:null),!0;console&&console.error&&(console.log(b),console.error(a));return!1},error:function(a,b,c,f){a=Error(p(":",f,a,c));a.attribution=p(":",this.attribution,b);throw a;},guardError:M(),guardFatal:M("FATAL"),guardCurrent:function(a){var b=h[h.length-1];return b?M(b.logLevel,b).call(this,a):a},guardTime:function(a){var b=
+h[h.length-1],c=b&&b.name;return c&&c in x?function(){var b=r(),e=a.apply(this,arguments);x[c].async=(x[c].async||0)+r()-b;return e}:a},log:function(a,b,c){return this.logError(null,a,b,c)},declare:w([],!0,!0,!0),register:w([],!0),execute:w([]),AUI_BUILD_DATE:"3.24.6-2024-08-01",when:U(),now:U(!0),trigger:function(a,b,c){var f=t();this.declare(a,{data:b,pageElapsedTime:f-(g.aPageStart||NaN),triggerTime:f});c&&c.instrument&&N.when("prv:a-logTrigger").execute(function(b){b(a)})},handleTriggers:function(){this.log("handleTriggers deprecated")},
+attributeErrors:function(a){return new B(a)},_namespace:function(a,b){return new B(a,b)},setPriority:function(a){Y?Y=!1:this.log("setPriority only accept the first call.")}};var k=y(g,"AmazonUIPageJS",new B);var N=k._namespace("PageJS","AmazonUI");N.declare("prv:p-debug",x);k.declare("p-recorder-events",[]);k.declare("p-recorder-stop",function(){});y(g,"P",k);V();if(l.addEventListener){var aa;l.addEventListener("DOMContentLoaded",aa=function(){k.trigger("a-domready");l.removeEventListener("DOMContentLoaded",
+aa,!1)},!1)}var ba=l.documentElement,la=g._pd(k,F,u,O,ba,W,P,m,"3.24.6-2024-08-01");F(/UCBrowser/i)||la.localStorage&&O(ba,W.getItem("a-font-class"));k.declare("a-event-revised-handling",!1);g._sw(N,p,F,X,m,n,E,G,u,k);k.declare("a-fix-event-off",!1);m("pagejs:pkgExecTime",r()-ia)})(window,document,Date);
+  (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-fe.ssl-images-amazon.com/images/I/11B2bsTfmvL._RC|61xJcNKKLXL.js,11Y+5x+kkTL.js,51XFQXG4llL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21BJeD9yjcL.js,01cS+tLhj4L.js,11aD5q6kNBL.js,11rRjDLdAVL.js,51UOrPXYGsL.js,11nAhXzgUmL.js,11UNP9ncXuL.js,1174TO1N7GL.js,11uo7qXoO3L.js,01VhK3jZdbL.js,21eKR4hvwNL.js,01490L6yBnL.js,51VMOZw4iVL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ktRCtOqKL.js,21HyhaXHQ8L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,315n+VmgJ3L.js,01tvglXfQOL.js,11jxZ9ouCoL.js,01fBsnBQx0L.js_.js?AUIClients/AmazonUI');
+</script>
+
+    </head>
+    <script src="/resources/js/HomeController.js"></script>
+    <body data-ng-app="carpApp" data-ng-controller="HomeController" data-ng-init="Init('false', '{&quot;requiredFields&quot;:[&quot;CARTON_COUNT&quot;,&quot;UNIT_COUNT&quot;],&quot;manualUrl&quot;:&quot;https://images-na.ssl-images-amazon.com/images/G/01/magicarp/common/Carrier_Central_Manual_JPAmazon.pdf&quot;,&quot;opProcedureUrl&quot;:&quot;&quot;,&quot;fcDeliverySpecificationUrl&quot;:&quot;&quot;,&quot;wePayOpsManualUrl&quot;:&quot;&quot;,&quot;supportUrl&quot;:&quot;mailto:carp-support-fe@amazon.com?subject\u003d%5B20%2A%2A%2FMM%2FDD%5D%5BSCAC%20%3A%20%5D%20Title%20of%20Issue\u0026body\u003dJapanese%0A%5B20%2A%2A%E5%B9%B4%20%E6%9C%88%20%E6%97%A5%5D%20%5BSCAC%20%3A%20%5D%20%E4%BB%B6%E5%90%8D%0A%0A%E2%80%BB%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%8B%E8%8B%B1%E8%AA%9E%E3%81%AE%E3%81%A9%E3%81%A1%E3%82%89%E3%81%8B%E3%81%A7%E8%A8%98%E5%85%A5%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%EF%BC%88%E4%B8%A1%E6%96%B9%E8%A8%98%E5%85%A5%E3%81%99%E3%82%8B%E5%BF%85%E8%A6%81%E3%81%AF%E3%81%82%E3%82%8A%E3%81%BE%E3%81%9B%E3%82%93%EF%BC%89%0A%E2%80%BB%E4%BB%B6%E5%90%8D%E3%81%AE%E3%80%8C%E6%97%A5%E4%BB%98%E3%80%81SCAC%E3%80%81%E5%95%8F%E5%90%88%E3%81%9B%E5%86%85%E5%AE%B9%E3%81%AE%E4%BB%B6%E5%90%8D%E3%81%AE%E8%A8%98%E5%85%A5%E3%80%8D%E3%81%A8%E4%BB%A5%E4%B8%8B%E3%81%AE%E9%A0%85%E7%9B%AE%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E5%85%A5%E5%8A%9B%E3%81%8C%E7%84%A1%E3%81%84%E5%A0%B4%E5%90%88%E3%80%81%E5%AF%BE%E5%BF%9C%E3%81%8C%E9%81%85%E3%81%8F%E3%81%AA%E3%82%8B%E5%A0%B4%E5%90%88%E3%81%8C%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99%E3%80%82%0A%E2%80%BB%E7%B4%8D%E5%93%81%E5%85%88FC%E3%81%AF%E8%8B%B1%E6%95%B0%E5%AD%974%E6%A1%81%E3%81%AE%E3%82%82%E3%81%AE%E3%82%92%E8%A8%98%E5%85%A5%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%EF%BC%88%E5%B8%82%E5%B7%9DFC%E3%81%AA%E3%81%A9%E3%81%AFNG%E3%81%A7%E3%81%99%EF%BC%89%0A%E2%80%BB%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E8%B3%AA%E5%95%8F%E9%9B%86%E3%81%AF%E3%81%93%E3%81%A1%E3%82%89%EF%BC%9Ahttps%3A%2F%2Fm.media-amazon.com%2Fimages%2FG%2F01%2Fmagicarp%2Fcommon%2FCarrier_Central_FAQ.pdf%0A%0A-%20%E5%95%8F%E9%A1%8C%E7%99%BA%E7%94%9F%E6%97%A5%20%3A%0A-%20%E9%85%8D%E9%80%81%E4%BC%9A%E7%A4%BE%E6%A7%98%E8%AD%98%E5%88%A5%E3%82%B3%E3%83%BC%E3%83%89%28SCAC%29%20%3A%0A-%20%E7%A4%BE%E5%90%8D%20%28%E6%94%AF%E5%BA%97%E5%90%8D%29%20%3A%0A-%20Carrier%20Central%E3%81%AE%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88ID%20%3A%0A-%20%E4%BA%88%E7%B4%84ID%20%28ISA%29%20%3A%0A-%20%E7%B4%8D%E5%93%81%E5%85%88FC%20%28%E4%BE%8B%EF%BC%9AFSZ1%29%20%3A%0A-%20%E5%95%8F%E5%90%88%E3%81%9B%E5%86%85%E5%AE%B9%E8%A9%B3%E7%B4%B0%0A%28%E2%80%BB%E3%82%A8%E3%83%A9%E3%83%BC%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%E3%81%AE%E5%A0%B4%E5%90%88%E3%81%AF%E3%80%81%E7%94%BB%E9%9D%A2%E3%81%AE%E3%82%AD%E3%83%A3%E3%83%97%E3%83%81%E3%83%A3%E3%81%AE%E6%B7%BB%E4%BB%98%E5%BF%85%E9%A0%88%29%0A%0AEnglish%0A%0A-%20Issue%20date%20%3A%0A-%20SCAC%20%3A%0A-%20Company%20Name%3A%20%0A-%20Carrier%20Central%20Account%20ID%20%3A%0A-%20ISA%20%3A%0A-%20FC%20%3A%0A-%20Detail%20Information%20%28%2A%20If%20your%20inquiry%20is%20about%20an%20error%2C%20a%20screen%20capture%20must%20be%20attached%29&quot;,&quot;operatingHoursUrl&quot;:&quot;https://images-na.ssl-images-amazon.com/images/G/01/magicarp/common/FC_Operating_Times_JPAmazon.pdf&quot;,&quot;agreementUrl&quot;:&quot;https://images-na.ssl-images-amazon.com/images/G/01/magicarp/common/Carrier_Central_Use_Policy_JPAmazon.pdf&quot;,&quot;defaultLoadType&quot;:&quot;PALLETIZED&quot;,&quot;enforceCPURelation&quot;:true,&quot;enforceAggregateCPURelation&quot;:true,&quot;homePageColor&quot;:&quot;#4682b4&quot;,&quot;appointmentPalletCountMax&quot;:60,&quot;crddDaysOutLimit&quot;:21,&quot;enableComments&quot;:true,&quot;defaultLanguage&quot;:&quot;ja_JP&quot;,&quot;useRequestDefaults&quot;:true,&quot;attributeToReschedulingThreshold&quot;:{&quot;cartonCount&quot;:1.0,&quot;cartonPercentage&quot;:1.0,&quot;palletCount&quot;:1.0,&quot;unitCount&quot;:1.7976931348623157E308,&quot;palletPercentage&quot;:1.0,&quot;unitPercentage&quot;:1.0},&quot;enforcePOOveruseConstraint&quot;:true,&quot;requireUnitCountWhenFloorLoaded&quot;:false,&quot;enableManualAccountValidation&quot;:true,&quot;requireTransportationId&quot;:false,&quot;enableCarrierPerformance&quot;:false,&quot;carrierTargetPercent&quot;:0,&quot;carrierRiskPercent&quot;:10,&quot;fpyWarningPercent&quot;:0.0,&quot;fpyTargetPercent&quot;:0.0,&quot;ncnsWarningPercent&quot;:0.0,&quot;ncnsTargetPercent&quot;:0.0,&quot;enableTrailerTypeSelection&quot;:true,&quot;enableIsHazmatSelection&quot;:true,&quot;enableElectronicInvoiceNumber&quot;:false,&quot;enableAppointmentDisclaimer&quot;:false,&quot;enableDropAppointmentOption&quot;:false,&quot;advanceRescheduleTimeWindowHours&quot;:72,&quot;enableRedirectSurvey&quot;:false,&quot;enableSmallParcelCarrierCompanyType&quot;:false,&quot;enforceCartonsForFloorLoads&quot;:true}')" class="a-m-jp a-aui_72554-c a-aui_a11y_2_750578-c a-aui_a11y_6_837773-c a-aui_a11y_sr_678508-c a-aui_amzn_img_959719-c a-aui_amzn_img_gate_959718-c a-aui_killswitch_csa_logger_372963-c a-aui_pci_risk_banner_210084-c a-aui_template_weblab_cache_333406-c a-aui_tnr_v2_180836-c"><div id="a-page"><script type="a-state" data-a-state="{&quot;key&quot;:&quot;a-wlab-states&quot;}">{}</script>
+        <div class="a-section a-spacing-none a-padding-medium nav">
+    <div class="a-row a-grid-vertical-align a-grid-center a-ws-row">
+        <div class="a-column a-span1">
+        </div>
+        <div class="a-column a-span5">
+            <a class="a-link-normal a-text-normal" href="/">
+                <img alt="" src="https://images-na.ssl-images-amazon.com/images/G/01/magicarp/image/amazon-logo-white.svg" height="50"/>
+                <span class="a-size-extra-large nav-default a-text-bold">Carrier Central</span>
+            </a>
+        </div>
+        <div class="a-column a-span4">
+            <table class="a-normal">
+                <tr>
+                    <td class="a-text-center a-align-center">
+                        <a data-ng-if="loggedIn &amp;&amp; onboarded" class="a-link-normal ng-cloak a-text-normal" href="/request">
+                            <span id="navRequest" class="a-size-large nav-default a-text-bold">リクエスト</span>
+                        </a>
+                    </td>
+                    <td class="a-text-center a-align-center">
+                        <a data-ng-if="loggedIn &amp;&amp; onboarded" class="a-link-normal ng-cloak a-text-normal" href="/search">
+                            <span id="navSearch" class="a-size-large nav-default a-text-bold">検索</span>
+                        </a>
+                    </td>
+                    <td class="a-text-center a-align-center">
+                        <a data-ng-if="loggedIn &amp;&amp; onboarded &amp;&amp; configuration.enableCarrierPerformance" class="a-link-normal ng-cloak a-text-normal" href="/performance">
+                            <span id="navPerformance" class="a-size-large nav-default a-text-bold">Performance</span>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div data-ng-if="countries" class="a-column a-span2">
+            <span class="a-size-medium nav-default a-text-bold">国&nbsp;&nbsp;&nbsp;</span>
+            <img class="country-dropdown-label-flag" src="https://images-na.ssl-images-amazon.com/images/G/01/magicarp/image/{{currentCountry}}.png" alt="" />&nbsp;
+            <span class="a-declarative" data-action="a-popover" data-csa-c-type="widget" data-csa-c-func-deps="aui-da-a-popover" data-a-popover="{}">
+                <a id="country_dropdown" data-ng-if="loggedIn" href="javascript:void(0)" role="button" class="a-popover-trigger a-declarative remove-decoration ng-cloak">
+                    <span id="navCountry" class="a-size-medium nav-default a-text-bold">{{currentCountry}}</span>
+                <i class="a-icon a-icon-popover"></i></a>
+            </span>
+            <div class="a-popover-preload" id="a-popover-country_options">
+                <table class="a-normal">
+                    <tr data-ng-repeat="country in countries">
+                        <td>
+                            
+                            <img alt="" src="https://images-na.ssl-images-amazon.com/images/G/01/magicarp/image/{{country}}.png"/>
+                        </td>
+                        <td>
+                            <a data-ng-click="switchCountry(country)" class="a-link-normal a-text-normal" href="#">{{country}}</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="a-column a-span2">
+            <a data-ng-if="loggedIn != true" class="a-link-normal ng-cloak a-text-normal" href="/request">
+                <span id="navLogIn" class="a-size-large nav-default a-text-bold">ログイン</span>
+            </a>
+            <span class="a-declarative" data-action="a-popover" data-csa-c-type="widget" data-csa-c-func-deps="aui-da-a-popover" data-a-popover="{}">
+                <a id="account_dropdown" data-ng-if="loggedIn" href="javascript:void(0)" role="button" class="a-popover-trigger a-declarative remove-decoration ng-cloak">
+                    <span id="navAccount" class="a-size-medium nav-default a-text-bold">アカウント</span>
+                <i class="a-icon a-icon-popover"></i></a>
+            </span>
+            <div class="a-popover-preload" id="a-popover-account_options">
+                <table class="a-normal">
+                    <tr data-ng-if="onboarded">
+                        <td>
+                            <a class="a-link-normal a-text-normal" href="/account">アカウント設定</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a class="a-link-normal a-text-normal" href="/logout">ログアウト</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="a-column a-span1">
+        </div>
+    </div>
+</div>
+
+<span class="hidden-info" id="scac_vendor_empty">SCAC / 取引業者コードを空にすることはできません。</span>
+<span class="hidden-info" id="scac_too_long">SCACは 5 文字以下にする必要があります。</span>
+<span class="hidden-info" id="scac_empty">SCACが存在する必要があります</span>
+<span class="hidden-info" id="scac_wrong_format">SCACには文字と数字のみを含めることができます</span>
+<span class="hidden-info" id="vendor_code_too_long_2">ベンダーコードは100文字以下である必要があります。</span>
+<span class="hidden-info" id="company_name_too_long">プロバイダー名は100文字以下にする必要があります。</span>
+<span class="hidden-info" id="contact_email_wrong_format">連絡先Eメールアドレスは空にすることはできません。また、Eメールの形式である必要があります。</span>
+<span class="hidden-info" id="contact_email_too_long">連絡先Eメールアドレスは 100 文字以下である必要があります。</span>
+<span class="hidden-info" id="contact_name_too_long">プロバイダー名は100文字以下にする必要があります。</span>
+<span class="hidden-info" id="contact_phone_wrong_length">連絡先電話番号は5～15桁です。</span>
+<span class="hidden-info" id="po_empty">POは空白にできません。</span>
+<span class="hidden-info" id="po_too_long">PO IDは 100 文字以下である必要があります。</span>
+<span class="hidden-info" id="fc_empty">FCは空白にできません。</span>
+<span class="hidden-info" id="fc_invalid">FCが無効です。</span>
+<span class="hidden-info" id="transportation_id_empty">輸送IDは空にできません。</span>
+<span class="hidden-info" id="create_appt_error_communication">データ通信エラーのために予約を作成できません。</span>
+<span class="hidden-info" id="comment_too_long">コメントは500文字を超えることはできません。</span>
+<span class="hidden-info" id="cancel_appt_warn">予約 {0} をキャンセルしてもよろしいですか？</span>
+<span class="hidden-info" id="update_appt_warn">予約 {0} を更新してもよろしいですか？</span>
+<span class="hidden-info" id="auto_populate_warn_overwrite">この予約を自動事前設定してもよろしいですか? すべての現在の情報が上書きされることがあります。</span>
+<span class="hidden-info" id="trailer_number_too_long">トレーラー番号は32文字を超えることはできません。</span>
+<span class="hidden-info" id="trailer_number_wrong_format">トレーラー番号には、文字、数字、-、および_のみ使用できます。</span>
+<span class="hidden-info" id="error_shipment_id">「{0,number,integer}」行目にてエラーがありました：{1}</span>
+<span class="hidden-info" id="pro_bol_missing">PROまたはBOLのどちらかが必要です</span>
+<span class="hidden-info" id="pro_empty">PROは空にすることはできません</span>
+<span class="hidden-info" id="pro_wrong_format">PROには、数字、文字、ダッシュのみを含めることができます</span>
+<span class="hidden-info" id="pro_too_long">PRO は {0} 文字を超えてはなりません</span>
+<span class="hidden-info" id="po_list_empty">POリストを空にすることはできません</span>
+<span class="hidden-info" id="po_list_wrong_format">POリストには、数字、文字、カンマのみを含めることができます</span>
+<span class="hidden-info" id="blank_po">POリスと中のブランクPO</span>
+<span class="hidden-info" id="dup_po">POリスト中の重複したPO</span>
+<span class="hidden-info" id="arn_number_only">ARNは数字にする必要があります</span>
+<span class="hidden-info" id="arn_too_long">ARN は {0} 文字を超えてはなりません</span>
+<span class="hidden-info" id="bol_not_empty">BOL Listは空にすることはできません</span>
+<span class="hidden-info" id="bol_list_rule">BOLには、数字、文字、ダッシュのみを含めることができます</span>
+<span class="hidden-info" id="blank_bol">BOLリスト中のブランクBOL</span>
+<span class="hidden-info" id="dup_bol">BOLリスト中の重複したBOL</span>
+<span class="hidden-info" id="bol_too_long">BOL は {0} 文字を超えてはなりません</span>
+<span class="hidden-info" id="vendor_too_long">ベンダー名は50文字を超えることはできません</span>
+<span class="hidden-info" id="arn_exist">ARNは以前の発送に存在します</span>
+<span class="hidden-info" id="pro_exist">他の貨物と同じPROが使用されています</span>
+<span class="hidden-info" id="bol_exist">他の貨物と同じBOLが使用されています</span>
+<span class="hidden-info" id="cpu_count_wrong_number">カートン、パレット、またはユニット個数はいずれも0未満または1000000000以上でないことが必要です</span>
+<span class="hidden-info" id="cpu_count_too_large">パレット数はカートン個数より大きくすることはできず、カートン個数はユニット個数より大きくすることはできません</span>
+<span class="hidden-info" id="pallet_count_too_small">パレット貨物の予約のパレット個数は、1以上でなければなりません</span>
+<span class="hidden-info" id="pallet_count_too_large">予定のパレット数は {0} 未満である必要があります。</span>
+<span class="hidden-info" id="pallet_count_non_zero_floor_loaded">バラ積み予約のパレット個数は、0でなければなりませ</span>
+<span class="hidden-info" id="shipment_zero">少なくともワークグループを1つ追加してください</span>
+<span class="hidden-info" id="crdd_in_past">配送業者が要求した配達日には過去の日付を指定することはできません。</span>
+<span class="hidden-info" id="crdd_too_far_out">配送業者がリクエストした配達日は向こう{0}日以内でなければなりません。</span>
+<span class="hidden-info" id="update_appt_error_communication">データ通信エラーのために予約を更新できません。</span>
+<span class="hidden-info" id="create_account_error_communication">データ通信エラーのためにアカウントを作成できません。</span>
+<span class="hidden-info" id="auto_populate_error">予約の自動事前設定にエラーが発生しました: </span>
+<span class="hidden-info" id="auto_populate_fail">予約の自動事前設定に失敗しました。もう一度試してください。</span>
+<span class="hidden-info" id="help_contact_amazon">問題の詳細な調査が必要と思われる場合は、下のサポートリンクを通じて、上記の情報をAmazonにお問い合わせください。</span>
+<span class="hidden-info" id="auto_populate_error_communication">データ通信エラーのため、予約を自動事前設定できません</span>
+<span class="hidden-info" id="replace_fba_ids_error">FBA納品番号の置き換えでエラーが発生しました:</span>
+<span class="hidden-info" id="replace_fba_ids_failure">FBA納品番号の置き換えに失敗しました。もう一度やり直してください。</span>
+<span class="hidden-info" id="replace_fba_ids_error_communication">接続障害のため、FBA納品番号を置き換えることができません。</span>
+<span class="hidden-info" id="unique_id_trailer">トレーラーの一意の識別子</span>
+<span class="hidden-info" id="electronic_invoice_number_content"></span>
+<span class="hidden-info" id="comment_content">Amazon倉庫に伝達すべき内容があれば、ここに入れてください。</span>
+<span class="hidden-info" id="no_prefer">指定なし</span>
+<span class="hidden-info" id="pending_schedule_text">確定待ち</span>
+<span class="hidden-info" id="arrival_scheduled">確定済み</span>
+<span class="hidden-info" id="arrived">到着済み</span>
+<span class="hidden-info" id="deleted">削除済み</span>
+<span class="hidden-info" id="cancelled_carrier_central">キャンセル済み</span>
+<span class="hidden-info" id="closed_status">終了</span>
+<span class="hidden-info" id="from_time_too_large">開始時間は終了時間より小さくする必要があります。</span>
+<span class="hidden-info" id="id_empty">入力は空にすることはできません.</span>
+<span class="hidden-info" id="arn_number_only_2">ARNは数字のみです。</span>
+<span class="hidden-info" id="pro_bol_wrong_format">PROとBOLには、数値、文字、ダッシュのみを含めることができます。</span>
+<span class="hidden-info" id="po_wrong_format">POには数字と文字のみを含めることができます。</span>
+<span class="hidden-info" id="search_appt_error_communication">データ通信エラーのために予約を検索できません。</span>
+<span class="hidden-info" id="arn_pro_bol_missing">ARN、PRO、BOL のどれか 1 つを提示する必要があります。</span>
+<span class="hidden-info" id="company_name_required">会社名を入力してください。</span>
+<span class="hidden-info" id="contact_name_required">連絡先を入力してください。</span>
+<span class="hidden-info" id="contact_phone_required">問い合わせ先電話番号を入植してください。</span>
+<span class="hidden-info" id="bol_full_name">BOL</span>
+<span class="hidden-info" id="vendor_name_required">ベンダー名が必要です</span>
+<span class="hidden-info" id="carton_count_required">カートン個数が必要です</span>
+<span class="hidden-info" id="unit_count_required">ユニット個数が必要です</span>
+<span class="hidden-info" id="freight_type_required">貨物のタイプが必要です。</span>
+<span class="hidden-info" id="load_type_required">積荷のタイプが必要です。</span>
+<span class="hidden-info" id="trailer_type_required">トラックタイプの選択は必須です。</span>
+<span class="hidden-info" id="is_clampable_required">「貨物はクランプ可能ですか」が必要です。</span>
+<span class="hidden-info" id="po_list_too_long">注文リストの最大エントリー数は{0}です</span>
+<span class="hidden-info" id="bol_list_too_long">BOLリストの最大エントリー数は{0}です</span>
+<span class="hidden-info" id="unit_count_required_for_floor_loaded"></span>
+<span class="hidden-info" id="appt_reference_code">予約参照コード</span>
+<span class="hidden-info" id="last_minute_appt_cancellation_warning">ノーコールノーショー、または到着予定時刻の{0}時間以内のキャンセルは、運送業者に対する欠陥とみなされます。Amazonでは、Amazonの施設に納品するためには、予約欠陥率が{1}%以下であることが条件となっています。</span>
+<span class="hidden-info" id="last_minute_appt_reschedule_warning">到着予定時刻から{0}時間以内に直前スケジュール変更を行うと、予約不履行が発生し、配送業者の週次パフォーマンス率が低下する可能性があります。Amazonの施設に納品するためには、予約不履行率が{1}%以下であることが条件となっています。Fresh site(UJF1, UJF2)への納品は本規約現時点適用外となります。</span>
+<span class="hidden-info" id="calendar_view_beta_message">以下は、予約状況ビューのベータ版です。 このビューは現在テスト中であり、一部のケースでのみ使用できます。 このビューでは、下から予約可能なスロットを選択し、「確認」 をクリックすると、リアルタイムで確認済みの予約を取ることができます。</span>
+<span class="hidden-info" id="calendar_view_edit_reschedule_message">予約の編集では、新しい予約スロットを選択する必要があります。 下記から予約可能なスロットを選択してください。</span>
+<span class="hidden-info" id="select_available_time_label">予約可能な時間を選択する</span>
+<span class="hidden-info" id="calendar_view_cancel_label">キャンセル</span>
+<span class="hidden-info" id="get_more_availabilities_label">予約可能なスロットをもっと取得する</span>
+<span class="hidden-info" id="calendar_view_confirm_label">確認</span>
+<span class="hidden-info" id="submit_appointment_request_label">予約リクエストを送信する</span>
+<span class="hidden-info" id="export_data_text"></span>
+<span class="hidden-info" id="defect_rate_text"></span>
+<span class="hidden-info" id="defect_rate_communication"></span>
+<span class="hidden-info" id="no_performance_data_text"></span>
+<span class="hidden-info" id="last_updated_text"></span>
+<span class="hidden-info" id="ignore_count_info_update_outside_24_hours_sat"></span>
+<span class="hidden-info" id="redirect_survey_alert">選択によって予約が変更されたり、チャージバックやペナルティが発生したりすることはありません。</span>
+<span class="hidden-info" id="redirect_survey_title">シナリオを読んで、希望を選択してください。</span>
+<span class="hidden-info" id="po_target_window_pos_to_review">当社の配送要件（詳細については配送業者のマニュアルをご覧ください）を遵守するために、配送業者が希望するお届け日が、この予約で配達する各POの配達期間内であることをご確認ください。
+以下のPOを確認し、CRDDを更新して、PO配達期間内に確実に配達できるようにしてください。
+何も変更せずに続行することもできますが、その場合、配達期間遵守における配送業者とそのパフォーマンスに影響する可能性があります。</span>
+<span class="hidden-info" id="redirect_survey_question">は制限されています。離れているサイトは、早い時間の空きがあります。次の空きスロットはで、その日に利用できるスロットの合計数はです。代わりににリダイレクトしてもよろしいですか？</span>
+<span class="hidden-info" id="redirect_survey_reason">このオプションを選択した理由 (任意)</span>
+<span class="hidden-info" id="redirect_survey_reason_placeholder">リダイレクトの機会についてどう思いましたか？</span>
+<span class="hidden-info" id="redirect_survey_opt_out">これ以上リダイレクトの提案を受けたくない</span>
+<span class="hidden-info" id="redirect_survey_selection_required">オプションを選択して入力を送信してください</span>
+<span class="hidden-info" id="select_redirect_reason">リダイレクトの理由を選択してください</span>
+<span class="hidden-info" id="redirect_survey_yes_tooltip">弊社チームが1日以内にお客様にリダイレクトの連絡を差し上げることがあります。弊社チームにリダイレクトを確認するまで、あなたの予定は変更されません。</span>
+<span class="hidden-info" id="redirect_survey_no_tooltip">との予定に変更はありません。</span>
+<span class="hidden-info" id="cartons_units_too_small">床積みの予約では、カートン数またはユニット数が1以上である必要があります</span>
+<span class="hidden-info" id="cartons_too_small">フロアローディングの予約の場合、カートン数は1以上である必要があります</span>
+<span class="hidden-info" id="pallets_on_floor_loaded">予約の床積み予約のパレット個数は、0でなければなりません</span>
+<span class="hidden-info" id="download_appointments">予約をダウンロードする</span>
+<span class="hidden-info" id="po_target_window_warning">選択した配送業者の希望お届け日は、POの配達期間外です</span>
+<span class="hidden-info" id="duplicate_appts_warning_heading">以下のPOで既存の予約が見つかりました。別の予約をリクエストする前に、以下のリストを確認してください。</span>
+<span class="hidden-info" id="multiple_warnings_heading">複数の問題が検出されました</span>
+<span class="hidden-info" id="jp_account_request_validation_empty">「法人番号」、「インボイス登録番号」、「JASTPRO」 (日本輸出入者標準コード) または 「税関輸出入者コード」が必要です</span>
+
+        <div class="a-section a-spacing-none a-padding-extra-large a-text-center banner">
+            <div class="a-row a-spacing-top-large a-grid-vertical-align a-grid-center a-ws-row">
+                <span class="welcome-text a-text-bold">キャリアセントラルへようこそ</span>
+            </div>
+            <div class="a-row a-spacing-large a-spacing-top-large a-ws-row">
+                <span class="a-button a-button-primary"><span class="a-button-inner"><a href="https://carriercentral.amazon.co.jp/ap/register?openid.return_to=https%3A%2F%2Fcarriercentral.amazon.co.jp%2Frequest&amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.assoc_handle=amzn_magicarp_desktop_jp&amp;openid.mode=checkid_setup&amp;language=ja_JP&amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;pageId=amzn_magicarp_desktop_jp&amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0" class="a-button-text">
+                    <span class="a-size-medium">新規アカウント作成</span>
+                </a></span></span>
+            </div>
+        </div>
+        <div class="a-section home-divider"></div>
+        <div class="a-section">
+            <div class="a-row a-spacing-top-large a-grid-vertical-align a-grid-center">
+                <div class="a-column a-span3"></div>
+                <div class="a-column a-span6">
+                    <div class="a-row a-grid-vertical-align a-grid-center">
+                        <div class="a-column a-span9">
+                            <span class="a-size-large a-text-bold">
+                                キャリアセントラルとは</br>
+                            </span>
+                            <span class="a-size-medium">
+                                アマゾン倉庫への納品予約を行うツールです。 運用ルールとツールの使用方法は、下記「Carrier Central マニュアル」よりユーザーマニュアルをご覧ください。
+                            </span>
+                        </div>
+                        <div class="a-column a-span3">
+                            <img alt="" src="https://images-na.ssl-images-amazon.com/images/G/01/magicarp/image/CarrierCentralTruck.svg" class="cc-truck"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="a-column a-span3"></div>
+            </div>
+        </div>
+        <div class="a-section home-divider"></div>
+        
+
+<div class="a-section a-padding-base footer-nav">
+    <div class="a-row a-ws-row">
+        <div class="a-column a-span1">
+        </div>
+        <div class="a-column a-span5 a-text-left">
+            <span class="a-text-bold">&copy; {{currentYear}} Amazon.com</span>
+            <i class="a-icon a-icon-text-separator" role="img" aria-label="Separator"></i>
+            <a class="a-link-normal" href="/support">Carrier Central マニュアル</a>
+            <i class="a-icon a-icon-text-separator" role="img" aria-label="Separator"></i>
+            <a class="a-link-normal" href="/legal">免責事項</a>
+            <i data-ng-if="configuration.supportUrl" class="a-icon a-icon-text-separator" role="img" aria-label="Separator"></i>
+            <a data-ng-if="configuration.supportUrl" class="a-link-normal" target="_blank" href="{{configuration.supportUrl}}">問合せ</a>
+            <i data-ng-if="configuration.agreementUrl" class="a-icon a-icon-text-separator" role="img" aria-label="Separator"></i>
+            <a data-ng-if="configuration.agreementUrl" class="a-link-normal" target="_blank" href="{{configuration.agreementUrl}}">ポリシーを使う</a>
+        </div>
+        <div class="a-column a-span5 a-text-right">
+            <span class="a-declarative" data-action="switchLanguage" data-csa-c-type="widget" data-csa-c-func-deps="aui-da-switchLanguage" data-switchLanguage="{}">
+                <a id="en_US" class="a-link-normal" href="#">English(US)</a>
+            </span>
+            <span class="a-declarative" data-action="switchLanguage" data-csa-c-type="widget" data-csa-c-func-deps="aui-da-switchLanguage" data-switchLanguage="{}">
+                <a id="ja_JP" class="a-link-normal" href="#">&#26085;&#26412;&#35486;</a>
+            </span>
+            <span class="a-declarative" data-action="switchLanguage" data-csa-c-type="widget" data-csa-c-func-deps="aui-da-switchLanguage" data-switchLanguage="{}">
+                <a id="es_ES" class="a-link-normal" href="#">Espa&#241;ol(ES)</a>
+            </span>
+            <span class="a-declarative" data-action="switchLanguage" data-csa-c-type="widget" data-csa-c-func-deps="aui-da-switchLanguage" data-switchLanguage="{}">
+                <a id="es_MX" class="a-link-normal" href="#">Espa&#241;ol(MX)</a>
+            </span>
+            <span class="a-declarative" data-action="switchLanguage" data-csa-c-type="widget" data-csa-c-func-deps="aui-da-switchLanguage" data-switchLanguage="{}">
+                <a id="pt_BR" class="a-link-normal" href="#">Portugu&#234;s(BR)</a>
+            </span>
+            <span class="a-declarative" data-action="switchLanguage" data-csa-c-type="widget" data-csa-c-func-deps="aui-da-switchLanguage" data-switchLanguage="{}">
+                <a id="pt_PT" class="a-link-normal" href="#">Portugu&#234;s(PT)</a>
+            </span>
+            <span class="a-declarative" data-action="switchLanguage" data-csa-c-type="widget" data-csa-c-func-deps="aui-da-switchLanguage" data-switchLanguage="{}">
+                <a id="en_GB" class="a-link-normal" href="#">English(UK)</a>
+            </span>
+            <span class="a-declarative" data-action="switchLanguage" data-csa-c-type="widget" data-csa-c-func-deps="aui-da-switchLanguage" data-switchLanguage="{}">
+                <a id="de_DE" class="a-link-normal" href="#">Deutsch</a>
+            </span>
+            <span class="a-declarative" data-action="switchLanguage" data-csa-c-type="widget" data-csa-c-func-deps="aui-da-switchLanguage" data-switchLanguage="{}">
+                <a id="fr_FR" class="a-link-normal" href="#">Francais</a>
+            </span>
+            <span class="a-declarative" data-action="switchLanguage" data-csa-c-type="widget" data-csa-c-func-deps="aui-da-switchLanguage" data-switchLanguage="{}">
+                <a id="zh_CN" class="a-link-normal" href="#">&#31616;&#20307;&#20013;&#25991;</a>
+            </span>
+            <span class="a-declarative" data-action="switchLanguage" data-csa-c-type="widget" data-csa-c-func-deps="aui-da-switchLanguage" data-switchLanguage="{}">
+                <a id="it_IT" class="a-link-normal" href="#">Italiano</a>
+            </span>
+            <span class="a-declarative" data-action="switchLanguage" data-csa-c-type="widget" data-csa-c-func-deps="aui-da-switchLanguage" data-switchLanguage="{}">
+                <a id="tr_TR" class="a-link-normal" href="#">T&#252;rk&#231;e</a>
+            </span>
+            <span class="a-declarative" data-action="switchLanguage" data-csa-c-type="widget" data-csa-c-func-deps="aui-da-switchLanguage" data-switchLanguage="{}">
+                <a id="nl_NL" class="a-link-normal" href="#">Nederlands</a>
+            </span>
+            <span class="a-declarative" data-action="switchLanguage" data-csa-c-type="widget" data-csa-c-func-deps="aui-da-switchLanguage" data-switchLanguage="{}">
+                <a id="ar_AE" class="a-link-normal" href="#">&#x627;&#x644;&#x639;&#x631;&#x628;&#x64A;&#x629;</a>
+            </span>
+            <span class="a-declarative" data-action="switchLanguage" data-csa-c-type="widget" data-csa-c-func-deps="aui-da-switchLanguage" data-switchLanguage="{}">
+                <a id="sv_SE" class="a-link-normal" href="#">Svenska</a>
+            </span>
+            <span class="a-declarative" data-action="switchLanguage" data-csa-c-type="widget" data-csa-c-func-deps="aui-da-switchLanguage" data-switchLanguage="{}">
+                <a id="pl_PL" class="a-link-normal" href="#">Polski</a>
+            </span>
+        </div>
+        <div class="a-column a-span1">
+        </div>
+    </div>
+</div>
+
+    </div></body>
+</html>

@@ -1,0 +1,18 @@
+200 OK
+Accept-Ranges: bytes
+Via: 1.1 1187ac5bbeaea0b3199ef80f73171c54.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: SFO53-P3
+Content-Length: 940
+X-Amz-Request-Id: BR5R6SSY3ZDPKZNH
+X-Amz-Version-Id: 9kRn7AV3KiiXSaenvCl_L6zs9J94I88q
+Retry-Count: 0
+Date: Thu, 08 Aug 2024 08:19:03 GMT
+Last-Modified: Fri, 02 Aug 2024 20:50:04 GMT
+Age: 3240
+X-Amz-Cf-Id: nUnHyFGL509cAXau6IiMeAoIHI6CcnAlFHxjpru3HEzfFvC2F54B4w==
+Etag: "d235ac1397bacce13f9668b7675ec366"
+X-Amz-Server-Side-Encryption: AES256
+Server: AmazonS3
+X-Cache: Hit from cloudfront
+Content-Type: text/html
+X-Amz-Id-2: LFppUHjRNCqnOSU1AVg4a/UKzlAtiIYQkXl29z8oYd9xm8Tck5HcBCKPyVd1vjP43OGSfMrk3cY=

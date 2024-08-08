@@ -1,0 +1,11 @@
+200 OK
+Date: Thu, 08 Aug 2024 09:13:00 GMT
+Content-Type: text/html;charset=UTF-8
+Set-Cookie: sess-id-owpus=142-7565588-1085427; Domain=.amazon.com; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/; Secure sess-time-owpus=2082787201l; Domain=.amazon.com; Expires=Tue, 01 Jan 2036 08:00:01 GMT; Path=/; Secure
+Content-Language: en-US
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Server: Server
+Retry-Count: 0
+X-Amz-Rid: APR58QK7GQ7RPPP47YP3
+X-Xss-Protection: 1; mode=block
+Vary: origin,access-control-request-method,access-control-request-headers,accept-encoding,Content-Type,Accept-Encoding,User-Agent

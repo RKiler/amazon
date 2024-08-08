@@ -1,0 +1,10 @@
+200 OK
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: JSESSIONID=8BBA011613FC02F1729C50C15349304B; Path=/; Secure; HttpOnly
+Content-Type: text/html;charset=ISO-8859-1
+Content-Length: 2856
+Date: Thu, 08 Aug 2024 09:10:09 GMT
+Server: Server
+X-Ua-Compatible: IE=edge
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Retry-Count: 0

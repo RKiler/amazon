@@ -1,0 +1,11 @@
+200 OK
+X-Amz-Rid: 7BV38S3VXGMJ3MFYPHR8
+Etag: "f2-61e803e0dc180-gzip"
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Accept-Ranges: bytes
+Server: Server
+Date: Thu, 08 Aug 2024 09:12:53 GMT
+Content-Type: text/html
+Retry-Count: 0
+Vary: Content-Type,Accept-Encoding,User-Agent
+Last-Modified: Wed, 31 Jul 2024 00:33:26 GMT

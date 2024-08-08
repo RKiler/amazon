@@ -1,0 +1,24 @@
+200 OK
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Response-Time: 12.890
+Vary: Accept-Encoding
+Retry-Count: 0
+X-Request-Id: b980abae-420f-4a83-9c3c-730bd866c7ba
+Referrer-Policy: no-referrer
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Xss-Protection: 0
+Etag: W/"2ac-mItQEZwOXrDHNUhF/lBnuURivrE"
+Server: Server
+Content-Security-Policy-Report-Only: default-src 'self';script-src 'self' 'nonce-BBnXmM97dVgFHzB4jUUUrw==' https://pic.embark.amazon.com https://client.rum.us-east-1.amazonaws.com https://d3ozp2ye0jjda2.cloudfront.net https://d22gqeft2i5sf.cloudfront.net https://atoz-preboarding-app.integ.amazon.work https://d2nti7mzlaxdif.cloudfront.net https://atoz-preboarding-app.amazon.work;script-src-elem 'self' 'nonce-BBnXmM97dVgFHzB4jUUUrw==' https://pic.embark.amazon.com https://client.rum.us-east-1.amazonaws.com https://d3ozp2ye0jjda2.cloudfront.net https://d22gqeft2i5sf.cloudfront.net https://atoz-preboarding-app.integ.amazon.work https://d2nti7mzlaxdif.cloudfront.net https://atoz-preboarding-app.amazon.work;connect-src 'self' https://launchpad-photo-bucket-351179874747-prod.s3.us-west-2.amazonaws.com https://pic.embark.amazon.com https://api.gw.pic.embark.amazon.com https://status.gw.pic.embark.amazon.com https://oisuik4kongivbup5ihgieasca.appsync-api.us-west-2.amazonaws.com https://unagi-na.amazon.com https://logger.gw.pic.embark.amazon.com https://logger.gw.pic.people-engine.amazon.dev https://dataplane.rum.us-west-2.amazonaws.com https://cognito-identity.us-west-2.amazonaws.com https://sts.us-west-2.amazonaws.com https://d3ozp2ye0jjda2.cloudfront.net https://d22gqeft2i5sf.cloudfront.net https://atoz-preboarding-app.integ.amazon.work https://d2nti7mzlaxdif.cloudfront.net https://atoz-preboarding-app.amazon.work;style-src 'self' 'unsafe-inline' https://d3ozp2ye0jjda2.cloudfront.net https://d22gqeft2i5sf.cloudfront.net https://atoz-preboarding-app.integ.amazon.work https://d2nti7mzlaxdif.cloudfront.net https://atoz-preboarding-app.amazon.work;font-src 'self' data: https://d1qze0i78vhibv.cloudfront.net https://d3ozp2ye0jjda2.cloudfront.net https://d22gqeft2i5sf.cloudfront.net https://atoz-preboarding-app.integ.amazon.work https://d2nti7mzlaxdif.cloudfront.net https://atoz-preboarding-app.amazon.work;img-src 'self' data: blob: https://embark-launchpad-content-351179874747-prod.s3.us-west-2.amazonaws.com https://launchpad-photo-bucket-351179874747-prod.s3.us-west-2.amazonaws.com https://d3ozp2ye0jjda2.cloudfront.net https://d22gqeft2i5sf.cloudfront.net https://atoz-preboarding-app.integ.amazon.work https://d2nti7mzlaxdif.cloudfront.net https://atoz-preboarding-app.amazon.work;media-src 'self' https://embark-launchpad-content-351179874747-prod.s3.us-west-2.amazonaws.com https://d3ozp2ye0jjda2.cloudfront.net https://d22gqeft2i5sf.cloudfront.net https://atoz-preboarding-app.integ.amazon.work https://d2nti7mzlaxdif.cloudfront.net https://atoz-preboarding-app.amazon.work;object-src 'none';report-uri /api/content-security-policy-violation;upgrade-insecure-requests;base-uri 'self';form-action 'self';frame-ancestors 'self';script-src-attr 'none'
+Content-Length: 684
+Set-Cookie: XSRF-TOKEN=BzoRxI4O-qHa_eB1QfVAxxO60XCI6SwetURI; Path=/; Secure connect.sid=s%3AFKCi5e6bqpdy6mvJ1ftzhnBR2gA5cYR1.i5Vt0yQm8tbpViiMTkjUabxQSJpGR4KWOu%2FKpY9%2BmIw; Path=/; Expires=Thu, 08 Aug 2024 13:07:16 GMT; HttpOnly; Secure
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Date: Thu, 08 Aug 2024 09:13:16 GMT
+Content-Type: text/html; charset=utf-8
+X-Dns-Prefetch-Control: off
+Cache-Control: private, max-age=100, stale-while-revalidate=600, stale-if-error=3600 no-cache

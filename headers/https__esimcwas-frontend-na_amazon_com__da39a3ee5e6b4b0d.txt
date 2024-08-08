@@ -1,0 +1,15 @@
+200 OK
+Etag: "f2-61e803e0dc180-gzip"
+Retry-Count: 0
+Content-Type: text/html
+Date: Thu, 08 Aug 2024 09:10:49 GMT
+Via: 1.1 83a6f42adff040301dd9cde8ff611a9c.cloudfront.net (CloudFront)
+Vary: Content-Type,Accept-Encoding,User-Agent
+X-Amz-Rid: V18PNWC5CT9YX16TF89N
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+X-Cache: Miss from cloudfront
+X-Amz-Cf-Pop: SFO53-C1
+X-Amz-Cf-Id: UcK_AyvhFe8WJh-zBVWR32sr8ha_Fj9TSbAstErJmFg5Bx3eocDv9Q==
+Server: Server
+Last-Modified: Wed, 31 Jul 2024 00:33:26 GMT
+Accept-Ranges: bytes

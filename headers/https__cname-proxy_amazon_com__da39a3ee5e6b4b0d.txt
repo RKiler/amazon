@@ -1,0 +1,14 @@
+200 
+Last-Modified: Mon, 05 Aug 2024 16:27:48 GMT
+Retry-Count: 0
+Date: Thu, 08 Aug 2024 09:13:08 GMT
+X-Amz-Rid: RGGVJWEXMM9CYNRMSBKN
+Set-Cookie: aws-priv=eyJ2IjoxLCJldSI6MCwic3QiOjB9; Version=1; Comment="Anonymous cookie for privacy regulations"; Domain=.aws.amazon.com; Max-Age=31536000; Expires=Fri, 08 Aug 2025 09:13:08 GMT; Path=/; Secure aws_lang=en; Domain=.amazon.com; Path=/
+X-Amz-Id-1: RGGVJWEXMM9CYNRMSBKN
+X-Xss-Protection: 1; mode=block
+Vary: accept-encoding,Content-Type,Accept-Encoding,User-Agent
+Server: Server
+Content-Type: text/html;charset=UTF-8
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=63072000
+X-Content-Type-Options: nosniff
